@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Table>
+  <Row id="de.ikv.analyze.safetygoal.ui.models.SafetyReqTableModelRow#?Requirement.subRequirements;_3Wy_wL5GEeiPzcqKDn9RDw" heigth="109"/>
+  <Column id="de.ikv.medini.table.ui.model.impl.emf.DefaultEMFTableModelColumn#?Entity.description" visible="false"/>
+  <Column id="de.ikv.analyze.safetygoal.ui.models.SafetyReqTableModel$ContributesToColumn#?SafetyRequirement.contributedGoals" width="118"/>
+  <Column id="de.ikv.medini.table.ui.model.impl.emf.DefaultEMFTableModelColumn#?SafetyRequirement.contributingRequirements" width="110"/>
+  <Column id="de.ikv.medini.table.ui.model.impl.emf.DefaultEMFTableModelColumn#?SafetyRequirement.contributedRequirements" width="110"/>
+  <Cell id="de.ikv.analyze.safetygoal.ui.models.SectionNumberCell#?Requirement.subRequirements;_iwSgsL5EEeiPzcqKDn9RDw:!SectionNumber" selected="true"/>
+</Table>

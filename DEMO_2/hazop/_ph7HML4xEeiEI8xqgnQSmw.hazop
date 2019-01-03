@@ -1,0 +1,45 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<hazopmodel:HazopAnalysisModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hazopmodel="http://www.ikv.de/analyze/metamodels/HazopAnalysis/1.0" xmlns:safety="http://www.ikv.de/medini/metamodels/SafetyModel/1.0" xmi:id="_ph7HML4xEeiEI8xqgnQSmw" mediniIdentifier="_ph7HML4xEeiEI8xqgnQSmw" name="HZ_List">
+  <guidewords xmi:id="_ph7HMb4xEeiEI8xqgnQSmw" mediniIdentifier="_ph7HMb4xEeiEI8xqgnQSmw" name="NO"/>
+  <guidewords xmi:id="_ph7uQL4xEeiEI8xqgnQSmw" mediniIdentifier="_ph7uQL4xEeiEI8xqgnQSmw" name="MORE"/>
+  <guidewords xmi:id="_ph7uQb4xEeiEI8xqgnQSmw" mediniIdentifier="_ph7uQb4xEeiEI8xqgnQSmw" name="LESS"/>
+  <guidewords xmi:id="_ph7uQr4xEeiEI8xqgnQSmw" mediniIdentifier="_ph7uQr4xEeiEI8xqgnQSmw" name="UNINTENDED"/>
+  <guidewords xmi:id="_ph7uQ74xEeiEI8xqgnQSmw" mediniIdentifier="_ph7uQ74xEeiEI8xqgnQSmw" name="EARLY"/>
+  <guidewords xmi:id="_ph7uRL4xEeiEI8xqgnQSmw" mediniIdentifier="_ph7uRL4xEeiEI8xqgnQSmw" name="LATE"/>
+  <entries xmi:id="_q6LTkL4xEeiEI8xqgnQSmw" mediniIdentifier="_q6LTkL4xEeiEI8xqgnQSmw">
+    <element href="../sysml/_-eIxgL4oEei7Zr-IfEw2tw.sysml#_fPNWsL4wEeiEI8xqgnQSmw"/>
+    <guidewordToFailures xmi:id="_wqUGML4xEeiEI8xqgnQSmw" key="_ph7HMb4xEeiEI8xqgnQSmw">
+      <value xsi:type="safety:Malfunction" href="../sysml/_-eIxgL4oEei7Zr-IfEw2tw.sysml#_vqavcL4xEeiEI8xqgnQSmw"/>
+    </guidewordToFailures>
+    <guidewordToFailures xmi:id="__oR6UL4xEeiEI8xqgnQSmw" key="_ph7uQr4xEeiEI8xqgnQSmw">
+      <value xsi:type="safety:Malfunction" href="../sysml/_-eIxgL4oEei7Zr-IfEw2tw.sysml#_8ntsUL4xEeiEI8xqgnQSmw"/>
+    </guidewordToFailures>
+  </entries>
+  <entries xmi:id="_q6LTkb4xEeiEI8xqgnQSmw" mediniIdentifier="_q6LTkb4xEeiEI8xqgnQSmw">
+    <element href="../sysml/_-eIxgL4oEei7Zr-IfEw2tw.sysml#_ko3jAL4wEeiEI8xqgnQSmw"/>
+    <guidewordToFailures xmi:id="_GjagcL4yEeiEI8xqgnQSmw" key="_ph7uQr4xEeiEI8xqgnQSmw">
+      <value xsi:type="safety:Malfunction" href="../sysml/_-eIxgL4oEei7Zr-IfEw2tw.sysml#_E4kIML4yEeiEI8xqgnQSmw"/>
+    </guidewordToFailures>
+    <guidewordToFailures xmi:id="_PzQ7ML4yEeiEI8xqgnQSmw" key="_ph7HMb4xEeiEI8xqgnQSmw">
+      <value xsi:type="safety:Malfunction" href="../sysml/_-eIxgL4oEei7Zr-IfEw2tw.sysml#_4Dvx4L4xEeiEI8xqgnQSmw"/>
+    </guidewordToFailures>
+  </entries>
+  <entries xmi:id="_q6L6oL4xEeiEI8xqgnQSmw" mediniIdentifier="_q6L6oL4xEeiEI8xqgnQSmw">
+    <element href="../sysml/_-eIxgL4oEei7Zr-IfEw2tw.sysml#_x8tXoL4wEeiEI8xqgnQSmw"/>
+    <guidewordToFailures xmi:id="_MEBpUL4yEeiEI8xqgnQSmw" key="_ph7uQr4xEeiEI8xqgnQSmw">
+      <value xsi:type="safety:Malfunction" href="../sysml/_-eIxgL4oEei7Zr-IfEw2tw.sysml#_JThQkL4yEeiEI8xqgnQSmw"/>
+    </guidewordToFailures>
+    <guidewordToFailures xmi:id="_VoK5EL4yEeiEI8xqgnQSmw" key="_ph7HMb4xEeiEI8xqgnQSmw">
+      <value xsi:type="safety:Malfunction" href="../sysml/_-eIxgL4oEei7Zr-IfEw2tw.sysml#_TR164L4yEeiEI8xqgnQSmw"/>
+    </guidewordToFailures>
+  </entries>
+  <entries xmi:id="_BndfoL45EeiPzcqKDn9RDw" mediniIdentifier="_BndfoL45EeiPzcqKDn9RDw">
+    <element href="../sysml/_-eIxgL4oEei7Zr-IfEw2tw.sysml#_--2eoL44EeiPzcqKDn9RDw"/>
+    <guidewordToFailures xmi:id="_Kx4n0L45EeiPzcqKDn9RDw" key="_ph7HMb4xEeiEI8xqgnQSmw">
+      <value xsi:type="safety:Malfunction" href="../sysml/_-eIxgL4oEei7Zr-IfEw2tw.sysml#_FbLB0L45EeiPzcqKDn9RDw"/>
+    </guidewordToFailures>
+    <guidewordToFailures xmi:id="_LmJ9YL45EeiPzcqKDn9RDw" key="_ph7uQr4xEeiEI8xqgnQSmw">
+      <value xsi:type="safety:Malfunction" href="../sysml/_-eIxgL4oEei7Zr-IfEw2tw.sysml#_I8HZAL45EeiPzcqKDn9RDw"/>
+    </guidewordToFailures>
+  </entries>
+</hazopmodel:HazopAnalysisModel>

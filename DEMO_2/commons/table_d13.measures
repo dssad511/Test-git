@@ -1,0 +1,6 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<safety:MeasureCatalog xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safety="http://www.ikv.de/medini/metamodels/SafetyModel/1.0" xmi:id="_2c3aEE9BEeC1A4_enB0KXA" mediniIdentifier="_2c3aEE9BEeC1A4_enB0KXA" name="Table D.13 — Combinatorial and Sequential Logic">
+  <collectionType href="http://www.ikv.de/medini/metamodels/SafetyModel/1.0#//SafetyMechanism"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_5IO0Ik9BEeC1A4_enB0KXA" mediniIdentifier="_5IO0Ik9BEeC1A4_enB0KXA" id="D.2.3.1" name="Self-test by software" maxDC="MEDIUM" notes=""/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_5IO0I09BEeC1A4_enB0KXA" mediniIdentifier="_5IO0I09BEeC1A4_enB0KXA" id="D.2.3.2" name="Self-test supported by hardware (one-channel)" maxDC="HIGH" notes="Effectiveness depends on the type of self-test. Gate level is an appropriate level for this test"/>
+</safety:MeasureCatalog>

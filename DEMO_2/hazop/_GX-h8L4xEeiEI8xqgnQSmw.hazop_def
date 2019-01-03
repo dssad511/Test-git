@@ -1,0 +1,9 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<hazopmodel:HazopAnalysisModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:hazopmodel="http://www.ikv.de/analyze/metamodels/HazopAnalysis/1.0" xmi:id="_GX-h8L4xEeiEI8xqgnQSmw" mediniIdentifier="_GX-h8L4xEeiEI8xqgnQSmw" name="HZ" description="HAZOP guidewords list">
+  <guidewords xmi:id="_HRUkwL4xEeiEI8xqgnQSmw" mediniIdentifier="_HRUkwL4xEeiEI8xqgnQSmw" name="NO"/>
+  <guidewords xmi:id="_IHcUcL4xEeiEI8xqgnQSmw" mediniIdentifier="_IHcUcL4xEeiEI8xqgnQSmw" name="MORE"/>
+  <guidewords xmi:id="_I3iUoL4xEeiEI8xqgnQSmw" mediniIdentifier="_I3iUoL4xEeiEI8xqgnQSmw" name="LESS"/>
+  <guidewords xmi:id="_XIFCEL4xEeiEI8xqgnQSmw" mediniIdentifier="_XIFCEL4xEeiEI8xqgnQSmw" name="UNINTENDED"/>
+  <guidewords xmi:id="_gdIF4L4xEeiEI8xqgnQSmw" mediniIdentifier="_gdIF4L4xEeiEI8xqgnQSmw" name="EARLY"/>
+  <guidewords xmi:id="_kBAcUL4xEeiEI8xqgnQSmw" mediniIdentifier="_kBAcUL4xEeiEI8xqgnQSmw" name="LATE"/>
+</hazopmodel:HazopAnalysisModel>

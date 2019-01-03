@@ -1,0 +1,118 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<sysml:SysMLContainerPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:failureratecatalogs="http://www.ikv.de/medini/failureratecatalogs/1.0" xmlns:safety="http://www.ikv.de/medini/metamodels/SafetyModel/1.0" xmlns:sysml="http://www.ikv.de/medini/sysml/1.0" xmi:id="_BIARMOKQEeidB9GPVOcepg" mediniIdentifier="_BIARMOKQEeidB9GPVOcepg">
+  <eAnnotations xmi:id="_Ihr0gOKQEeidB9GPVOcepg" source="import_file">
+    <details xmi:id="_Ihr0geKQEeidB9GPVOcepg" key="import_file_path" value="C:\Users\SeungWon.Lee\Desktop\HW_BOM.xlsx"/>
+  </eAnnotations>
+  <the_owned_elements xsi:type="sysml:SysMLPart" xmi:id="_HVZnkOKQEeidB9GPVOcepg" mediniIdentifier="_HVZnkOKQEeidB9GPVOcepg" typeCode="Controller" name="MCU_1" alias="MCU_1" failureRateMode="FROM_CATALOG" description="b" partNumber="1">
+    <the_owned_elements xsi:type="sysml:SysMLFlowPortUsage" xmi:id="_IhMFQOKQEeidB9GPVOcepg" mediniIdentifier="_IhMFQOKQEeidB9GPVOcepg" name="UART" alias="UART">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_RZMcwb5qEeiS1P338xyltQ"/>
+      <safetyInformation xmi:id="_IhMFQeKQEeidB9GPVOcepg"/>
+    </the_owned_elements>
+    <theType xsi:type="sysml:SysMLBlock" href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_RZMcwL5qEeiS1P338xyltQ"/>
+    <failures xsi:type="safety:FailureMode" xmi:id="_IhNTYOKQEeidB9GPVOcepg" mediniIdentifier="_IhNTYOKQEeidB9GPVOcepg" name="FM_3" failureRateDistribution="50.0">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_o03dAL5qEeiS1P338xyltQ"/>
+    </failures>
+    <failures xsi:type="safety:FailureMode" xmi:id="_IhOhgOKQEeidB9GPVOcepg" mediniIdentifier="_IhOhgOKQEeidB9GPVOcepg" name="FM_4" failureRateDistribution="50.0">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_pxQMwL5qEeiS1P338xyltQ"/>
+    </failures>
+    <failureRateData xsi:type="failureratecatalogs:FailureRateData" xmi:id="_IhPvoOKQEeidB9GPVOcepg"/>
+    <safetyInformation xmi:id="_HVdR8OKQEeidB9GPVOcepg"/>
+  </the_owned_elements>
+  <the_owned_elements xsi:type="sysml:SysMLPart" xmi:id="_HVZnkeKQEeidB9GPVOcepg" mediniIdentifier="_HVZnkeKQEeidB9GPVOcepg" name="Part_1" alias="Part_1" failureRateMode="FROM_CATALOG" description="c" partNumber="2">
+    <theType xsi:type="sysml:SysMLBlock" href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_d9ce8L5TEeiS1P338xyltQ"/>
+    <failures xsi:type="safety:FailureMode" xmi:id="_IgkaMOKQEeidB9GPVOcepg" mediniIdentifier="_IgkaMOKQEeidB9GPVOcepg" name="Open" failureRateDistribution="50.0">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_gpGlML5ZEeiS1P338xyltQ"/>
+    </failures>
+    <failures xsi:type="safety:FailureMode" xmi:id="_Igm2cOKQEeidB9GPVOcepg" mediniIdentifier="_Igm2cOKQEeidB9GPVOcepg" name="Short" failureRateDistribution="50.0">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_hmRYEL5ZEeiS1P338xyltQ"/>
+    </failures>
+    <failureRateData xsi:type="failureratecatalogs:FailureRateData" xmi:id="_IgoEkOKQEeidB9GPVOcepg"/>
+    <safetyInformation xmi:id="_HVd5AOKQEeidB9GPVOcepg"/>
+  </the_owned_elements>
+  <the_owned_elements xsi:type="sysml:SysMLPart" xmi:id="_HVZnkuKQEeidB9GPVOcepg" mediniIdentifier="_HVZnkuKQEeidB9GPVOcepg" name="Part_2" alias="Part_2" failureRateMode="FROM_CATALOG" description="d" partNumber="3">
+    <theType xsi:type="sysml:SysMLBlock" href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_d9ce8b5TEeiS1P338xyltQ"/>
+    <failures xsi:type="safety:FailureMode" xmi:id="_Ig-p4OKQEeidB9GPVOcepg" mediniIdentifier="_Ig-p4OKQEeidB9GPVOcepg" name="Open" failureRateDistribution="50.0">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_lVmwkL5ZEeiS1P338xyltQ"/>
+    </failures>
+    <failures xsi:type="safety:FailureMode" xmi:id="_Ig_Q8OKQEeidB9GPVOcepg" mediniIdentifier="_Ig_Q8OKQEeidB9GPVOcepg" name="Short" failureRateDistribution="50.0">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_mHNzsL5ZEeiS1P338xyltQ"/>
+    </failures>
+    <failureRateData xsi:type="failureratecatalogs:FailureRateData" xmi:id="_Ig_4AOKQEeidB9GPVOcepg"/>
+    <safetyInformation xmi:id="_HVd5AeKQEeidB9GPVOcepg"/>
+  </the_owned_elements>
+  <the_owned_elements xsi:type="sysml:SysMLPart" xmi:id="_HVZnk-KQEeidB9GPVOcepg" mediniIdentifier="_HVZnk-KQEeidB9GPVOcepg" name="Part_3" alias="Part_3" description="e" partNumber="4">
+    <theType xsi:type="sysml:SysMLBlock" href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_d9ce8r5TEeiS1P338xyltQ"/>
+    <failures xsi:type="safety:FailureMode" xmi:id="_IgwncOKQEeidB9GPVOcepg" mediniIdentifier="_IgwncOKQEeidB9GPVOcepg" name="Open" failureRateDistribution="50.0">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_oMA9AL5ZEeiS1P338xyltQ"/>
+    </failures>
+    <failures xsi:type="safety:FailureMode" xmi:id="_IgxOgOKQEeidB9GPVOcepg" mediniIdentifier="_IgxOgOKQEeidB9GPVOcepg" name="Short" failureRateDistribution="50.0">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_pCt7gL5ZEeiS1P338xyltQ"/>
+    </failures>
+    <failureRateData xsi:type="failureratecatalogs:FailureRateData" xmi:id="_Igx1kOKQEeidB9GPVOcepg"/>
+    <safetyInformation xmi:id="_HVd5AuKQEeidB9GPVOcepg"/>
+  </the_owned_elements>
+  <the_owned_elements xsi:type="sysml:SysMLPart" xmi:id="_HVZnlOKQEeidB9GPVOcepg" mediniIdentifier="_HVZnlOKQEeidB9GPVOcepg" name="Part_4" alias="Part_4" failureRateMode="FROM_CATALOG" description="h" partNumber="5">
+    <theType xsi:type="sysml:SysMLBlock" href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_d9ce875TEeiS1P338xyltQ"/>
+    <failures xsi:type="safety:FailureMode" xmi:id="_IhHz0OKQEeidB9GPVOcepg" mediniIdentifier="_IhHz0OKQEeidB9GPVOcepg" name="Open" failureRateDistribution="50.0">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_HNnM0L5aEeiS1P338xyltQ"/>
+    </failures>
+    <failures xsi:type="safety:FailureMode" xmi:id="_IhIa4OKQEeidB9GPVOcepg" mediniIdentifier="_IhIa4OKQEeidB9GPVOcepg" name="Short" failureRateDistribution="50.0">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_IOmvwL5aEeiS1P338xyltQ"/>
+    </failures>
+    <failureRateData xsi:type="failureratecatalogs:FailureRateData" xmi:id="_IhJB8OKQEeidB9GPVOcepg"/>
+    <safetyInformation xmi:id="_HVd5A-KQEeidB9GPVOcepg"/>
+  </the_owned_elements>
+  <the_owned_elements xsi:type="sysml:SysMLPart" xmi:id="_HVZnleKQEeidB9GPVOcepg" mediniIdentifier="_HVZnleKQEeidB9GPVOcepg" name="Part_5" alias="Part_5" failureRateMode="FROM_CATALOG" description="i" partNumber="6">
+    <theType xsi:type="sysml:SysMLBlock" href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_d9ce9L5TEeiS1P338xyltQ"/>
+    <failures xsi:type="safety:FailureMode" xmi:id="_Ig2uEOKQEeidB9GPVOcepg" mediniIdentifier="_Ig2uEOKQEeidB9GPVOcepg" name="Open" failureRateDistribution="50.0">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_JlDlUL5aEeiS1P338xyltQ"/>
+    </failures>
+    <failures xsi:type="safety:FailureMode" xmi:id="_Ig3VIOKQEeidB9GPVOcepg" mediniIdentifier="_Ig3VIOKQEeidB9GPVOcepg" name="Short" failureRateDistribution="50.0">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_KiQNYL5aEeiS1P338xyltQ"/>
+    </failures>
+    <failureRateData xsi:type="failureratecatalogs:FailureRateData" xmi:id="_Ig38MOKQEeidB9GPVOcepg"/>
+    <safetyInformation xmi:id="_HVd5BOKQEeidB9GPVOcepg"/>
+  </the_owned_elements>
+  <the_owned_elements xsi:type="sysml:SysMLPart" xmi:id="_HVZnluKQEeidB9GPVOcepg" mediniIdentifier="_HVZnluKQEeidB9GPVOcepg" typeCode="Controller" name="MCU_2" alias="MCU_2" failureRateMode="FROM_CATALOG" description="y" partNumber="7">
+    <the_owned_elements xsi:type="sysml:SysMLFlowPortUsage" xmi:id="_IhCUQOKQEeidB9GPVOcepg" mediniIdentifier="_IhCUQOKQEeidB9GPVOcepg" name="SPI" alias="SPI">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_OHOVsL5qEeiS1P338xyltQ"/>
+      <safetyInformation xmi:id="_IhCUQeKQEeidB9GPVOcepg"/>
+    </the_owned_elements>
+    <the_owned_elements xsi:type="sysml:SysMLFlowPortUsage" xmi:id="_IhC7UOKQEeidB9GPVOcepg" mediniIdentifier="_IhC7UOKQEeidB9GPVOcepg" name="UART" alias="UART">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_OHOVsb5qEeiS1P338xyltQ"/>
+      <safetyInformation xmi:id="_IhC7UeKQEeidB9GPVOcepg"/>
+    </the_owned_elements>
+    <theType xsi:type="sysml:SysMLBlock" href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_OHNuoL5qEeiS1P338xyltQ"/>
+    <failures xsi:type="safety:FailureMode" xmi:id="_IhDiYOKQEeidB9GPVOcepg" mediniIdentifier="_IhDiYOKQEeidB9GPVOcepg" name="FM_1" failureRateDistribution="50.0">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_YSAHoL5qEeiS1P338xyltQ"/>
+    </failures>
+    <failures xsi:type="safety:FailureMode" xmi:id="_IhEwgOKQEeidB9GPVOcepg" mediniIdentifier="_IhEwgOKQEeidB9GPVOcepg" name="FM_2" failureRateDistribution="50.0">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_YlcoEL5qEeiS1P338xyltQ"/>
+    </failures>
+    <failureRateData xsi:type="failureratecatalogs:FailureRateData" xmi:id="_IhFXkOKQEeidB9GPVOcepg"/>
+    <safetyInformation xmi:id="_HVd5BeKQEeidB9GPVOcepg"/>
+  </the_owned_elements>
+  <the_owned_elements xsi:type="sysml:SysMLPart" xmi:id="_HVZnl-KQEeidB9GPVOcepg" mediniIdentifier="_HVZnl-KQEeidB9GPVOcepg" name="Part_6" alias="Part_3" description="q" partNumber="4">
+    <theType xsi:type="sysml:SysMLBlock" href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_d9ce8r5TEeiS1P338xyltQ"/>
+    <failures xsi:type="safety:FailureMode" xmi:id="_IgzDsOKQEeidB9GPVOcepg" mediniIdentifier="_IgzDsOKQEeidB9GPVOcepg" name="Open" failureRateDistribution="50.0">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_oMA9AL5ZEeiS1P338xyltQ"/>
+    </failures>
+    <failures xsi:type="safety:FailureMode" xmi:id="_IgzqwOKQEeidB9GPVOcepg" mediniIdentifier="_IgzqwOKQEeidB9GPVOcepg" name="Short" failureRateDistribution="50.0">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_pCt7gL5ZEeiS1P338xyltQ"/>
+    </failures>
+    <failureRateData xsi:type="failureratecatalogs:FailureRateData" xmi:id="_Ig0R0OKQEeidB9GPVOcepg"/>
+    <safetyInformation xmi:id="_HVd5BuKQEeidB9GPVOcepg"/>
+  </the_owned_elements>
+  <the_owned_elements xsi:type="sysml:SysMLPart" xmi:id="_HVZnmOKQEeidB9GPVOcepg" mediniIdentifier="_HVZnmOKQEeidB9GPVOcepg" name="Part_7" alias="Part_5" failureRateMode="FROM_CATALOG" description="w" partNumber="6">
+    <theType xsi:type="sysml:SysMLBlock" href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_d9ce9L5TEeiS1P338xyltQ"/>
+    <failures xsi:type="safety:FailureMode" xmi:id="_Ig5KUOKQEeidB9GPVOcepg" mediniIdentifier="_Ig5KUOKQEeidB9GPVOcepg" name="Open" failureRateDistribution="50.0">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_JlDlUL5aEeiS1P338xyltQ"/>
+    </failures>
+    <failures xsi:type="safety:FailureMode" xmi:id="_Ig5xYOKQEeidB9GPVOcepg" mediniIdentifier="_Ig5xYOKQEeidB9GPVOcepg" name="Short" failureRateDistribution="50.0">
+      <represents href="platform:/resource/DEMO_2/sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_KiQNYL5aEeiS1P338xyltQ"/>
+    </failures>
+    <failureRateData xsi:type="failureratecatalogs:FailureRateData" xmi:id="_Ig7mkOKQEeidB9GPVOcepg"/>
+    <safetyInformation xmi:id="_HVd5B-KQEeidB9GPVOcepg"/>
+  </the_owned_elements>
+  <safetyInformation xmi:id="_BIA4QOKQEeidB9GPVOcepg"/>
+</sysml:SysMLContainerPackage>

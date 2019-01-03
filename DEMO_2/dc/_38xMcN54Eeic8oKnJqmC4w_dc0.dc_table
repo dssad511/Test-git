@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Table rowFilters="de.ikv.analyze.fmea.editor.filters.AnalysisDepthFilter" columnFilters="de.ikv.analyze.editor.dc.DCEditorPage$EvaluationGroupColumnFilter, de.ikv.analyze.editor.dc.filters.TransientMetricFilter">
+  <Row id="de.ikv.medini.table.ui.model.impl.DefaultMediniTableModelRow#0" heigth="52"/>
+  <Cell id="de.ikv.analyze.editor.dc.table.SafetyMechanismCell#_zZKkk95bEeic8oKnJqmC4w~!FAILURE_MODE_COLUMN%_zZkNMN5bEeic8oKnJqmC4w~!FAILURE_EFFECT_COLUMN%_zZkNMN5bEeic8oKnJqmC4w~!FAILURE_CAUSE_COLUMN%_zZkNMN5bEeic8oKnJqmC4w:!MPF_SAFETY_MECHANISM_COLUMN" selected="true"/>
+</Table>

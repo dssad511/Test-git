@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Table>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!CAUSES_COLUMN" visible="false"/>
+  <Cell id="de.ikv.medini.table.ui.model.impl.emf.DefaultEMFTableModelCell#_U6O7UMPgEei41KtvJaTVCA:!ID_COLUMN" selected="true"/>
+</Table>

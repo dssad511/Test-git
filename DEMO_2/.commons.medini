@@ -1,0 +1,80 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<pjm:PJPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hazardmodel="http://www.ikv.de/analyze/metamodels/HazardAnalysis/1.0" xmlns:pjm="http://www.ikv.de/medini/metamodels/ProjectModel" xmlns:safety="http://www.ikv.de/medini/metamodels/SafetyModel/1.0" xmi:id="_xSjpIIWJEd6w0PCefZIevg" mediniIdentifier="_xSjpIIWJEd6w0PCefZIevg" name="CommonElements">
+  <nestedPackages xmi:id="_DgFVEEF9Ed-2a-I1JM5RPA" mediniIdentifier="_DgFVEEF9Ed-2a-I1JM5RPA" name="Operational Situation Parameters">
+    <eAnnotations xmi:id="_aZWRvLsUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+      <details xmi:id="_aZWRvbsUEeiB8vRl3oVbTA" key="kind" value="OPSISnippets"/>
+    </eAnnotations>
+    <nestedPackages xmi:id="_DgFVEEF9Ed-2a-I1JM5RP1" mediniIdentifier="_DgFVEEF9Ed-2a-I1JM5RP1" name="Locations">
+      <eAnnotations xmi:id="_aZWRvrsUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+        <details xmi:id="_aZWRv7sUEeiB8vRl3oVbTA" key="kind" value="Locations"/>
+      </eAnnotations>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZWRwLsUEeiB8vRl3oVbTA" location="Highway (Entering)"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZWRwbsUEeiB8vRl3oVbTA" location="Highway (Exit)"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZWRwrsUEeiB8vRl3oVbTA" location="Highway, approaching end of congestion"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZWRw7sUEeiB8vRl3oVbTA" location="Country road"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZWRxLsUEeiB8vRl3oVbTA" location="Secondary roads"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZWRxbsUEeiB8vRl3oVbTA" location="City driving"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZWRxrsUEeiB8vRl3oVbTA" location="City driving, one way street"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZWRx7sUEeiB8vRl3oVbTA" location="Garage"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZWRyLsUEeiB8vRl3oVbTA" location="Parking"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZWRybsUEeiB8vRl3oVbTA" location="Mountain Pass"/>
+    </nestedPackages>
+    <nestedPackages xmi:id="_DgFVEEF9Ed-2a-I1JM5RP2" mediniIdentifier="_DgFVEEF9Ed-2a-I1JM5RP2" name="Road conditions">
+      <eAnnotations xmi:id="_aZW4wLsUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+        <details xmi:id="_aZW4wbsUEeiB8vRl3oVbTA" key="kind" value="Road conditions"/>
+      </eAnnotations>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW4wrsUEeiB8vRl3oVbTA" roadConditions="Paved dry road"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW4w7sUEeiB8vRl3oVbTA" roadConditions="Paved wet road"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW4xLsUEeiB8vRl3oVbTA" roadConditions="Snow and Ice"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW4xbsUEeiB8vRl3oVbTA" roadConditions="Slippery/leaves"/>
+    </nestedPackages>
+    <nestedPackages xmi:id="_DgFVEEF9Ed-2a-I1JM5RP3" mediniIdentifier="_DgFVEEF9Ed-2a-I1JM5RP3" name="Environment">
+      <eAnnotations xmi:id="_aZW4xrsUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+        <details xmi:id="_aZW4x7sUEeiB8vRl3oVbTA" key="kind" value="Environment"/>
+      </eAnnotations>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW4yLsUEeiB8vRl3oVbTA" environment="Free driving"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW4ybsUEeiB8vRl3oVbTA" environment="Tunnel"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW4yrsUEeiB8vRl3oVbTA" environment="Night-drive"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW4y7sUEeiB8vRl3oVbTA" environment="Driving down-hill"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW4zLsUEeiB8vRl3oVbTA" environment="Driving up-hill"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW4zbsUEeiB8vRl3oVbTA" environment="Congestion"/>
+    </nestedPackages>
+    <nestedPackages xmi:id="_DgFVEEF9Ed-2a-I1JM5RP4" mediniIdentifier="_DgFVEEF9Ed-2a-I1JM5RP4" name="Traffic and People">
+      <eAnnotations xmi:id="_aZW4zrsUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+        <details xmi:id="_aZW4z7sUEeiB8vRl3oVbTA" key="kind" value="Traffic and People"/>
+      </eAnnotations>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW40LsUEeiB8vRl3oVbTA" trafficAndPeople="Changing lanes"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW40bsUEeiB8vRl3oVbTA" trafficAndPeople="Stopping at traffic lights"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW40rsUEeiB8vRl3oVbTA" trafficAndPeople="Pulling trailer"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW407sUEeiB8vRl3oVbTA" trafficAndPeople="Heavy traffic/stop and go"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW41LsUEeiB8vRl3oVbTA" trafficAndPeople="Sleeping person in vehicle"/>
+    </nestedPackages>
+    <nestedPackages xmi:id="_DgFVEEF9Ed-2a-I1JM5RP5" mediniIdentifier="_DgFVEEF9Ed-2a-I1JM5RP5" name="Item usages">
+      <eAnnotations xmi:id="_aZW41bsUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+        <details xmi:id="_aZW41rsUEeiB8vRl3oVbTA" key="kind" value="Item usages"/>
+      </eAnnotations>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW417sUEeiB8vRl3oVbTA" itemUsage="Starting engine"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW42LsUEeiB8vRl3oVbTA" itemUsage="Braking"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW42bsUEeiB8vRl3oVbTA" itemUsage="Steering"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW42rsUEeiB8vRl3oVbTA" itemUsage="Accelerating"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW427sUEeiB8vRl3oVbTA" itemUsage="Shifting gears"/>
+      <containedElements xsi:type="hazardmodel:OperationalSituation" xmi:id="_aZW43LsUEeiB8vRl3oVbTA" itemUsage="Using indicators"/>
+    </nestedPackages>
+  </nestedPackages>
+  <nestedPackages xmi:id="_ytv0wYWJEd6w0PCefZIevg" mediniIdentifier="_ytv0wYWJEd6w0PCefZIevg" name="Hazards">
+    <eAnnotations xmi:id="_aZW43bsUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+      <details xmi:id="_aZW43rsUEeiB8vRl3oVbTA" key="kind" value="CommonHazards"/>
+    </eAnnotations>
+    <containedElements xsi:type="safety:Hazard" xmi:id="_aZWRtbsUEeiB8vRl3oVbTA" mediniIdentifier="_aZWRtbsUEeiB8vRl3oVbTA" description="Road surface friction"/>
+    <containedElements xsi:type="safety:Hazard" xmi:id="_aZWRtrsUEeiB8vRl3oVbTA" mediniIdentifier="_aZWRtrsUEeiB8vRl3oVbTA" description="Side wind"/>
+    <containedElements xsi:type="safety:Hazard" xmi:id="_aZWRt7sUEeiB8vRl3oVbTA" mediniIdentifier="_aZWRt7sUEeiB8vRl3oVbTA" description="Lost cargo/obstacle on road"/>
+    <containedElements xsi:type="safety:Hazard" xmi:id="_aZWRuLsUEeiB8vRl3oVbTA" mediniIdentifier="_aZWRuLsUEeiB8vRl3oVbTA" description="Snow and ice on the road"/>
+    <containedElements xsi:type="safety:Hazard" xmi:id="_aZWRubsUEeiB8vRl3oVbTA" mediniIdentifier="_aZWRubsUEeiB8vRl3oVbTA" description="Road flooded"/>
+    <containedElements xsi:type="safety:Hazard" xmi:id="_aZWRursUEeiB8vRl3oVbTA" mediniIdentifier="_aZWRursUEeiB8vRl3oVbTA" description="People appear on road"/>
+  </nestedPackages>
+  <nestedPackages xmi:id="_vDxn4YswEd6v9qreDG9mhg" mediniIdentifier="_vDxn4YswEd6v9qreDG9mhg" name="HighLevelFailures">
+    <eAnnotations xmi:id="_aZW437sUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+      <details xmi:id="_aZW44LsUEeiB8vRl3oVbTA" key="kind" value="HighLevelFailures"/>
+    </eAnnotations>
+  </nestedPackages>
+</pjm:PJPackage>

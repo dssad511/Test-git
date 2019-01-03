@@ -1,0 +1,17 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<hazardmodel:HazardAnalysisModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hazardmodel="http://www.ikv.de/analyze/metamodels/HazardAnalysis/1.0" xmi:id="_p2h2cMPdEei41KtvJaTVCA" mediniIdentifier="_p2h2cMPdEei41KtvJaTVCA" name="New Hazard Analysis([MF008&#x5d; 의도치 않게 시동 OFF 신호를 출력)">
+  <hazardElements xsi:type="hazardmodel:HazardousEvent" xmi:id="_p4aFwMPdEei41KtvJaTVCA" mediniIdentifier="_p4aFwMPdEei41KtvJaTVCA" id="HE086">
+    <hazard href="../failures/_dmxDIL45EeiPzcqKDn9RDw.failures#_LiwOoL46EeiPzcqKDn9RDw"/>
+    <isoAsil xmi:id="_rvto0MPhEei41KtvJaTVCA" mediniIdentifier="_rvto0MPhEei41KtvJaTVCA" severityComment="Severity classification based on the following concept from ISO 26262-3:2011 [1&#x5d;:&#xD;&#xA;• S0: Damage that cannot be classified safety-related, e.g., bumps with roadside infrastructure (and not S1, S2 or S3)&#xD;&#xA;• S1: &gt; 10% probability of AIS 1-6 (and not S2 or S3)&#xD;&#xA;• S2: &gt; 10% probability of AIS 3-6 (and not S3)&#xD;&#xA;• S3: &gt; 10% probability of AIS 5-6" exposureComment="E1 - Occurs less often than once a year for the great majority of drivers&#xD;&#xA;E2 - Occurs a few times a year for the great majority of drivers&#xD;&#xA;E3 - Occurs once a month or more often for an average driver&#xD;&#xA;E4 - Occurs during almost every drive on average&#xD;&#xA;" controllabilityComment="C0&#xD;&#xA;Controllable in general&#xD;&#xA;If dedicated regulations exist for a particular hazard, Controllability may be rated C0 when it is consistent with the corresponding existing experience concerning sufficient Controllability. For use of C0 refer ISO 26262-3:2011, 7.4.3.8.&#xD;&#xA;&#xD;&#xA;C1&#xD;&#xA;Simply controllable&#xD;&#xA;99% or more of all drivers or other traffic participants are usually able to avoid the specified harm.&#xD;&#xA;&#xD;&#xA;C2&#xD;&#xA;Normally controllable&#xD;&#xA;90% or more of all drivers or other traffic participants are usually able to avoid the specified harm&#xD;&#xA;&#xD;&#xA;C3&#xD;&#xA;Difficult to control or uncontrollable&#xD;&#xA;Less than 90% of all drivers or other traffic participants are usually able to avoid the specified harm" severity="S1" exposure="E4" controllability="C3"/>
+    <operationalSituation xmi:id="_p4aFwcPdEei41KtvJaTVCA" environment="Free driving" itemUsage="Accelerating" location="City driving"/>
+    <malfunctions href="../sysml/_-eIxgL4oEei7Zr-IfEw2tw.sysml#_I8HZAL45EeiPzcqKDn9RDw"/>
+    <safetyGoal href="../goals/_oIw64L48EeiPzcqKDn9RDw.safetygoal#_xOdUEL48EeiPzcqKDn9RDw"/>
+  </hazardElements>
+  <hazardElements xsi:type="hazardmodel:HazardousEvent" xmi:id="_p4as0sPdEei41KtvJaTVCA" mediniIdentifier="_p4as0sPdEei41KtvJaTVCA" id="HE088">
+    <hazard href="../failures/_dmxDIL45EeiPzcqKDn9RDw.failures#_LiwOoL46EeiPzcqKDn9RDw"/>
+    <isoAsil xmi:id="_tdIM4MPhEei41KtvJaTVCA" mediniIdentifier="_tdIM4MPhEei41KtvJaTVCA" severityComment="" exposureComment="" controllabilityComment="" severity="S1" exposure="E4" controllability="C3"/>
+    <operationalSituation xmi:id="_p4as08PdEei41KtvJaTVCA" environment="Stop" itemUsage="Accelerating" location="City driving"/>
+    <malfunctions href="../sysml/_-eIxgL4oEei7Zr-IfEw2tw.sysml#_I8HZAL45EeiPzcqKDn9RDw"/>
+    <safetyGoal href="../goals/_oIw64L48EeiPzcqKDn9RDw.safetygoal#_xOdUEL48EeiPzcqKDn9RDw"/>
+  </hazardElements>
+</hazardmodel:HazardAnalysisModel>

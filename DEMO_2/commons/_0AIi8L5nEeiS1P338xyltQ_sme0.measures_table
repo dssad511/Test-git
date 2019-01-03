@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Table>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!TARGET_DATE_COLUMN" visible="false"/>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!STATUS_COLUMN" visible="false"/>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!DESCRIPTION_COLUMN" visible="false"/>
+  <Cell id="de.ikv.medini.table.ui.model.impl.emf.DefaultEMFTableModelCell#_2h0czr5nEeiS1P338xyltQ:!NAME_COLUMN" selected="true"/>
+</Table>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Table>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!OPSI_ROAD_COLUMN" visible="false"/>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!OPSI_OP_MODE_COLUMN" visible="false"/>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!OPSI_TRAFFIC_COLUMN" visible="false"/>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!EFFECT_COLUMN" visible="false"/>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!SEVERITY_COLUMN" width="51"/>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!SEVERITY_COMMENT_COLUMN" visible="false"/>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!EXPOSURE_COLUMN" width="57"/>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!EXPOSURE_COMMENT_COLUMN" visible="false"/>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!CONTROLLABILITY_COLUMN" width="84"/>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!CONTROLLABILTY_COMMENT_COLUMN" visible="false"/>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!ASIL_COLUMN" width="33"/>
+  <Cell id="de.ikv.analyze.hara.ui.tables.cells.AsilModelCell#_p4aFwMPdEei41KtvJaTVCA:!ASIL_COLUMN" selected="true"/>
+</Table>

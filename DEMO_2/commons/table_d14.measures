@@ -1,0 +1,8 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<safety:MeasureCatalog xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safety="http://www.ikv.de/medini/metamodels/SafetyModel/1.0" xmi:id="_6tQ4QE9BEeC1A4_enB0KXA" mediniIdentifier="_6tQ4QE9BEeC1A4_enB0KXA" name="Table D.14 — On-chip communication">
+  <collectionType href="http://www.ikv.de/medini/metamodels/SafetyModel/1.0#//SafetyMechanism"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_9KK_kk9BEeC1A4_enB0KXA" mediniIdentifier="_9KK_kk9BEeC1A4_enB0KXA" id="D.2.7.1" name="One-bit hardware redundancy" maxDC="LOW" notes="-"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_9KUwkE9BEeC1A4_enB0KXA" mediniIdentifier="_9KUwkE9BEeC1A4_enB0KXA" id="D.2.7.2" name="Multi-bit hardware redundancy" maxDC="MEDIUM" notes="Multi-bit redundancy can achieve high coverage by proper interleaving of data, address and control lines, and if combined with some complete redundancy e.g. for the arbiter."/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_9KUwkU9BEeC1A4_enB0KXA" mediniIdentifier="_9KUwkU9BEeC1A4_enB0KXA" id="D.2.7.3" name="Complete hardware redundancy" maxDC="HIGH" notes="Common failure modes can reduce diagnostic coverage."/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_9KUwkk9BEeC1A4_enB0KXA" mediniIdentifier="_9KUwkk9BEeC1A4_enB0KXA" id="D.2.6.1" name="Test pattern" maxDC="HIGH" notes="Depends on type of pattern"/>
+</safety:MeasureCatalog>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:safegoals="http://www.ikv.de/analyze/metamodels/SafetyGoals/1.0" xmi:id="_DQI0UNybEeinqZmgDJ1RZw" type="Safetygoals" measurementUnit="Pixel">
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_DQI0UdybEeinqZmgDJ1RZw"/>
+  <element xmi:type="safegoals:SafetyRequirementsModel" href="_DP6x4NybEeinqZmgDJ1RZw.safetygoal#_DP6x4NybEeinqZmgDJ1RZw"/>
+</notation:Diagram>

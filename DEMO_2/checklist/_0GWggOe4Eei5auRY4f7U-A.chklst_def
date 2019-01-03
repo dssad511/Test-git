@@ -1,0 +1,7 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<de.ikv.analyze.checklist:Checklist xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:de.ikv.analyze.checklist="http:///de/ikv/analyze/checklist.ecore" xmi:id="_0GWggOe4Eei5auRY4f7U-A" mediniIdentifier="_0GWggOe4Eei5auRY4f7U-A" name="Test cases" version="14/11/2018 11:55">
+  <items xsi:type="de.ikv.analyze.checklist:StaticChecklistItem" xmi:id="_1XPgoOe4Eei5auRY4f7U-A" mediniIdentifier="_1XPgoOe4Eei5auRY4f7U-A" name="Case 1"/>
+  <items xsi:type="de.ikv.analyze.checklist:StaticChecklistItem" xmi:id="_3s0Q4Oe4Eei5auRY4f7U-A" mediniIdentifier="_3s0Q4Oe4Eei5auRY4f7U-A" name="Case 2"/>
+  <items xsi:type="de.ikv.analyze.checklist:StaticChecklistItem" xmi:id="_3zhV0Oe4Eei5auRY4f7U-A" mediniIdentifier="_3zhV0Oe4Eei5auRY4f7U-A" name="Case 3"/>
+  <items xsi:type="de.ikv.analyze.checklist:StaticChecklistItem" xmi:id="_33_mIOe4Eei5auRY4f7U-A" mediniIdentifier="_33_mIOe4Eei5auRY4f7U-A" name="Case 4"/>
+</de.ikv.analyze.checklist:Checklist>

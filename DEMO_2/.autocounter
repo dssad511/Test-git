@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AutoCounterDefinitions>
+    <AutoCounterPattern pattern="F{ID:000}" overflow="true">
+        <metaclass>sysml.SysMLActivity</metaclass>
+        <feature>id</feature>
+    </AutoCounterPattern>
+    <AutoCounterPattern pattern="MF{ID:000}" overflow="true">
+        <metaclass>safetyModel.Malfunction</metaclass>
+        <feature>id</feature>
+    </AutoCounterPattern>  
+    <AutoCounterPattern pattern="HE{ID:000}" overflow="true">
+        <metaclass>hazard.HazardousEvent</metaclass>
+        <feature>id</feature>
+    </AutoCounterPattern>    
+    <AutoCounterPattern pattern="E{ID:00}" overflow="true">
+        <metaclass>FTA.Event</metaclass>
+        <feature>id</feature>
+    </AutoCounterPattern>
+    <AutoCounterPattern pattern="G{ID:000}" overflow="true">
+        <metaclass>safetygoals.SafetyGoal</metaclass>
+        <feature>identifier</feature>
+    </AutoCounterPattern>
+    <AutoCounterPattern pattern="SR{ID:000}" overflow="true">
+        <metaclass>safetygoals.SafetyRequirement</metaclass>
+        <feature>identifier</feature>
+    </AutoCounterPattern>    
+</AutoCounterDefinitions>

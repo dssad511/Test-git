@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Table columnFilters="de.ikv.analyze.fmea.editor.filters.FMEDAFilter">
+  <Column id="de.ikv.medini.table.ui.model.impl.emf.DefaultEMFTableModelColumn#!FAILURE_MODE_COLUMN" visible="true"/>
+</Table>

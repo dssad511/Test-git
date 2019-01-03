@@ -1,0 +1,11 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<safety:FailureCollection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safety="http://www.ikv.de/medini/metamodels/SafetyModel/1.0" xmi:id="_dmxDIL45EeiPzcqKDn9RDw" mediniIdentifier="_dmxDIL45EeiPzcqKDn9RDw" name="Hazards">
+  <collectionType href="http://www.ikv.de/medini/metamodels/SafetyModel/1.0#//Hazard"/>
+  <failures xsi:type="safety:Hazard" xmi:id="_4NK6AL45EeiPzcqKDn9RDw" mediniIdentifier="_4NK6AL45EeiPzcqKDn9RDw" name="의도치 않은 시동 켜짐" severity="8">
+    <causeRelations href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_fkPGgL5nEeiS1P338xyltQ"/>
+  </failures>
+  <failures xsi:type="safety:Hazard" xmi:id="_LiwOoL46EeiPzcqKDn9RDw" mediniIdentifier="_LiwOoL46EeiPzcqKDn9RDw" name="엔진이 켜진 상태에서 꺼짐" severity="8">
+    <causeRelations href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_fkPtkL5nEeiS1P338xyltQ"/>
+  </failures>
+  <failures xsi:type="safety:Hazard" xmi:id="_U6O7UMPgEei41KtvJaTVCA" mediniIdentifier="_U6O7UMPgEei41KtvJaTVCA" name="엔진이 시동하지 않음"/>
+</safety:FailureCollection>

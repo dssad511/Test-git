@@ -1,0 +1,541 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:er="http://www.ikv.de/medini/metamodels/EntityRelations/1.0">
+  <er:ProfileApplianceModel xmi:id="_aXZJ4LsUEeiB8vRl3oVbTA">
+    <applianceRelations xmi:id="_aYQskbsUEeiB8vRl3oVbTA" stereoType="_aYQFgLsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/metamodels/ProjectModel#//MediniProject"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYQslLsUEeiB8vRl3oVbTA" stereoType="_aYQskrsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/metamodels/ProjectModel#//PJPackage"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYRTobsUEeiB8vRl3oVbTA" stereoType="_aYQslbsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/metamodels/ProjectModel#//PJDiagram"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYRTpLsUEeiB8vRl3oVbTA" stereoType="_aYRTorsUEeiB8vRl3oVbTA">
+      <metaClass href="http:///de/ikv/analyze/checklist.ecore#//Checklist"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYRTp7sUEeiB8vRl3oVbTA" stereoType="_aYRTpbsUEeiB8vRl3oVbTA">
+      <metaClass href="http:///de/ikv/analyze/checklist.ecore#//StaticChecklistItem"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYR6sbsUEeiB8vRl3oVbTA" stereoType="_aYRTqLsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/metamodels/ProjectModel#//PJExternalDocument"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYR6tLsUEeiB8vRl3oVbTA" stereoType="_aYR6srsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/metamodels/SafetyModel/1.0#//MeasureGroup"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYR6t7sUEeiB8vRl3oVbTA" stereoType="_aYR6tbsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/metamodels/SafetyModel/1.0#//Measure"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYShwrsUEeiB8vRl3oVbTA" stereoType="_aYShwLsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/metamodels/SafetyModel/1.0#//SafetyMechanism"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYShxbsUEeiB8vRl3oVbTA" stereoType="_aYShw7sUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/metamodels/SafetyModel/1.0#//SecurityMechanism"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYShyLsUEeiB8vRl3oVbTA" stereoType="_aYShxrsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/HazardAnalysis/1.0#//PlainItem"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYTI0rsUEeiB8vRl3oVbTA" stereoType="_aYTI0LsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/metamodels/SafetyModel/1.0#//Malfunction"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYTI1bsUEeiB8vRl3oVbTA" stereoType="_aYTI07sUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/HazardAnalysis/1.0#//HazardAnalysisModel"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYTI2LsUEeiB8vRl3oVbTA" stereoType="_aYTI1rsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/HazardAnalysis/1.0#//HazardousEvent"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYTv4rsUEeiB8vRl3oVbTA" stereoType="_aYTv4LsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/metamodels/SafetyModel/1.0#//Hazard"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYTv5bsUEeiB8vRl3oVbTA" stereoType="_aYTv47sUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/DoorsRequirements/1.0#//DoorsRequirement"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYTv6LsUEeiB8vRl3oVbTA" stereoType="_aYTv5rsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/DoorsRequirements/1.0#//DoorsRequirementsModel"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYUW8rsUEeiB8vRl3oVbTA" stereoType="_aYUW8LsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/SafetyGoals/1.0#//SafetyRequirementsModel"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYUW9bsUEeiB8vRl3oVbTA" stereoType="_aYUW87sUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/SafetyGoals/1.0#//SafetyGoal"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYUW-LsUEeiB8vRl3oVbTA" stereoType="_aYUW9rsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/SafetyGoals/1.0#//SafetyRequirement"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYU-ArsUEeiB8vRl3oVbTA" stereoType="_aYU-ALsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/sysml/1.0#//SysMLPart"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYU-BbsUEeiB8vRl3oVbTA" stereoType="_aYU-A7sUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/sysml/1.0#//SysMLFlowPortUsage"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYU-CLsUEeiB8vRl3oVbTA" stereoType="_aYU-BrsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/sysml/1.0#//SysMLConnector"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYVlErsUEeiB8vRl3oVbTA" stereoType="_aYVlELsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/sysml/1.0#//SysMLBlock"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYVlFbsUEeiB8vRl3oVbTA" stereoType="_aYVlE7sUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/sysml/1.0#//SysMLFlowPort"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYVlGLsUEeiB8vRl3oVbTA" stereoType="_aYVlFrsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/metamodels/SafetyModel/1.0#//FailureMode"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYWMIrsUEeiB8vRl3oVbTA" stereoType="_aYWMILsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/metamodels/SafetyModel/1.0#//Error"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYWMJbsUEeiB8vRl3oVbTA" stereoType="_aYWMI7sUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/sysml/1.0#//SysMLAction"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYWMKLsUEeiB8vRl3oVbTA" stereoType="_aYWMJrsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/sysml/1.0#//SysMLContainerPackage"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYWzMbsUEeiB8vRl3oVbTA" stereoType="_aYWMKbsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/sysml/1.0#//SysMLActivity"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYWzNLsUEeiB8vRl3oVbTA" stereoType="_aYWzMrsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/sysml/1.0#//SysMLDependency"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYWzN7sUEeiB8vRl3oVbTA" stereoType="_aYWzNbsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/sysml/1.0#//SysMLAbstraction"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYXaQrsUEeiB8vRl3oVbTA" stereoType="_aYXaQLsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/sysml/1.0#//SysMLPin"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYXaRbsUEeiB8vRl3oVbTA" stereoType="_aYXaQ7sUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/sysml/1.0#//SysMLObjectNode"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYXaSLsUEeiB8vRl3oVbTA" stereoType="_aYXaRrsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/sysml/1.0#//SysMLStructuredActivity"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYYBUrsUEeiB8vRl3oVbTA" stereoType="_aYYBULsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/sysml/1.0#//SysMLActivityEdge"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYYBVbsUEeiB8vRl3oVbTA" stereoType="_aYYBU7sUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/sysml/1.0#//SysMLFinalNode"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYYBWLsUEeiB8vRl3oVbTA" stereoType="_aYYBVrsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/sysml/1.0#//SysMLDecisionMerge"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYYoYrsUEeiB8vRl3oVbTA" stereoType="_aYYoYLsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/sysml/1.0#//SysMLForkJoin"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYYoZbsUEeiB8vRl3oVbTA" stereoType="_aYYoY7sUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/sysml/1.0#//SysMLInitialNode"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYYoaLsUEeiB8vRl3oVbTA" stereoType="_aYYoZrsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/HazopAnalysis/1.0#//HazopAnalysisModel"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYZPcrsUEeiB8vRl3oVbTA" stereoType="_aYZPcLsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/HazopAnalysis/1.0#//Guideword"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYZPdbsUEeiB8vRl3oVbTA" stereoType="_aYZPc7sUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/HazopAnalysis/1.0#//HazopEntry"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYZPeLsUEeiB8vRl3oVbTA" stereoType="_aYZPdrsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/FMEA/1.0#//FMEAWorksheet"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYZ2grsUEeiB8vRl3oVbTA" stereoType="_aYZ2gLsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/FMEA/1.0#//ComponentEntry"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYZ2hbsUEeiB8vRl3oVbTA" stereoType="_aYZ2g7sUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/FMEA/1.0#//FailureEntry"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYZ2iLsUEeiB8vRl3oVbTA" stereoType="_aYZ2hrsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/FMEA/1.0#//EffectEntry"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYadkbsUEeiB8vRl3oVbTA" stereoType="_aYZ2ibsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/FMEA/1.0#//CauseEntry"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYadlLsUEeiB8vRl3oVbTA" stereoType="_aYadkrsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/FMEA/1.0#//MeasureEntry"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYadl7sUEeiB8vRl3oVbTA" stereoType="_aYadlbsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/FMEA/1.0#//RecommendedAction"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYbEobsUEeiB8vRl3oVbTA" stereoType="_aYadmLsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/FMEA/1.0#//TakenAction"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYbEpLsUEeiB8vRl3oVbTA" stereoType="_aYbEorsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/FMEA/1.0#//Component"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYbEp7sUEeiB8vRl3oVbTA" stereoType="_aYbEpbsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/FMEA/1.0#//PlainFailureMode"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYbrsbsUEeiB8vRl3oVbTA" stereoType="_aYbEqLsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/FMEA/1.0#//FailureEffect"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYbrtLsUEeiB8vRl3oVbTA" stereoType="_aYbrsrsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/FMEA/1.0#//FailureCause"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYbrt7sUEeiB8vRl3oVbTA" stereoType="_aYbrtbsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/FMEA/1.0#//CurrentDesignControl"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYbrursUEeiB8vRl3oVbTA" stereoType="_aYbruLsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/metamodels/FTA/2.0#//FTAModel"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYcSwrsUEeiB8vRl3oVbTA" stereoType="_aYcSwLsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/metamodels/FTA/2.0#//Event"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYcSxbsUEeiB8vRl3oVbTA" stereoType="_aYcSw7sUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/metamodels/FTA/2.0#//LogicalGate"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYcSyLsUEeiB8vRl3oVbTA" stereoType="_aYcSxrsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/metamodels/FTA/2.0#//VotingGate"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYc50rsUEeiB8vRl3oVbTA" stereoType="_aYc50LsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/metamodels/FTA/2.0#//TransferGate"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYc51bsUEeiB8vRl3oVbTA" stereoType="_aYc507sUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/metamodels/FTA/2.0#//Connection"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYc52LsUEeiB8vRl3oVbTA" stereoType="_aYc51rsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/metamodels/FTA/2.0#//AnalysisModel"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYdg4rsUEeiB8vRl3oVbTA" stereoType="_aYdg4LsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/medini/metamodels/FTA/2.0#//CutSet"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYdg5bsUEeiB8vRl3oVbTA" stereoType="_aYdg47sUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/DiagnosticCoverage/1.0#//DCWorksheet"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYeH8bsUEeiB8vRl3oVbTA" stereoType="_aYdg5rsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/DiagnosticCoverage/1.0#//DCComponentEntry"/>
+    </applianceRelations>
+    <applianceRelations xmi:id="_aYeH9LsUEeiB8vRl3oVbTA" stereoType="_aYeH8rsUEeiB8vRl3oVbTA">
+      <metaClass href="http://www.ikv.de/analyze/metamodels/DiagnosticCoverage/1.0#//DCFailureModeEntry"/>
+    </applianceRelations>
+  </er:ProfileApplianceModel>
+  <ecore:EPackage xmi:id="_aXZJ4bsUEeiB8vRl3oVbTA" name="StereoTypePackage" nsURI="http://www.ikv.de/medini/metamodels/StereoTypes/1.0" nsPrefix="st">
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYQFgLsUEeiB8vRl3oVbTA" name="DefaultMediniProjectStereotype">
+      <eAnnotations xmi:id="_aYQskLsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYQskrsUEeiB8vRl3oVbTA" name="DefaultPJPackageStereotype">
+      <eAnnotations xmi:id="_aYQsk7sUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYQslbsUEeiB8vRl3oVbTA" name="DefaultPJDiagramStereotype">
+      <eAnnotations xmi:id="_aYRToLsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYRTorsUEeiB8vRl3oVbTA" name="DefaultChecklistStereotype">
+      <eAnnotations xmi:id="_aYRTo7sUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYRTpbsUEeiB8vRl3oVbTA" name="DefaultStaticChecklistItemStereotype">
+      <eStructuralFeatures xsi:type="ecore:EReference" xmi:id="_MGcccOe5Eei5auRY4f7U-A" name="related_document">
+        <eAnnotations xmi:id="_MGcccee5Eei5auRY4f7U-A" source="presentationName">
+          <details xmi:id="_MGcccue5Eei5auRY4f7U-A" key="presentationName" value="related document"/>
+        </eAnnotations>
+        <eAnnotations xmi:id="_MGccc-e5Eei5auRY4f7U-A" source="global">
+          <details xmi:id="_MGccdOe5Eei5auRY4f7U-A" key="description" value=""/>
+          <details xmi:id="_MGccdee5Eei5auRY4f7U-A" key="autoWrap" value="true"/>
+        </eAnnotations>
+        <eAnnotations xmi:id="_MGccdue5Eei5auRY4f7U-A" source="reference">
+          <details xmi:id="_MGccd-e5Eei5auRY4f7U-A" key="includeSubTypes" value="true"/>
+        </eAnnotations>
+        <eType xsi:type="ecore:EClass" href="http://www.ikv.de/medini/metamodels/ProjectModel#//PJExternalDocument"/>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EReference" xmi:id="_9uzBoOfdEei5auRY4f7U-A" name="related_requirement">
+        <eAnnotations xmi:id="_9uzBoefdEei5auRY4f7U-A" source="presentationName">
+          <details xmi:id="_9uzBoufdEei5auRY4f7U-A" key="presentationName" value="related requirement"/>
+        </eAnnotations>
+        <eAnnotations xmi:id="_9uzBo-fdEei5auRY4f7U-A" source="global">
+          <details xmi:id="_9uzBpOfdEei5auRY4f7U-A" key="description" value=""/>
+          <details xmi:id="_9uzBpefdEei5auRY4f7U-A" key="autoWrap" value="true"/>
+        </eAnnotations>
+        <eAnnotations xmi:id="_9uzBpufdEei5auRY4f7U-A" source="reference">
+          <details xmi:id="_9uzBp-fdEei5auRY4f7U-A" key="includeSubTypes" value="true"/>
+        </eAnnotations>
+        <eType xsi:type="ecore:EClass" href="http://www.ikv.de/analyze/metamodels/SafetyGoals/1.0#//SafetyRequirement"/>
+      </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYRTqLsUEeiB8vRl3oVbTA" name="DefaultPJExternalDocumentStereotype">
+      <eAnnotations xmi:id="_aYR6sLsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYR6srsUEeiB8vRl3oVbTA" name="DefaultMeasureGroupStereotype">
+      <eAnnotations xmi:id="_aYR6s7sUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYR6tbsUEeiB8vRl3oVbTA" name="DefaultMeasureStereotype">
+      <eAnnotations xmi:id="_aYR6trsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYShwLsUEeiB8vRl3oVbTA" name="DefaultSafetyMechanismStereotype">
+      <eAnnotations xmi:id="_aYShwbsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYShw7sUEeiB8vRl3oVbTA" name="DefaultSecurityMechanismStereotype">
+      <eAnnotations xmi:id="_aYShxLsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYShxrsUEeiB8vRl3oVbTA" name="DefaultPlainItemStereotype">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" xmi:id="_10BhEL4oEei7Zr-IfEw2tw" name="author" unique="false" lowerBound="1">
+        <eAnnotations xmi:id="_10BhEb4oEei7Zr-IfEw2tw" source="presentationName">
+          <details xmi:id="_10BhEr4oEei7Zr-IfEw2tw" key="presentationName" value="Author"/>
+        </eAnnotations>
+        <eAnnotations xmi:id="_10BhE74oEei7Zr-IfEw2tw" source="global">
+          <details xmi:id="_10BhFL4oEei7Zr-IfEw2tw" key="description" value=""/>
+          <details xmi:id="_10BhFb4oEei7Zr-IfEw2tw" key="autoWrap" value="true"/>
+          <details xmi:id="_10BhFr4oEei7Zr-IfEw2tw" key="initialValue" value=""/>
+        </eAnnotations>
+        <eAnnotations xmi:id="_10BhF74oEei7Zr-IfEw2tw" source="plain">
+          <details xmi:id="_10BhGL4oEei7Zr-IfEw2tw" key="predefinedOnly" value="false"/>
+          <details xmi:id="_10BhGb4oEei7Zr-IfEw2tw" key="multiLine" value="true"/>
+        </eAnnotations>
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" xmi:id="_Txyx0L4oEei7Zr-IfEw2tw" name="interface" unique="false" lowerBound="1">
+        <eAnnotations xmi:id="_Txyx0b4oEei7Zr-IfEw2tw" source="presentationName">
+          <details xmi:id="_Txyx0r4oEei7Zr-IfEw2tw" key="presentationName" value="Interface"/>
+        </eAnnotations>
+        <eAnnotations xmi:id="_Txyx074oEei7Zr-IfEw2tw" source="global">
+          <details xmi:id="_Txyx1L4oEei7Zr-IfEw2tw" key="description" value=""/>
+          <details xmi:id="_Txyx1b4oEei7Zr-IfEw2tw" key="autoWrap" value="true"/>
+          <details xmi:id="_Txyx1r4oEei7Zr-IfEw2tw" key="initialValue" value=""/>
+        </eAnnotations>
+        <eAnnotations xmi:id="_Txyx174oEei7Zr-IfEw2tw" source="plain">
+          <details xmi:id="_Txyx2L4oEei7Zr-IfEw2tw" key="predefinedOnly" value="false"/>
+          <details xmi:id="_Txyx2b4oEei7Zr-IfEw2tw" key="multiLine" value="true"/>
+        </eAnnotations>
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYTI0LsUEeiB8vRl3oVbTA" name="DefaultMalfunctionStereotype">
+      <eAnnotations xmi:id="_aYTI0bsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYTI07sUEeiB8vRl3oVbTA" name="DefaultHazardAnalysisModelStereotype">
+      <eAnnotations xmi:id="_-LkdAOe4Eei5auRY4f7U-A" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYTI1rsUEeiB8vRl3oVbTA" name="DefaultHazardousEventStereotype">
+      <eAnnotations xmi:id="_q9k8oPLFEeiUD8YKFjRr9Q" source="notactive"/>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" xmi:id="_RUlJMPLFEeiUD8YKFjRr9Q" name="aa" unique="false" lowerBound="1">
+        <eAnnotations xmi:id="_RUlJMfLFEeiUD8YKFjRr9Q" source="presentationName">
+          <details xmi:id="_RUlJMvLFEeiUD8YKFjRr9Q" key="presentationName" value="aa"/>
+        </eAnnotations>
+        <eAnnotations xmi:id="_RUlJM_LFEeiUD8YKFjRr9Q" source="global">
+          <details xmi:id="_RUlJNPLFEeiUD8YKFjRr9Q" key="description" value="aaaa"/>
+          <details xmi:id="_RUlJNfLFEeiUD8YKFjRr9Q" key="autoWrap" value="true"/>
+          <details xmi:id="_RUlJNvLFEeiUD8YKFjRr9Q" key="initialValue" value=""/>
+        </eAnnotations>
+        <eAnnotations xmi:id="_RUlJN_LFEeiUD8YKFjRr9Q" source="plain">
+          <details xmi:id="_RUlJOPLFEeiUD8YKFjRr9Q" key="predefinedOnly" value="false"/>
+          <details xmi:id="_RUlJOfLFEeiUD8YKFjRr9Q" key="multiLine" value="true"/>
+        </eAnnotations>
+        <eAnnotations xmi:id="_q9k8ofLFEeiUD8YKFjRr9Q" source="notactive"/>
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYTv4LsUEeiB8vRl3oVbTA" name="DefaultHazardStereotype">
+      <eAnnotations xmi:id="_-LkdAue4Eei5auRY4f7U-A" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYTv47sUEeiB8vRl3oVbTA" name="DefaultDoorsRequirementStereotype" eSuperTypes="_aYevArsUEeiB8vRl3oVbTA _aYf9KrsUEeiB8vRl3oVbTA">
+      <eAnnotations xmi:id="_aYTv5LsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYTv5rsUEeiB8vRl3oVbTA" name="DefaultDoorsRequirementsModelStereotype">
+      <eAnnotations xmi:id="_aYTv57sUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYUW8LsUEeiB8vRl3oVbTA" name="DefaultSafetyRequirementsModelStereotype">
+      <eAnnotations xmi:id="_aYUW8bsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYUW87sUEeiB8vRl3oVbTA" name="DefaultSafetyGoalStereotype" eSuperTypes="_aYf9IbsUEeiB8vRl3oVbTA">
+      <eAnnotations xmi:id="_aYUW9LsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYUW9rsUEeiB8vRl3oVbTA" name="DefaultSafetyRequirementStereotype" eSuperTypes="_aYevArsUEeiB8vRl3oVbTA _aYf9KrsUEeiB8vRl3oVbTA">
+      <eAnnotations xmi:id="_aYUW97sUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYU-ALsUEeiB8vRl3oVbTA" name="DefaultSysMLPartStereotype" eSuperTypes="_aYfWEbsUEeiB8vRl3oVbTA _aYf9MLsUEeiB8vRl3oVbTA">
+      <eAnnotations xmi:id="_aYU-AbsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYU-A7sUEeiB8vRl3oVbTA" name="DefaultSysMLFlowPortUsageStereotype" eSuperTypes="_aYfWEbsUEeiB8vRl3oVbTA _aYf9MLsUEeiB8vRl3oVbTA">
+      <eAnnotations xmi:id="_aYU-BLsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYU-BrsUEeiB8vRl3oVbTA" name="DefaultSysMLConnectorStereotype">
+      <eAnnotations xmi:id="_aYU-B7sUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYVlELsUEeiB8vRl3oVbTA" name="DefaultSysMLBlockStereotype">
+      <eAnnotations xmi:id="_aYVlEbsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYVlE7sUEeiB8vRl3oVbTA" name="DefaultSysMLFlowPortStereotype">
+      <eAnnotations xmi:id="_aYVlFLsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYVlFrsUEeiB8vRl3oVbTA" name="DefaultFailureModeStereotype">
+      <eAnnotations xmi:id="_aYVlF7sUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYWMILsUEeiB8vRl3oVbTA" name="DefaultErrorStereotype">
+      <eAnnotations xmi:id="_aYWMIbsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYWMI7sUEeiB8vRl3oVbTA" name="DefaultSysMLActionStereotype">
+      <eAnnotations xmi:id="_aYWMJLsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYWMJrsUEeiB8vRl3oVbTA" name="DefaultSysMLContainerPackageStereotype">
+      <eAnnotations xmi:id="_aYWMJ7sUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYWMKbsUEeiB8vRl3oVbTA" name="DefaultSysMLActivityStereotype" eSuperTypes="_aYfWEbsUEeiB8vRl3oVbTA _aYf9MLsUEeiB8vRl3oVbTA">
+      <eAnnotations xmi:id="_aYWzMLsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYWzMrsUEeiB8vRl3oVbTA" name="DefaultSysMLDependencyStereotype">
+      <eAnnotations xmi:id="_aYWzM7sUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYWzNbsUEeiB8vRl3oVbTA" name="DefaultSysMLAbstractionStereotype">
+      <eAnnotations xmi:id="_aYWzNrsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYXaQLsUEeiB8vRl3oVbTA" name="DefaultSysMLPinStereotype">
+      <eAnnotations xmi:id="_aYXaQbsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYXaQ7sUEeiB8vRl3oVbTA" name="DefaultSysMLObjectNodeStereotype">
+      <eAnnotations xmi:id="_aYXaRLsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYXaRrsUEeiB8vRl3oVbTA" name="DefaultSysMLStructuredActivityStereotype">
+      <eAnnotations xmi:id="_aYXaR7sUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYYBULsUEeiB8vRl3oVbTA" name="DefaultSysMLActivityEdgeStereotype">
+      <eAnnotations xmi:id="_aYYBUbsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYYBU7sUEeiB8vRl3oVbTA" name="DefaultSysMLFinalNodeStereotype">
+      <eAnnotations xmi:id="_aYYBVLsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYYBVrsUEeiB8vRl3oVbTA" name="DefaultSysMLDecisionMergeStereotype">
+      <eAnnotations xmi:id="_aYYBV7sUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYYoYLsUEeiB8vRl3oVbTA" name="DefaultSysMLForkJoinStereotype">
+      <eAnnotations xmi:id="_aYYoYbsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYYoY7sUEeiB8vRl3oVbTA" name="DefaultSysMLInitialNodeStereotype">
+      <eAnnotations xmi:id="_aYYoZLsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYYoZrsUEeiB8vRl3oVbTA" name="DefaultHazopAnalysisModelStereotype">
+      <eAnnotations xmi:id="_aYYoZ7sUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYZPcLsUEeiB8vRl3oVbTA" name="DefaultGuidewordStereotype">
+      <eAnnotations xmi:id="_aYZPcbsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYZPc7sUEeiB8vRl3oVbTA" name="DefaultHazopEntryStereotype">
+      <eAnnotations xmi:id="_aYZPdLsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYZPdrsUEeiB8vRl3oVbTA" name="DefaultFMEAWorksheetStereotype">
+      <eAnnotations xmi:id="_aYZPd7sUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYZ2gLsUEeiB8vRl3oVbTA" name="DefaultComponentEntryStereotype">
+      <eAnnotations xmi:id="_aYZ2gbsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYZ2g7sUEeiB8vRl3oVbTA" name="DefaultFailureEntryStereotype">
+      <eAnnotations xmi:id="_aYZ2hLsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYZ2hrsUEeiB8vRl3oVbTA" name="DefaultEffectEntryStereotype">
+      <eAnnotations xmi:id="_aYZ2h7sUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYZ2ibsUEeiB8vRl3oVbTA" name="DefaultCauseEntryStereotype">
+      <eAnnotations xmi:id="_aYadkLsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYadkrsUEeiB8vRl3oVbTA" name="DefaultMeasureEntryStereotype">
+      <eAnnotations xmi:id="_aYadk7sUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYadlbsUEeiB8vRl3oVbTA" name="DefaultRecommendedActionStereotype">
+      <eAnnotations xmi:id="_aYadlrsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYadmLsUEeiB8vRl3oVbTA" name="DefaultTakenActionStereotype">
+      <eAnnotations xmi:id="_aYbEoLsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYbEorsUEeiB8vRl3oVbTA" name="DefaultComponentStereotype">
+      <eAnnotations xmi:id="_aYbEo7sUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYbEpbsUEeiB8vRl3oVbTA" name="DefaultPlainFailureModeStereotype">
+      <eAnnotations xmi:id="_aYbEprsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYbEqLsUEeiB8vRl3oVbTA" name="DefaultFailureEffectStereotype">
+      <eAnnotations xmi:id="_aYbrsLsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYbrsrsUEeiB8vRl3oVbTA" name="DefaultFailureCauseStereotype">
+      <eAnnotations xmi:id="_aYbrs7sUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYbrtbsUEeiB8vRl3oVbTA" name="DefaultCurrentDesignControlStereotype">
+      <eAnnotations xmi:id="_aYbrtrsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYbruLsUEeiB8vRl3oVbTA" name="DefaultFTAModelStereotype">
+      <eAnnotations xmi:id="_aYbrubsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYcSwLsUEeiB8vRl3oVbTA" name="DefaultEventStereotype">
+      <eAnnotations xmi:id="_aYcSwbsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYcSw7sUEeiB8vRl3oVbTA" name="DefaultLogicalGateStereotype">
+      <eAnnotations xmi:id="_aYcSxLsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYcSxrsUEeiB8vRl3oVbTA" name="DefaultVotingGateStereotype">
+      <eAnnotations xmi:id="_aYcSx7sUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYc50LsUEeiB8vRl3oVbTA" name="DefaultTransferGateStereotype">
+      <eAnnotations xmi:id="_aYc50bsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYc507sUEeiB8vRl3oVbTA" name="DefaultConnectionStereotype">
+      <eAnnotations xmi:id="_aYc51LsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYc51rsUEeiB8vRl3oVbTA" name="DefaultAnalysisModelStereotype">
+      <eAnnotations xmi:id="_aYc517sUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYdg4LsUEeiB8vRl3oVbTA" name="DefaultCutSetStereotype">
+      <eAnnotations xmi:id="_aYdg4bsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYdg47sUEeiB8vRl3oVbTA" name="DefaultDCWorksheetStereotype">
+      <eAnnotations xmi:id="_aYdg5LsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYdg5rsUEeiB8vRl3oVbTA" name="DefaultDCComponentEntryStereotype">
+      <eAnnotations xmi:id="_aYeH8LsUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYeH8rsUEeiB8vRl3oVbTA" name="DefaultDCFailureModeEntryStereotype">
+      <eAnnotations xmi:id="_aYeH87sUEeiB8vRl3oVbTA" source="notactive"/>
+    </eClassifiers>
+  </ecore:EPackage>
+  <ecore:EPackage xmi:id="_aYevALsUEeiB8vRl3oVbTA" name="ISO26262StereotypePackage" nsURI="http://www.ikv.de/medini/metamodels/ISO26262Stereotypes/1.0" nsPrefix="stiso">
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYevArsUEeiB8vRl3oVbTA" name="SafetyRequirementExtension">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" xmi:id="_aYevA7sUEeiB8vRl3oVbTA" name="ISO26262_asil" defaultValueLiteral="D">
+        <eAnnotations xmi:id="_aYevBLsUEeiB8vRl3oVbTA" source="presentationName">
+          <details xmi:id="_aYevBbsUEeiB8vRl3oVbTA" key="presentationName" value="ASIL"/>
+        </eAnnotations>
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYfWEbsUEeiB8vRl3oVbTA" name="SysMLElementExtension">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" xmi:id="_aYfWErsUEeiB8vRl3oVbTA" name="ISO26262_asil" defaultValueLiteral="NONE">
+        <eAnnotations xmi:id="_aYfWE7sUEeiB8vRl3oVbTA" source="presentationName">
+          <details xmi:id="_aYfWFLsUEeiB8vRl3oVbTA" key="presentationName" value="ASIL"/>
+        </eAnnotations>
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" xmi:id="_aYfWFrsUEeiB8vRl3oVbTA" name="ISO26262_asilCalculated" defaultValueLiteral="true">
+        <eAnnotations xmi:id="_aYfWF7sUEeiB8vRl3oVbTA" source="presentationName">
+          <details xmi:id="_aYfWGLsUEeiB8vRl3oVbTA" key="presentationName" value="Calculate ASIL"/>
+        </eAnnotations>
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" xmi:id="_aYfWGrsUEeiB8vRl3oVbTA" name="ISO26262_independent" defaultValueLiteral="false">
+        <eAnnotations xmi:id="_aYfWG7sUEeiB8vRl3oVbTA" source="presentationName">
+          <details xmi:id="_aYfWHLsUEeiB8vRl3oVbTA" key="presentationName" value="Independent"/>
+        </eAnnotations>
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EBoolean"/>
+      </eStructuralFeatures>
+      <eStructuralFeatures xsi:type="ecore:EAttribute" xmi:id="_aYfWHrsUEeiB8vRl3oVbTA" name="ISO26262_independenceComment">
+        <eAnnotations xmi:id="_aYfWH7sUEeiB8vRl3oVbTA" source="presentationName">
+          <details xmi:id="_aYfWILsUEeiB8vRl3oVbTA" key="presentationName" value="Independence Argument"/>
+        </eAnnotations>
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYf9IbsUEeiB8vRl3oVbTA" name="SafetyGoalExtension">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" xmi:id="_aYf9IrsUEeiB8vRl3oVbTA" name="ISO26262_asil" defaultValueLiteral="D">
+        <eAnnotations xmi:id="_aYf9I7sUEeiB8vRl3oVbTA" source="presentationName">
+          <details xmi:id="_aYf9JLsUEeiB8vRl3oVbTA" key="presentationName" value="ASIL"/>
+        </eAnnotations>
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </eStructuralFeatures>
+    </eClassifiers>
+  </ecore:EPackage>
+  <ecore:EPackage xmi:id="_aYf9KLsUEeiB8vRl3oVbTA" name="ARP4754StereotypePackage" nsURI="http://www.ikv.de/medini/metamodels/ARP4754Stereotypes/1.0" nsPrefix="starp">
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYf9KrsUEeiB8vRl3oVbTA" name="SafetyRequirementExtension">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" xmi:id="_aYf9K7sUEeiB8vRl3oVbTA" name="ARP4754_dal" defaultValueLiteral="A">
+        <eAnnotations xmi:id="_aYf9LLsUEeiB8vRl3oVbTA" source="presentationName">
+          <details xmi:id="_aYf9LbsUEeiB8vRl3oVbTA" key="presentationName" value="DAL"/>
+        </eAnnotations>
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </eStructuralFeatures>
+    </eClassifiers>
+    <eClassifiers xsi:type="ecore:EClass" xmi:id="_aYf9MLsUEeiB8vRl3oVbTA" name="SysMLElementExtension">
+      <eStructuralFeatures xsi:type="ecore:EAttribute" xmi:id="_aYf9MbsUEeiB8vRl3oVbTA" name="ARP4754_dal" defaultValueLiteral="NONE">
+        <eAnnotations xmi:id="_aYf9MrsUEeiB8vRl3oVbTA" source="presentationName">
+          <details xmi:id="_aYf9M7sUEeiB8vRl3oVbTA" key="presentationName" value="IDAL / FDAL"/>
+        </eAnnotations>
+        <eType xsi:type="ecore:EDataType" href="http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+      </eStructuralFeatures>
+    </eClassifiers>
+  </ecore:EPackage>
+</xmi:XMI>

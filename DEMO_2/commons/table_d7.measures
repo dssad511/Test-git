@@ -1,0 +1,10 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<safety:MeasureCatalog xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safety="http://www.ikv.de/medini/metamodels/SafetyModel/1.0" xmi:id="_NLMBkE9BEeC1A4_enB0KXA" mediniIdentifier="_NLMBkE9BEeC1A4_enB0KXA" name="Table D.7 — Analogue and digital I/O">
+  <collectionType href="http://www.ikv.de/medini/metamodels/SafetyModel/1.0#//SafetyMechanism"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_QBI7Ak9BEeC1A4_enB0KXA" mediniIdentifier="_QBI7Ak9BEeC1A4_enB0KXA" id="D.2.1.1" name="Failure detection by on-line monitoring (Digital I/O)a  " maxDC="LOW" notes="Depends on diagnostic coverage of failure detection"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_QBI7A09BEeC1A4_enB0KXA" mediniIdentifier="_QBI7A09BEeC1A4_enB0KXA" id="D.2.6.1" name="Test pattern" maxDC="HIGH" notes="Depends on type of pattern"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_QBSE8E9BEeC1A4_enB0KXA" mediniIdentifier="_QBSE8E9BEeC1A4_enB0KXA" id="D.2.6.2" name="Code protection for digital I/O" maxDC="MEDIUM" notes="Depends on type of coding"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_QBSE8U9BEeC1A4_enB0KXA" mediniIdentifier="_QBSE8U9BEeC1A4_enB0KXA" id="D.2.6.3" name="Multi-channel parallel output" maxDC="HIGH" notes="-"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_QBSE8k9BEeC1A4_enB0KXA" mediniIdentifier="_QBSE8k9BEeC1A4_enB0KXA" id="D.2.6.4" name="Monitored outputs" maxDC="HIGH" notes="Only if dataflow changes within diagnostic test interval"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_QBSE809BEeC1A4_enB0KXA" mediniIdentifier="_QBSE809BEeC1A4_enB0KXA" id="D.2.6.5" name="Input comparison/voting (1oo2, 2oo3 or better redundancy) a Digital I/O can be periodic." maxDC="HIGH" notes="Only if dataflow changes within diagnostic test interval"/>
+</safety:MeasureCatalog>

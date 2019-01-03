@@ -1,0 +1,7 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<safety:MeasureCatalog xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safety="http://www.ikv.de/medini/metamodels/SafetyModel/1.0" xmi:id="_yH3IsE9BEeC1A4_enB0KXA" mediniIdentifier="_yH3IsE9BEeC1A4_enB0KXA" name="Table D.12 — Actuators">
+  <collectionType href="http://www.ikv.de/medini/metamodels/SafetyModel/1.0#//SafetyMechanism"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_0b-gYk9BEeC1A4_enB0KXA" mediniIdentifier="_0b-gYk9BEeC1A4_enB0KXA" id="D.2.1.1" name="Failure detection by on-line monitoring" maxDC="LOW" notes="Depends on diagnostic coverage of failure detection"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_0b-gY09BEeC1A4_enB0KXA" mediniIdentifier="_0b-gY09BEeC1A4_enB0KXA" id="D.2.6.1" name="Test pattern" maxDC="HIGH" notes=""/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_0b-gZE9BEeC1A4_enB0KXA" mediniIdentifier="_0b-gZE9BEeC1A4_enB0KXA" id="D.2.11.1" name="Monitoring (i.e. coherence control)" maxDC="HIGH" notes="Depends on diagnostic coverage of failure detection"/>
+</safety:MeasureCatalog>

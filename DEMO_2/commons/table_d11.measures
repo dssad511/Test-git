@@ -1,0 +1,10 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<safety:MeasureCatalog xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safety="http://www.ikv.de/medini/metamodels/SafetyModel/1.0" xmi:id="_tdr4kE9BEeC1A4_enB0KXA" mediniIdentifier="_tdr4kE9BEeC1A4_enB0KXA" name="Table D.11 — Sensors">
+  <collectionType href="http://www.ikv.de/medini/metamodels/SafetyModel/1.0#//SafetyMechanism"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_wESHYk9BEeC1A4_enB0KXA" mediniIdentifier="_wESHYk9BEeC1A4_enB0KXA" id="D.2.1.1" name="Failure detection by on-line monitoring" maxDC="LOW" notes="Depends on diagnostic coverage of failure detection"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_wESHY09BEeC1A4_enB0KXA" mediniIdentifier="_wESHY09BEeC1A4_enB0KXA" id="D.2.6.1" name="Test pattern" maxDC="HIGH" notes="-"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_wEbRUE9BEeC1A4_enB0KXA" mediniIdentifier="_wEbRUE9BEeC1A4_enB0KXA" id="D.2.6.5" name="Input comparison/voting (1oo2, 2oo3 or better redundancy)" maxDC="HIGH" notes="Only if dataflow changes within diagnostic test interval"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_wEbRUU9BEeC1A4_enB0KXA" mediniIdentifier="_wEbRUU9BEeC1A4_enB0KXA" id="D.2.10.1" name="Sensor Valid Range" maxDC="LOW" notes="Detects shorts to ground or power and some open circuits"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_wEbRUk9BEeC1A4_enB0KXA" mediniIdentifier="_wEbRUk9BEeC1A4_enB0KXA" id="D.2.10.2" name="Sensor Correlation" maxDC="HIGH" notes="Detects in range failures"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_wEbRU09BEeC1A4_enB0KXA" mediniIdentifier="_wEbRU09BEeC1A4_enB0KXA" id="D.2.10.3" name="Sensor Rationality Check" maxDC="MEDIUM" notes=""/>
+</safety:MeasureCatalog>

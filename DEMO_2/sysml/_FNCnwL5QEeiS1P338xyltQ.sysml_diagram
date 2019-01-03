@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:sysml="http://www.ikv.de/medini/sysml/1.0" xmi:id="_FNJVcL5QEeiS1P338xyltQ" type="SysML" measurementUnit="Pixel">
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_FNJVcb5QEeiS1P338xyltQ"/>
+  <element xmi:type="sysml:SysMLContainerPackage" href="_FM9vQL5QEeiS1P338xyltQ.sysml#_FM9vQL5QEeiS1P338xyltQ"/>
+</notation:Diagram>

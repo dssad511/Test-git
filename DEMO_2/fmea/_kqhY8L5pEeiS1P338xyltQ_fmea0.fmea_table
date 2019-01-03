@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Table rowFilters="de.ikv.analyze.fmea.editor.filters.FunctionFilter" columnFilters="FMEDA_INTERNAL, de.ikv.analyze.fmea.editor.filters.FMEDAFilter">
+  <Row id="de.ikv.medini.table.ui.model.impl.DefaultMediniTableModelRow#0" heigth="31"/>
+  <Column id="de.ikv.medini.table.ui.model.impl.emf.DefaultEMFTableModelColumn#!RPN_COLUMN" width="61"/>
+</Table>

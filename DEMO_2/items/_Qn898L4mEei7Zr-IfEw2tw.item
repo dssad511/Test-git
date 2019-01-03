@@ -1,0 +1,4 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<hazardmodel:PlainItem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hazardmodel="http://www.ikv.de/analyze/metamodels/HazardAnalysis/1.0" xmlns:st="http://www.ikv.de/medini/metamodels/StereoTypes/1.0" xmi:id="_Qn898L4mEei7Zr-IfEw2tw" mediniIdentifier="_Qn898L4mEei7Zr-IfEw2tw" description="차량 내 C/U 과 FOB와의 통신을 통해&#xD;&#xA;차량의 Entry 및 시동 제어를 한다." name="SMK">
+  <profilePropertyContainer xsi:type="st:DefaultPlainItemStereotype" xmi:id="_i2Jh0L4oEei7Zr-IfEw2tw" author="이승원" interface="C/U -&gt; FOB : LF(125KHz)&#xD;&#xA;FOB -&gt; C/U : RF(433.92MHz, Manchester encoded)"/>
+</hazardmodel:PlainItem>

@@ -1,0 +1,388 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<pjm:MediniProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ac="http://www.ikv.de/medini/metamodels/AutoCounter/1.0" xmlns:pjm="http://www.ikv.de/medini/metamodels/ProjectModel" xmi:id="_aYiZYLsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZYLsUEeiB8vRl3oVbTA" name="DEMO_2" toolVersion="19.2.0.180827152748-922f87b">
+  <eAnnotations xmi:id="_aYjAcLsUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+    <details xmi:id="_aYjAcbsUEeiB8vRl3oVbTA" key="ProjectDomains" value="ISO26262"/>
+    <details xmi:id="_airz4LsUEeiB8vRl3oVbTA" key="created" value="1537255698974"/>
+  </eAnnotations>
+  <containedElements xsi:type="ac:AutoCounterValueScope" xmi:id="_aYjAcrsUEeiB8vRl3oVbTA">
+    <autoCounterValues xmi:id="_fQrWUL4wEeiEI8xqgnQSmw" metaclass="sysml.SysMLActivity" feature="id" value="11"/>
+    <autoCounterValues xmi:id="_vqckoL4xEeiEI8xqgnQSmw" metaclass="safetyModel.Malfunction" feature="id" value="9"/>
+    <autoCounterValues xmi:id="_dmsxsr45EeiPzcqKDn9RDw" metaclass="hazard.HazardousEvent" feature="id" value="120"/>
+    <autoCounterValues xmi:id="_snDrIL48EeiPzcqKDn9RDw" metaclass="safetygoals.SafetyGoal" feature="identifier" value="2"/>
+    <autoCounterValues xmi:id="_iwTHwL5EEeiPzcqKDn9RDw" metaclass="safetygoals.SafetyRequirement" feature="identifier" value="16"/>
+    <autoCounterValues xmi:id="_aEzskL5rEeiS1P338xyltQ" metaclass="FTA.Event" feature="id" value="70"/>
+  </containedElements>
+  <containedElements xsi:type="pjm:PJResource" xmi:id="_aYiZcbsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZcbsUEeiB8vRl3oVbTA" name="sysml" resourceURI="sysml" folder="true"/>
+  <containedElements xsi:type="pjm:PJResource" xmi:id="_aYiZcrsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZcrsUEeiB8vRl3oVbTA" name="simulink" resourceURI="simulink" folder="true"/>
+  <containedElements xsi:type="pjm:PJResource" xmi:id="_aYiZc7sUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZc7sUEeiB8vRl3oVbTA" name="failures" resourceURI="failures" folder="true"/>
+  <containedElements xsi:type="pjm:PJResource" xmi:id="_aYiZdLsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZdLsUEeiB8vRl3oVbTA" name="hazop" resourceURI="hazop" folder="true"/>
+  <containedElements xsi:type="pjm:PJResource" xmi:id="_aYiZdbsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZdbsUEeiB8vRl3oVbTA" name="checklist" resourceURI="checklist" folder="true"/>
+  <containedElements xsi:type="pjm:PJResource" xmi:id="_aYiZdrsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZdrsUEeiB8vRl3oVbTA" name="hls" resourceURI="hls" folder="true"/>
+  <containedElements xsi:type="pjm:PJResource" xmi:id="_aYiZd7sUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZd7sUEeiB8vRl3oVbTA" name="commons" resourceURI="commons" folder="true"/>
+  <containedElements xsi:type="pjm:PJResource" xmi:id="_aYiZeLsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZeLsUEeiB8vRl3oVbTA" name="fta" resourceURI="fta" folder="true"/>
+  <containedElements xsi:type="pjm:PJResource" xmi:id="_aYiZebsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZebsUEeiB8vRl3oVbTA" name="fmea" resourceURI="fmea" folder="true"/>
+  <containedElements xsi:type="pjm:PJResource" xmi:id="_aYiZersUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZersUEeiB8vRl3oVbTA" name="docs" resourceURI="docs" folder="true"/>
+  <containedElements xsi:type="pjm:PJResource" xmi:id="_aYiZe7sUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZe7sUEeiB8vRl3oVbTA" name="items" resourceURI="items" folder="true"/>
+  <containedElements xsi:type="pjm:PJResource" xmi:id="_aYiZfLsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZfLsUEeiB8vRl3oVbTA" name="config" resourceURI="config" folder="true" type="CONFIG_FOLDER"/>
+  <containedElements xsi:type="pjm:PJResource" xmi:id="_aYiZfbsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZfbsUEeiB8vRl3oVbTA" name="dc" resourceURI="dc" folder="true"/>
+  <containedElements xsi:type="pjm:PJResource" xmi:id="_aYiZfrsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZfrsUEeiB8vRl3oVbTA" name="goals" resourceURI="goals" folder="true"/>
+  <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_TcUd1ee5Eei5auRY4f7U-A" mediniIdentifier="_TcUd1ee5Eei5auRY4f7U-A">
+    <containedElements xsi:type="pjm:PJResource" xmi:id="_TcdnwOe5Eei5auRY4f7U-A" mediniIdentifier="_TcdnwOe5Eei5auRY4f7U-A" name="ch_review0" resourceURI="checklist/_TcUd0Oe5Eei5auRY4f7U-A_ch_review0.chklst_tree" type="TABLE_STATE"/>
+    <originalModel href="checklist/_TcUd0Oe5Eei5auRY4f7U-A.chklst_rtm#_TcUd0Oe5Eei5auRY4f7U-A"/>
+  </containedElements>
+  <nestedPackages xmi:id="_aYiZYbsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZYbsUEeiB8vRl3oVbTA" name="Item Definition">
+    <eAnnotations xmi:id="_aYjAc7sUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+      <details xmi:id="_aYjAdLsUEeiB8vRl3oVbTA" key="kind" value="ItemDefinitions"/>
+    </eAnnotations>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_QoaQ8L4mEei7Zr-IfEw2tw" mediniIdentifier="_QoaQ8L4mEei7Zr-IfEw2tw">
+      <originalModel href="items/_Qn898L4mEei7Zr-IfEw2tw.item#_Qn898L4mEei7Zr-IfEw2tw"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_7f8iEb4oEei7Zr-IfEw2tw" mediniIdentifier="_7f8iEb4oEei7Zr-IfEw2tw">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_7gFE8L4oEei7Zr-IfEw2tw" mediniIdentifier="_7gFE8L4oEei7Zr-IfEw2tw" name="sys0" resourceURI="sysml/_7f10YL4oEei7Zr-IfEw2tw_sys0.sysml_table" type="TABLE_STATE"/>
+      <containedElements xsi:type="pjm:PJDiagram" xmi:id="_7gt-IL4oEei7Zr-IfEw2tw" mediniIdentifier="_7gt-IL4oEei7Zr-IfEw2tw" name="Initial Architecture" uri="sysml/_7gt-IL4oEei7Zr-IfEw2tw.sysml_diagram" modelID="SysML" editorID="de.ikv.medini.editor.sysml.block.diagram.part.SysmlDiagramEditorID">
+        <canvasElement href="sysml/_7f10YL4oEei7Zr-IfEw2tw.sysml#_7f10YL4oEei7Zr-IfEw2tw"/>
+        <diagram href="sysml/_7gt-IL4oEei7Zr-IfEw2tw.sysml_diagram#_7hFKgL4oEei7Zr-IfEw2tw"/>
+      </containedElements>
+      <originalModel href="sysml/_7f10YL4oEei7Zr-IfEw2tw.sysml#_7f10YL4oEei7Zr-IfEw2tw"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_-eVl0b4oEei7Zr-IfEw2tw" mediniIdentifier="_-eVl0b4oEei7Zr-IfEw2tw">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_-eZ3QL4oEei7Zr-IfEw2tw" mediniIdentifier="_-eZ3QL4oEei7Zr-IfEw2tw" name="sys0" resourceURI="sysml/_-eIxgL4oEei7Zr-IfEw2tw_sys0.sysml_table" type="TABLE_STATE"/>
+      <containedElements xsi:type="pjm:PJDiagram" xmi:id="_-eaeUL4oEei7Zr-IfEw2tw" mediniIdentifier="_-eaeUL4oEei7Zr-IfEw2tw" name="Functions" uri="sysml/_-eaeUL4oEei7Zr-IfEw2tw.sysml_diagram" modelID="SysML" editorID="de.ikv.medini.editor.sysml.block.diagram.part.SysmlDiagramEditorID">
+        <canvasElement href="sysml/_-eIxgL4oEei7Zr-IfEw2tw.sysml#_-eIxgL4oEei7Zr-IfEw2tw"/>
+        <diagram href="sysml/_-eaeUL4oEei7Zr-IfEw2tw.sysml_diagram#_-ejBML4oEei7Zr-IfEw2tw"/>
+      </containedElements>
+      <originalModel href="sysml/_-eIxgL4oEei7Zr-IfEw2tw.sysml#_-eIxgL4oEei7Zr-IfEw2tw"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_pkCnEL4xEeiEI8xqgnQSmw" mediniIdentifier="_pkCnEL4xEeiEI8xqgnQSmw">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_pkIGoL4xEeiEI8xqgnQSmw" mediniIdentifier="_pkIGoL4xEeiEI8xqgnQSmw" name="hz0" resourceURI="hazop/_ph7HML4xEeiEI8xqgnQSmw_hz0.hazop_table" type="TABLE_STATE"/>
+      <originalModel href="hazop/_ph7HML4xEeiEI8xqgnQSmw.hazop#_ph7HML4xEeiEI8xqgnQSmw"/>
+    </containedElements>
+  </nestedPackages>
+  <nestedPackages xmi:id="_aYiZYrsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZYrsUEeiB8vRl3oVbTA" name="Hazard Analysis and Risk Assessment">
+    <eAnnotations xmi:id="_aYjAdbsUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+      <details xmi:id="_aYjAdrsUEeiB8vRl3oVbTA" key="kind" value="HazardAnalysisModels"/>
+    </eAnnotations>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_dm1UkL45EeiPzcqKDn9RDw" mediniIdentifier="_dm1UkL45EeiPzcqKDn9RDw">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_dm2isL45EeiPzcqKDn9RDw" mediniIdentifier="_dm2isL45EeiPzcqKDn9RDw" name="failures0" resourceURI="failures/_dmxDIL45EeiPzcqKDn9RDw_failures0.failures_table" type="TABLE_STATE"/>
+      <originalModel href="failures/_dmxDIL45EeiPzcqKDn9RDw.failures#_dmxDIL45EeiPzcqKDn9RDw"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_p0nx8MPdEei41KtvJaTVCA" mediniIdentifier="_p0nx8MPdEei41KtvJaTVCA">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_p0pAEMPdEei41KtvJaTVCA" mediniIdentifier="_p0pAEMPdEei41KtvJaTVCA" name="ha0" resourceURI="hls/_p0iSYMPdEei41KtvJaTVCA_ha0.ha_table" type="TABLE_STATE"/>
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_p0q1QMPdEei41KtvJaTVCA" mediniIdentifier="_p0q1QMPdEei41KtvJaTVCA" name="ha1" resourceURI="hls/_p0iSYMPdEei41KtvJaTVCA_ha1.ha_table" type="TABLE_STATE"/>
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_p0t4kMPdEei41KtvJaTVCA" mediniIdentifier="_p0t4kMPdEei41KtvJaTVCA" name="ha2" resourceURI="hls/_p0iSYMPdEei41KtvJaTVCA_ha2.ha_table" type="TABLE_STATE"/>
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_p0xi8MPdEei41KtvJaTVCA" mediniIdentifier="_p0xi8MPdEei41KtvJaTVCA" name="ha3" resourceURI="hls/_p0iSYMPdEei41KtvJaTVCA_ha3.ha_table" type="TABLE_STATE"/>
+      <originalModel href="hls/_p0iSYMPdEei41KtvJaTVCA.ha#_p0iSYMPdEei41KtvJaTVCA"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_p2mu8MPdEei41KtvJaTVCA" mediniIdentifier="_p2mu8MPdEei41KtvJaTVCA">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_p2rAYMPdEei41KtvJaTVCA" mediniIdentifier="_p2rAYMPdEei41KtvJaTVCA" name="ha0" resourceURI="hls/_p2h2cMPdEei41KtvJaTVCA_ha0.ha_table" type="TABLE_STATE"/>
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_p2uqwMPdEei41KtvJaTVCA" mediniIdentifier="_p2uqwMPdEei41KtvJaTVCA" name="ha1" resourceURI="hls/_p2h2cMPdEei41KtvJaTVCA_ha1.ha_table" type="TABLE_STATE"/>
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_p2y8MMPdEei41KtvJaTVCA" mediniIdentifier="_p2y8MMPdEei41KtvJaTVCA" name="ha2" resourceURI="hls/_p2h2cMPdEei41KtvJaTVCA_ha2.ha_table" type="TABLE_STATE"/>
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_p23NoMPdEei41KtvJaTVCA" mediniIdentifier="_p23NoMPdEei41KtvJaTVCA" name="ha3" resourceURI="hls/_p2h2cMPdEei41KtvJaTVCA_ha3.ha_table" type="TABLE_STATE"/>
+      <originalModel href="hls/_p2h2cMPdEei41KtvJaTVCA.ha#_p2h2cMPdEei41KtvJaTVCA"/>
+    </containedElements>
+  </nestedPackages>
+  <nestedPackages xmi:id="_aYiZY7sUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZY7sUEeiB8vRl3oVbTA" name="Safety Goals and Requirements">
+    <eAnnotations xmi:id="_aYjAd7sUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+      <details xmi:id="_aYjAeLsUEeiB8vRl3oVbTA" key="kind" value="SafetyGoalModels"/>
+    </eAnnotations>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_oI3BgL48EeiPzcqKDn9RDw" mediniIdentifier="_oI3BgL48EeiPzcqKDn9RDw">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_oI6r4L48EeiPzcqKDn9RDw" mediniIdentifier="_oI6r4L48EeiPzcqKDn9RDw" name="sg0" resourceURI="goals/_oIw64L48EeiPzcqKDn9RDw_sg0.safetygoal_table" type="TABLE_STATE"/>
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_oI9vML48EeiPzcqKDn9RDw" mediniIdentifier="_oI9vML48EeiPzcqKDn9RDw" name="sr0" resourceURI="goals/_oIw64L48EeiPzcqKDn9RDw_sr0.safetygoal_table" type="TABLE_STATE"/>
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_oI_kYL48EeiPzcqKDn9RDw" mediniIdentifier="_oI_kYL48EeiPzcqKDn9RDw" name="sr2_0" resourceURI="goals/_oIw64L48EeiPzcqKDn9RDw_sr2_0.safetygoal_table" type="TABLE_STATE"/>
+      <containedElements xsi:type="pjm:PJDiagram" xmi:id="_C-MoEL5EEeiPzcqKDn9RDw" mediniIdentifier="_C-MoEL5EEeiPzcqKDn9RDw" name="FSR" uri="goals/_C92CwL5EEeiPzcqKDn9RDw.safegoal_diagram" modelID="Safetygoals" editorID="de.ikv.analyze.editor.safetygoals.diagram.part.SafetygoalsDiagramEditorID">
+        <canvasElement href="goals/_oIw64L48EeiPzcqKDn9RDw.safetygoal#_oIw64L48EeiPzcqKDn9RDw"/>
+        <diagram href="goals/_C92CwL5EEeiPzcqKDn9RDw.safegoal_diagram#_C-NPIL5EEeiPzcqKDn9RDw"/>
+      </containedElements>
+      <containedElements xsi:type="pjm:PJDiagram" xmi:id="_JN99AL5EEeiPzcqKDn9RDw" mediniIdentifier="_JN99AL5EEeiPzcqKDn9RDw" name="TSR" uri="goals/_JN5rkL5EEeiPzcqKDn9RDw.safegoal_diagram" modelID="Safetygoals" editorID="de.ikv.analyze.editor.safetygoals.diagram.part.SafetygoalsDiagramEditorID">
+        <canvasElement href="goals/_oIw64L48EeiPzcqKDn9RDw.safetygoal#_oIw64L48EeiPzcqKDn9RDw"/>
+        <diagram href="goals/_JN5rkL5EEeiPzcqKDn9RDw.safegoal_diagram#_JN-kEL5EEeiPzcqKDn9RDw"/>
+      </containedElements>
+      <containedElements xsi:type="pjm:PJDiagram" xmi:id="_K891cL5EEeiPzcqKDn9RDw" mediniIdentifier="_K891cL5EEeiPzcqKDn9RDw" name="HSR" uri="goals/_K8488L5EEeiPzcqKDn9RDw.safegoal_diagram" modelID="Safetygoals" editorID="de.ikv.analyze.editor.safetygoals.diagram.part.SafetygoalsDiagramEditorID">
+        <canvasElement href="goals/_oIw64L48EeiPzcqKDn9RDw.safetygoal#_oIw64L48EeiPzcqKDn9RDw"/>
+        <diagram href="goals/_K8488L5EEeiPzcqKDn9RDw.safegoal_diagram#_K891cb5EEeiPzcqKDn9RDw"/>
+      </containedElements>
+      <containedElements xsi:type="pjm:PJDiagram" xmi:id="_8bDJIMVfEeiLRo9SrSbk3A" mediniIdentifier="_8bDJIMVfEeiLRo9SrSbk3A" name="SR" uri="goals/_8YXBgMVfEeiLRo9SrSbk3A.safegoal_diagram" modelID="Safetygoals" editorID="de.ikv.analyze.editor.safetygoals.diagram.part.SafetygoalsDiagramEditorID">
+        <canvasElement href="goals/_oIw64L48EeiPzcqKDn9RDw.safetygoal#_oIw64L48EeiPzcqKDn9RDw"/>
+        <diagram href="goals/_8YXBgMVfEeiLRo9SrSbk3A.safegoal_diagram#_8bEXQMVfEeiLRo9SrSbk3A"/>
+      </containedElements>
+      <originalModel href="goals/_oIw64L48EeiPzcqKDn9RDw.safetygoal#_oIw64L48EeiPzcqKDn9RDw"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_DP9OINybEeinqZmgDJ1RZw" mediniIdentifier="_DP9OINybEeinqZmgDJ1RZw">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_DQA4gNybEeinqZmgDJ1RZw" mediniIdentifier="_DQA4gNybEeinqZmgDJ1RZw" name="sg0" resourceURI="goals/_DP6x4NybEeinqZmgDJ1RZw_sg0.safetygoal_table" type="TABLE_STATE"/>
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_DQD70NybEeinqZmgDJ1RZw" mediniIdentifier="_DQD70NybEeinqZmgDJ1RZw" name="sr0" resourceURI="goals/_DP6x4NybEeinqZmgDJ1RZw_sr0.safetygoal_table" type="TABLE_STATE"/>
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_DQGYENybEeinqZmgDJ1RZw" mediniIdentifier="_DQGYENybEeinqZmgDJ1RZw" name="sr2_0" resourceURI="goals/_DP6x4NybEeinqZmgDJ1RZw_sr2_0.safetygoal_table" type="TABLE_STATE"/>
+      <containedElements xsi:type="pjm:PJDiagram" xmi:id="_DQG_INybEeinqZmgDJ1RZw" mediniIdentifier="_DQG_INybEeinqZmgDJ1RZw" name="SG_SR_excel_import" uri="goals/_DQG_INybEeinqZmgDJ1RZw.safegoal_diagram" modelID="Safetygoals" editorID="de.ikv.analyze.editor.safetygoals.diagram.part.SafetygoalsDiagramEditorID">
+        <canvasElement href="goals/_DP6x4NybEeinqZmgDJ1RZw.safetygoal#_DP6x4NybEeinqZmgDJ1RZw"/>
+        <diagram href="goals/_DQG_INybEeinqZmgDJ1RZw.safegoal_diagram#_DQI0UNybEeinqZmgDJ1RZw"/>
+      </containedElements>
+      <originalModel href="goals/_DP6x4NybEeinqZmgDJ1RZw.safetygoal#_DP6x4NybEeinqZmgDJ1RZw"/>
+    </containedElements>
+  </nestedPackages>
+  <nestedPackages xmi:id="_aYiZZLsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZZLsUEeiB8vRl3oVbTA" name="System Design">
+    <eAnnotations xmi:id="_aYjAebsUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+      <details xmi:id="_aYjAersUEeiB8vRl3oVbTA" key="kind" value="SystemArchitectureModels"/>
+    </eAnnotations>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_DeVK8N5UEeic8oKnJqmC4w" mediniIdentifier="_DeVK8N5UEeic8oKnJqmC4w">
+      <eAnnotations xmi:id="_DeVyAd5UEeic8oKnJqmC4w" source="analyzeSourceTag">
+        <details xmi:id="_DeVyAt5UEeic8oKnJqmC4w" key="linkedTo" value="Simulink"/>
+        <details xmi:id="_DeVyA95UEeic8oKnJqmC4w" key="SimulinkModelName" value="Lights"/>
+        <details xmi:id="_DeVyBN5UEeic8oKnJqmC4w" key="SimulinkModelFile" value="C:\Users\SeungWon.Lee\Desktop\이승원_업무\medini unite\demo\Ancestor\Lights.mdl"/>
+        <details xmi:id="_DeVyBd5UEeic8oKnJqmC4w" key="lastImport" value="1541131322656"/>
+      </eAnnotations>
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_DeVK8d5UEeic8oKnJqmC4w" mediniIdentifier="_DeVK8d5UEeic8oKnJqmC4w" name="Lights.mdl" resourceURI="simulink/ms1541131322387/Lights.mdl" type="MDL_MASTER"/>
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_DeVyAN5UEeic8oKnJqmC4w" mediniIdentifier="_DeVyAN5UEeic8oKnJqmC4w" resourceURI="simulink/ms1541131322387" folder="true" type="FOLDER_MDL"/>
+      <originalModel href="simulink/ms1541131322387/ms1541131322387.simulink#_Dd-loN5UEeic8oKnJqmC4w"/>
+    </containedElements>
+    <nestedPackages xmi:id="_aYiZZbsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZZbsUEeiB8vRl3oVbTA" name="Hardware Models">
+      <eAnnotations xmi:id="_aYjAe7sUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+        <details xmi:id="_aYjAfLsUEeiB8vRl3oVbTA" key="kind" value="SystemArchitectureModels"/>
+      </eAnnotations>
+      <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_s2MOIb5OEeiS1P338xyltQ" mediniIdentifier="_s2MOIb5OEeiS1P338xyltQ">
+        <containedElements xsi:type="pjm:PJResource" xmi:id="_s2ODUL5OEeiS1P338xyltQ" mediniIdentifier="_s2ODUL5OEeiS1P338xyltQ" name="sys0" resourceURI="sysml/_s2H8sL5OEeiS1P338xyltQ_sys0.sysml_table" type="TABLE_STATE"/>
+        <containedElements xsi:type="pjm:PJDiagram" xmi:id="_s2ODUb5OEeiS1P338xyltQ" mediniIdentifier="_s2ODUb5OEeiS1P338xyltQ" name="H/W Model" uri="sysml/_s2ODUb5OEeiS1P338xyltQ.sysml_diagram" modelID="SysML" editorID="de.ikv.medini.editor.sysml.block.diagram.part.SysmlDiagramEditorID">
+          <canvasElement href="sysml/_s2H8sL5OEeiS1P338xyltQ.sysml#_s2H8sL5OEeiS1P338xyltQ"/>
+          <diagram href="sysml/_s2ODUb5OEeiS1P338xyltQ.sysml_diagram#_s2QfkL5OEeiS1P338xyltQ"/>
+        </containedElements>
+        <originalModel href="sysml/_s2H8sL5OEeiS1P338xyltQ.sysml#_s2H8sL5OEeiS1P338xyltQ"/>
+      </containedElements>
+      <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_FNAykb5QEeiS1P338xyltQ" mediniIdentifier="_FNAykb5QEeiS1P338xyltQ">
+        <eAnnotations xmi:id="_FNCAsb5QEeiS1P338xyltQ" source="analyzeSourceTag">
+          <details xmi:id="_FNCAsr5QEeiS1P338xyltQ" key="LibraryModel" value="on"/>
+          <details xmi:id="_FNCAs75QEeiS1P338xyltQ" key="LibraryModelVersion" value=""/>
+        </eAnnotations>
+        <containedElements xsi:type="pjm:PJResource" xmi:id="_FNCAsL5QEeiS1P338xyltQ" mediniIdentifier="_FNCAsL5QEeiS1P338xyltQ" name="sys0" resourceURI="sysml/_FM9vQL5QEeiS1P338xyltQ_sys0.sysml_table" type="TABLE_STATE"/>
+        <containedElements xsi:type="pjm:PJDiagram" xmi:id="_FNCnwL5QEeiS1P338xyltQ" mediniIdentifier="_FNCnwL5QEeiS1P338xyltQ" name="HW_Lib" uri="sysml/_FNCnwL5QEeiS1P338xyltQ.sysml_diagram" modelID="SysML" editorID="de.ikv.medini.editor.sysml.block.diagram.part.SysmlDiagramEditorID">
+          <canvasElement href="sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_FM9vQL5QEeiS1P338xyltQ"/>
+          <diagram href="sysml/_FNCnwL5QEeiS1P338xyltQ.sysml_diagram#_FNJVcL5QEeiS1P338xyltQ"/>
+        </containedElements>
+        <originalModel href="sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_FM9vQL5QEeiS1P338xyltQ"/>
+      </containedElements>
+      <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_8hXxId5ZEeic8oKnJqmC4w" mediniIdentifier="_8hXxId5ZEeic8oKnJqmC4w">
+        <eAnnotations xmi:id="_zaASEN5bEeic8oKnJqmC4w" source="analyzeSourceTag">
+          <details xmi:id="_zaASEd5bEeic8oKnJqmC4w" key="lastExcelFile" value="C:\Users\SeungWon.Lee\Desktop\HW_BOM.xlsx"/>
+          <details xmi:id="_zaASEt5bEeic8oKnJqmC4w" key="lastExcelImport" value="1541596934266"/>
+        </eAnnotations>
+        <containedElements xsi:type="pjm:PJResource" xmi:id="_8hcpoN5ZEeic8oKnJqmC4w" mediniIdentifier="_8hcpoN5ZEeic8oKnJqmC4w" name="sys0" resourceURI="sysml/_8hNZEN5ZEeic8oKnJqmC4w_sys0.sysml_table" type="TABLE_STATE"/>
+        <containedElements xsi:type="pjm:PJDiagram" xmi:id="_8hmaoN5ZEeic8oKnJqmC4w" mediniIdentifier="_8hmaoN5ZEeic8oKnJqmC4w" name="H/W BOM" uri="sysml/_8hmaoN5ZEeic8oKnJqmC4w.sysml_diagram" modelID="SysML" editorID="de.ikv.medini.editor.sysml.block.diagram.part.SysmlDiagramEditorID">
+          <canvasElement href="sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_8hNZEN5ZEeic8oKnJqmC4w"/>
+          <diagram href="sysml/_8hmaoN5ZEeic8oKnJqmC4w.sysml_diagram#_8hqFAN5ZEeic8oKnJqmC4w"/>
+        </containedElements>
+        <containedElements xsi:type="pjm:PJResource" xmi:id="_zZ1S8N5bEeic8oKnJqmC4w" mediniIdentifier="_zZ1S8N5bEeic8oKnJqmC4w" name="C:\Users\SeungWon.Lee\Desktop\HW_BOM.xlsx" description="1541134650784" resourceURI="sysml/_zY_lcN5bEeic8oKnJqmC4w.csv_import_baseline" type="CSV_IMPORT"/>
+        <containedElements xsi:type="pjm:PJResource" xmi:id="_I_-6EOKQEeidB9GPVOcepg" mediniIdentifier="_I_-6EOKQEeidB9GPVOcepg" name="C:\Users\SeungWon.Lee\Desktop\HW_BOM.xlsx" description="1541596934193" resourceURI="sysml/_Ih5P4OKQEeidB9GPVOcepg.csv_import_baseline" type="CSV_IMPORT"/>
+        <originalModel href="sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_8hNZEN5ZEeic8oKnJqmC4w"/>
+      </containedElements>
+      <nestedPackages xmi:id="_AxgJML5TEeiS1P338xyltQ" mediniIdentifier="_AxgJML5TEeiS1P338xyltQ" name="image">
+        <eAnnotations xmi:id="_AxgJMb5TEeiS1P338xyltQ" source="analyzeSourceTag">
+          <details xmi:id="_AxgJMr5TEeiS1P338xyltQ" key="kind" value="SystemArchitectureModels"/>
+          <details xmi:id="_AxgJM75TEeiS1P338xyltQ" key="customPackage" value="yes"/>
+        </eAnnotations>
+        <containedElements xsi:type="pjm:PJExternalDocument" xmi:id="_D5-WAL5TEeiS1P338xyltQ" mediniIdentifier="_D5-WAL5TEeiS1P338xyltQ" name="avr_mcu.jpg" uri="docs/_D5-WAL5TEeiS1P338xyltQ/avr_mcu.jpg"/>
+        <containedElements xsi:type="pjm:PJExternalDocument" xmi:id="_DhIWML5pEeiS1P338xyltQ" mediniIdentifier="_DhIWML5pEeiS1P338xyltQ" name="st_mcu.PNG" uri="docs/_DhIWML5pEeiS1P338xyltQ/st_mcu.PNG"/>
+      </nestedPackages>
+      <nestedPackages xmi:id="_OsoDEMVgEeiLRo9SrSbk3A" mediniIdentifier="_OsoDEMVgEeiLRo9SrSbk3A" name="BOM_EXCEL">
+        <eAnnotations xmi:id="_OsoDEcVgEeiLRo9SrSbk3A" source="analyzeSourceTag">
+          <details xmi:id="_OsoDEsVgEeiLRo9SrSbk3A" key="kind" value="SystemArchitectureModels"/>
+          <details xmi:id="_OsoDE8VgEeiLRo9SrSbk3A" key="customPackage" value="yes"/>
+        </eAnnotations>
+        <containedElements xsi:type="pjm:PJExternalDocument" xmi:id="_PXMDAMVgEeiLRo9SrSbk3A" mediniIdentifier="_PXMDAMVgEeiLRo9SrSbk3A" name="HW_BOM.xlsx" uri="docs/_PXMDAMVgEeiLRo9SrSbk3A/HW_BOM.xlsx"/>
+      </nestedPackages>
+    </nestedPackages>
+    <nestedPackages xmi:id="_aYiZZrsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZZrsUEeiB8vRl3oVbTA" name="Software Models">
+      <eAnnotations xmi:id="_aYjAfbsUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+        <details xmi:id="_aYjAfrsUEeiB8vRl3oVbTA" key="kind" value="SystemArchitectureModels"/>
+      </eAnnotations>
+    </nestedPackages>
+    <nestedPackages xmi:id="_P4n7gL5iEeiS1P338xyltQ" mediniIdentifier="_P4n7gL5iEeiS1P338xyltQ" name="System Models">
+      <eAnnotations xmi:id="_P4n7gb5iEeiS1P338xyltQ" source="analyzeSourceTag">
+        <details xmi:id="_P4n7gr5iEeiS1P338xyltQ" key="kind" value="SystemArchitectureModels"/>
+        <details xmi:id="_P4n7g75iEeiS1P338xyltQ" key="customPackage" value="yes"/>
+      </eAnnotations>
+      <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_TqH3Mb5iEeiS1P338xyltQ" mediniIdentifier="_TqH3Mb5iEeiS1P338xyltQ">
+        <containedElements xsi:type="pjm:PJResource" xmi:id="_TqJsYL5iEeiS1P338xyltQ" mediniIdentifier="_TqJsYL5iEeiS1P338xyltQ" name="sys0" resourceURI="sysml/_TqGCAL5iEeiS1P338xyltQ_sys0.sysml_table" type="TABLE_STATE"/>
+        <containedElements xsi:type="pjm:PJDiagram" xmi:id="_TqJsYb5iEeiS1P338xyltQ" mediniIdentifier="_TqJsYb5iEeiS1P338xyltQ" name="System Model" uri="sysml/_TqJsYb5iEeiS1P338xyltQ.sysml_diagram" modelID="SysML" editorID="de.ikv.medini.editor.sysml.block.diagram.part.SysmlDiagramEditorID">
+          <canvasElement href="sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_TqGCAL5iEeiS1P338xyltQ"/>
+          <diagram href="sysml/_TqJsYb5iEeiS1P338xyltQ.sysml_diagram#_TqLhkL5iEeiS1P338xyltQ"/>
+        </containedElements>
+        <containedElements xsi:type="pjm:PJDiagram" xmi:id="_m3mqUelEEeibYZeDQPwtFw" mediniIdentifier="_m3mqUelEEeibYZeDQPwtFw" name="copy" uri="sysml/_m3mqUOlEEeibYZeDQPwtFw.sysml_diagram" modelID="SysML" editorID="de.ikv.medini.editor.sysml.block.diagram.part.SysmlDiagramEditorID">
+          <canvasElement href="sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_TqGCAL5iEeiS1P338xyltQ"/>
+          <diagram href="sysml/_m3mqUOlEEeibYZeDQPwtFw.sysml_diagram#_m3mqUulEEeibYZeDQPwtFw"/>
+        </containedElements>
+        <originalModel href="sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_TqGCAL5iEeiS1P338xyltQ"/>
+      </containedElements>
+    </nestedPackages>
+  </nestedPackages>
+  <nestedPackages xmi:id="_aYiZZ7sUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZZ7sUEeiB8vRl3oVbTA" name="Safety Analysis">
+    <eAnnotations xmi:id="_aYjAf7sUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+      <details xmi:id="_aYjAgLsUEeiB8vRl3oVbTA" key="kind" value=""/>
+    </eAnnotations>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_ttKJAL5nEeiS1P338xyltQ" mediniIdentifier="_ttKJAL5nEeiS1P338xyltQ">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_ttOacL5nEeiS1P338xyltQ" mediniIdentifier="_ttOacL5nEeiS1P338xyltQ" name="measures0" resourceURI="commons/_ttDbUL5nEeiS1P338xyltQ_measures0.measures_table" type="TABLE_STATE"/>
+      <originalModel href="commons/_ttDbUL5nEeiS1P338xyltQ.measures#_ttDbUL5nEeiS1P338xyltQ"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_0AUwML5nEeiS1P338xyltQ" mediniIdentifier="_0AUwML5nEeiS1P338xyltQ">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_0AgWYL5nEeiS1P338xyltQ" mediniIdentifier="_0AgWYL5nEeiS1P338xyltQ" name="measures0" resourceURI="commons/_0AIi8L5nEeiS1P338xyltQ_measures0.measures_table" type="TABLE_STATE"/>
+      <originalModel href="commons/_0AIi8L5nEeiS1P338xyltQ.measures#_0AIi8L5nEeiS1P338xyltQ"/>
+    </containedElements>
+    <nestedPackages xmi:id="_aYiZaLsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZaLsUEeiB8vRl3oVbTA" name="FMEA Worksheets">
+      <eAnnotations xmi:id="_aYjAgbsUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+        <details xmi:id="_aYjAgrsUEeiB8vRl3oVbTA" key="kind" value="FMEAWorksheets"/>
+      </eAnnotations>
+      <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_9KEYYL5mEeiS1P338xyltQ" mediniIdentifier="_9KEYYL5mEeiS1P338xyltQ">
+        <containedElements xsi:type="pjm:PJResource" xmi:id="_9KG0oL5mEeiS1P338xyltQ" mediniIdentifier="_9KG0oL5mEeiS1P338xyltQ" name="fmea0" resourceURI="fmea/_9J8ckL5mEeiS1P338xyltQ_fmea0.fmea_table" type="TABLE_STATE"/>
+        <originalModel href="fmea/_9J8ckL5mEeiS1P338xyltQ.fmea#_9J8ckL5mEeiS1P338xyltQ"/>
+      </containedElements>
+      <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_kqm4gL5pEeiS1P338xyltQ" mediniIdentifier="_kqm4gL5pEeiS1P338xyltQ">
+        <containedElements xsi:type="pjm:PJResource" xmi:id="_kqotsL5pEeiS1P338xyltQ" mediniIdentifier="_kqotsL5pEeiS1P338xyltQ" name="fmea0" resourceURI="fmea/_kqhY8L5pEeiS1P338xyltQ_fmea0.fmea_table" type="TABLE_STATE"/>
+        <originalModel href="fmea/_kqhY8L5pEeiS1P338xyltQ.fmea#_kqhY8L5pEeiS1P338xyltQ"/>
+      </containedElements>
+      <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_37mGkN5eEeic8oKnJqmC4w" mediniIdentifier="_37mGkN5eEeic8oKnJqmC4w">
+        <containedElements xsi:type="pjm:PJResource" xmi:id="_37qYAN5eEeic8oKnJqmC4w" mediniIdentifier="_37qYAN5eEeic8oKnJqmC4w" name="fmea0" resourceURI="fmea/_37h1IN5eEeic8oKnJqmC4w_fmea0.fmea_table" type="TABLE_STATE"/>
+        <originalModel href="fmea/_37h1IN5eEeic8oKnJqmC4w.fmea#_37h1IN5eEeic8oKnJqmC4w"/>
+      </containedElements>
+      <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_LKAhoOKQEeidB9GPVOcepg" mediniIdentifier="_LKAhoOKQEeidB9GPVOcepg">
+        <containedElements xsi:type="pjm:PJResource" xmi:id="_LKMu4OKQEeidB9GPVOcepg" mediniIdentifier="_LKMu4OKQEeidB9GPVOcepg" name="fmea0" resourceURI="fmea/_LJzGQOKQEeidB9GPVOcepg_fmea0.fmea_table" type="TABLE_STATE"/>
+        <originalModel href="fmea/_LJzGQOKQEeidB9GPVOcepg.fmea#_LJzGQOKQEeidB9GPVOcepg"/>
+      </containedElements>
+    </nestedPackages>
+    <nestedPackages xmi:id="_aYiZabsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZabsUEeiB8vRl3oVbTA" name="FTA Models">
+      <eAnnotations xmi:id="_aYjAg7sUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+        <details xmi:id="_aYjAhLsUEeiB8vRl3oVbTA" key="kind" value="FTAModels"/>
+      </eAnnotations>
+      <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_1aBxQL5rEeiS1P338xyltQ" mediniIdentifier="_1aBxQL5rEeiS1P338xyltQ">
+        <containedElements xsi:type="pjm:PJDiagram" xmi:id="_1aCYUL5rEeiS1P338xyltQ" mediniIdentifier="_1aCYUL5rEeiS1P338xyltQ" name="FTA for [G002&#x5d;" uri="fta/_1aCYUL5rEeiS1P338xyltQ.fta_diagram" modelID="FaultTreeAnalysis" editorID="de.ikv.medini.editor.fta.diagram.part.FaultTreeAnalysisDiagramEditorID">
+          <canvasElement href="fta/_1Z0V4L5rEeiS1P338xyltQ.fta#_1Z0V4L5rEeiS1P338xyltQ"/>
+          <diagram href="fta/_1aCYUL5rEeiS1P338xyltQ.fta_diagram#_1aK7ML5rEeiS1P338xyltQ"/>
+        </containedElements>
+        <originalModel href="fta/_1Z0V4L5rEeiS1P338xyltQ.fta#_1Z0V4L5rEeiS1P338xyltQ"/>
+      </containedElements>
+      <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_yAi9EN5hEeic8oKnJqmC4w" mediniIdentifier="_yAi9EN5hEeic8oKnJqmC4w">
+        <containedElements xsi:type="pjm:PJDiagram" xmi:id="_ymeUoN5hEeic8oKnJqmC4w" mediniIdentifier="_ymeUoN5hEeic8oKnJqmC4w" name="Driver Light Switch" uri="fta/_ymeUoN5hEeic8oKnJqmC4w.fta_diagram" modelID="FaultTreeAnalysis" editorID="de.ikv.medini.editor.fta.diagram.part.FaultTreeAnalysisDiagramEditorID">
+          <canvasElement href="fta/_yAeroN5hEeic8oKnJqmC4w.fta#_yAeroN5hEeic8oKnJqmC4w"/>
+          <diagram href="fta/_ymeUoN5hEeic8oKnJqmC4w.fta_diagram#_ymgJ0N5hEeic8oKnJqmC4w"/>
+        </containedElements>
+        <originalModel href="fta/_yAeroN5hEeic8oKnJqmC4w.fta#_yAeroN5hEeic8oKnJqmC4w"/>
+      </containedElements>
+    </nestedPackages>
+    <nestedPackages xmi:id="_aYiZarsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZarsUEeiB8vRl3oVbTA" name="Diagnostic Coverage">
+      <eAnnotations xmi:id="_aYjAhbsUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+        <details xmi:id="_aYjAhrsUEeiB8vRl3oVbTA" key="kind" value="DC"/>
+      </eAnnotations>
+      <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_38zBoN54Eeic8oKnJqmC4w" mediniIdentifier="_38zBoN54Eeic8oKnJqmC4w">
+        <containedElements xsi:type="pjm:PJResource" xmi:id="_381d4N54Eeic8oKnJqmC4w" mediniIdentifier="_381d4N54Eeic8oKnJqmC4w" name="dc0" resourceURI="dc/_38xMcN54Eeic8oKnJqmC4w_dc0.dc_table" type="TABLE_STATE"/>
+        <containedElements xsi:type="pjm:PJResource" xmi:id="_3836IN54Eeic8oKnJqmC4w" mediniIdentifier="_3836IN54Eeic8oKnJqmC4w" name="dc1" resourceURI="dc/_38xMcN54Eeic8oKnJqmC4w_dc1.dc_table" type="TABLE_STATE"/>
+        <originalModel href="dc/_38xMcN54Eeic8oKnJqmC4w.dc#_38xMcN54Eeic8oKnJqmC4w"/>
+      </containedElements>
+    </nestedPackages>
+  </nestedPackages>
+  <nestedPackages xmi:id="_aYiZa7sUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZa7sUEeiB8vRl3oVbTA" name="Checklists">
+    <eAnnotations xmi:id="_aYjAh7sUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+      <details xmi:id="_aYjAiLsUEeiB8vRl3oVbTA" key="kind" value="Checklists"/>
+    </eAnnotations>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_0GfqcOe4Eei5auRY4f7U-A" mediniIdentifier="_0GfqcOe4Eei5auRY4f7U-A">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_0GpbcOe4Eei5auRY4f7U-A" mediniIdentifier="_0GpbcOe4Eei5auRY4f7U-A" name="ch_review0" resourceURI="checklist/_0GWggOe4Eei5auRY4f7U-A_ch_review0.chklst_tree" type="TABLE_STATE"/>
+      <originalModel href="checklist/_0GWggOe4Eei5auRY4f7U-A.chklst_def#_0GWggOe4Eei5auRY4f7U-A"/>
+    </containedElements>
+  </nestedPackages>
+  <nestedPackages xmi:id="_aYiZbLsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZbLsUEeiB8vRl3oVbTA" name="HazopTemplates">
+    <eAnnotations xmi:id="_aYjAibsUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+      <details xmi:id="_aYjAirsUEeiB8vRl3oVbTA" key="kind" value="HazardAndOperabilityTemplates"/>
+    </eAnnotations>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_GYLWQL4xEeiEI8xqgnQSmw" mediniIdentifier="_GYLWQL4xEeiEI8xqgnQSmw">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_GYQ10L4xEeiEI8xqgnQSmw" mediniIdentifier="_GYQ10L4xEeiEI8xqgnQSmw" name="hazop_review0" resourceURI="hazop/_GX-h8L4xEeiEI8xqgnQSmw_hazop_review0.hazop_table" type="TABLE_STATE"/>
+      <originalModel href="hazop/_GX-h8L4xEeiEI8xqgnQSmw.hazop_def#_GX-h8L4xEeiEI8xqgnQSmw"/>
+    </containedElements>
+  </nestedPackages>
+  <nestedPackages xmi:id="_aYiZbbsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZbbsUEeiB8vRl3oVbTA" name="Catalogs">
+    <eAnnotations xmi:id="_aYjAi7sUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+      <details xmi:id="_aYjAjLsUEeiB8vRl3oVbTA" key="kind" value="DrivingSituationsCatalogs"/>
+    </eAnnotations>
+  </nestedPackages>
+  <nestedPackages xmi:id="_aYiZbrsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZbrsUEeiB8vRl3oVbTA" name="SafetyMechanismsCatalogs">
+    <eAnnotations xmi:id="_aYjAjbsUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+      <details xmi:id="_aYjAjrsUEeiB8vRl3oVbTA" key="kind" value="SafetyMechanismCatalogs"/>
+    </eAnnotations>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_acGDsLsUEeiB8vRl3oVbTA" mediniIdentifier="_acGDsLsUEeiB8vRl3oVbTA">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_acH44LsUEeiB8vRl3oVbTA" mediniIdentifier="_acH44LsUEeiB8vRl3oVbTA" name="sme0" resourceURI="commons/table_d2_sme0.measures_table" type="TABLE_STATE"/>
+      <originalModel href="commons/table_d2.measures#_nyoFIE8_EeCE3d5AJuslQw"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_acKVILsUEeiB8vRl3oVbTA" mediniIdentifier="_acKVILsUEeiB8vRl3oVbTA">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_acK8MLsUEeiB8vRl3oVbTA" mediniIdentifier="_acK8MLsUEeiB8vRl3oVbTA" name="sme0" resourceURI="commons/table_d3_sme0.measures_table" type="TABLE_STATE"/>
+      <originalModel href="commons/table_d3.measures#_bzGioE9AEeC1A4_enB0KXA"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_acNYcLsUEeiB8vRl3oVbTA" mediniIdentifier="_acNYcLsUEeiB8vRl3oVbTA">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_acN_gLsUEeiB8vRl3oVbTA" mediniIdentifier="_acN_gLsUEeiB8vRl3oVbTA" name="sme0" resourceURI="commons/table_d4_sme0.measures_table" type="TABLE_STATE"/>
+      <originalModel href="commons/table_d4.measures#_htvVEE9AEeC1A4_enB0KXA"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_acP0trsUEeiB8vRl3oVbTA" mediniIdentifier="_acP0trsUEeiB8vRl3oVbTA">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_acRC0LsUEeiB8vRl3oVbTA" mediniIdentifier="_acRC0LsUEeiB8vRl3oVbTA" name="sme0" resourceURI="commons/table_d5_sme0.measures_table" type="TABLE_STATE"/>
+      <originalModel href="commons/table_d5.measures#_mmXQ4E9AEeC1A4_enB0KXA"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_acS4ALsUEeiB8vRl3oVbTA" mediniIdentifier="_acS4ALsUEeiB8vRl3oVbTA">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_acTfELsUEeiB8vRl3oVbTA" mediniIdentifier="_acTfELsUEeiB8vRl3oVbTA" name="sme0" resourceURI="commons/table_d6_sme0.measures_table" type="TABLE_STATE"/>
+      <originalModel href="commons/table_d6.measures#_A01I4E9BEeC1A4_enB0KXA"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_acVUQLsUEeiB8vRl3oVbTA" mediniIdentifier="_acVUQLsUEeiB8vRl3oVbTA">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_acV7ULsUEeiB8vRl3oVbTA" mediniIdentifier="_acV7ULsUEeiB8vRl3oVbTA" name="sme0" resourceURI="commons/table_d7_sme0.measures_table" type="TABLE_STATE"/>
+      <originalModel href="commons/table_d7.measures#_NLMBkE9BEeC1A4_enB0KXA"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_acYXkLsUEeiB8vRl3oVbTA" mediniIdentifier="_acYXkLsUEeiB8vRl3oVbTA">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_acY-oLsUEeiB8vRl3oVbTA" mediniIdentifier="_acY-oLsUEeiB8vRl3oVbTA" name="sme0" resourceURI="commons/table_d8_sme0.measures_table" type="TABLE_STATE"/>
+      <originalModel href="commons/table_d8.measures#_arT-sE9BEeC1A4_enB0KXA"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_acaz07sUEeiB8vRl3oVbTA" mediniIdentifier="_acaz07sUEeiB8vRl3oVbTA">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_accB8LsUEeiB8vRl3oVbTA" mediniIdentifier="_accB8LsUEeiB8vRl3oVbTA" name="sme0" resourceURI="commons/table_d9_sme0.measures_table" type="TABLE_STATE"/>
+      <originalModel href="commons/table_d9.measures#_hcfXkE9BEeC1A4_enB0KXA"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_acdQFrsUEeiB8vRl3oVbTA" mediniIdentifier="_acdQFrsUEeiB8vRl3oVbTA">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_aceeMLsUEeiB8vRl3oVbTA" mediniIdentifier="_aceeMLsUEeiB8vRl3oVbTA" name="sme0" resourceURI="commons/table_d10_sme0.measures_table" type="TABLE_STATE"/>
+      <originalModel href="commons/table_d10.measures#_l8q-ME9BEeC1A4_enB0KXA"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_acgTYLsUEeiB8vRl3oVbTA" mediniIdentifier="_acgTYLsUEeiB8vRl3oVbTA">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_acg6cLsUEeiB8vRl3oVbTA" mediniIdentifier="_acg6cLsUEeiB8vRl3oVbTA" name="sme0" resourceURI="commons/table_d11_sme0.measures_table" type="TABLE_STATE"/>
+      <originalModel href="commons/table_d11.measures#_tdr4kE9BEeC1A4_enB0KXA"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_acivorsUEeiB8vRl3oVbTA" mediniIdentifier="_acivorsUEeiB8vRl3oVbTA">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_acj9wLsUEeiB8vRl3oVbTA" mediniIdentifier="_acj9wLsUEeiB8vRl3oVbTA" name="sme0" resourceURI="commons/table_d12_sme0.measures_table" type="TABLE_STATE"/>
+      <originalModel href="commons/table_d12.measures#_yH3IsE9BEeC1A4_enB0KXA"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_aclL47sUEeiB8vRl3oVbTA" mediniIdentifier="_aclL47sUEeiB8vRl3oVbTA">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_acmaALsUEeiB8vRl3oVbTA" mediniIdentifier="_acmaALsUEeiB8vRl3oVbTA" name="sme0" resourceURI="commons/table_d13_sme0.measures_table" type="TABLE_STATE"/>
+      <originalModel href="commons/table_d13.measures#_2c3aEE9BEeC1A4_enB0KXA"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_acoPMLsUEeiB8vRl3oVbTA" mediniIdentifier="_acoPMLsUEeiB8vRl3oVbTA">
+      <containedElements xsi:type="pjm:PJResource" xmi:id="_acpdULsUEeiB8vRl3oVbTA" mediniIdentifier="_acpdULsUEeiB8vRl3oVbTA" name="sme0" resourceURI="commons/table_d14_sme0.measures_table" type="TABLE_STATE"/>
+      <originalModel href="commons/table_d14.measures#_6tQ4QE9BEeC1A4_enB0KXA"/>
+    </containedElements>
+  </nestedPackages>
+  <nestedPackages xmi:id="_aYiZb7sUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZb7sUEeiB8vRl3oVbTA" name="FailureRateCatalogs">
+    <eAnnotations xmi:id="_aYjAj7sUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+      <details xmi:id="_aYjAkLsUEeiB8vRl3oVbTA" key="kind" value="FailureRateCatalogs"/>
+    </eAnnotations>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_RsgqEL5ZEeiS1P338xyltQ" mediniIdentifier="_RsgqEL5ZEeiS1P338xyltQ">
+      <originalModel href="commons/_RsgqEb5ZEeiS1P338xyltQ.frc#_DoL2oF1WEeG0ye9uJ_Wj4w"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_SmHLkL5ZEeiS1P338xyltQ" mediniIdentifier="_SmHLkL5ZEeiS1P338xyltQ">
+      <originalModel href="commons/_SmHLkb5ZEeiS1P338xyltQ.frc#_DoL2oF1WEeG0ye9uJ_Wj4w"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_xf8MUNyeEeinqZmgDJ1RZw" mediniIdentifier="_xf8MUNyeEeinqZmgDJ1RZw">
+      <originalModel href="commons/_xf8MUdyeEeinqZmgDJ1RZw.frc#_DoL2oF1WEeG0ye9uJ_Wj4w"/>
+    </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_x6xHINyeEeinqZmgDJ1RZw" mediniIdentifier="_x6xHINyeEeinqZmgDJ1RZw">
+      <originalModel href="commons/_x6xHIdyeEeinqZmgDJ1RZw.frc#_DoL2oF1WEeG0ye9uJ_Wj4w"/>
+    </containedElements>
+  </nestedPackages>
+  <nestedPackages xmi:id="_aYiZcLsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZcLsUEeiB8vRl3oVbTA" name="MissionProfiles">
+    <eAnnotations xmi:id="_aYjAkbsUEeiB8vRl3oVbTA" source="analyzeSourceTag">
+      <details xmi:id="_aYjAkrsUEeiB8vRl3oVbTA" key="kind" value="MissionProfiles"/>
+    </eAnnotations>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_NMK18L5aEeiS1P338xyltQ" mediniIdentifier="_NMK18L5aEeiS1P338xyltQ">
+      <originalModel href="commons/_NMHLkL5aEeiS1P338xyltQ.missionprofile#_NMHLkL5aEeiS1P338xyltQ"/>
+    </containedElements>
+  </nestedPackages>
+  <nestedPackages xmi:id="_8MaIAOfAEei5auRY4f7U-A" mediniIdentifier="_8MaIAOfAEei5auRY4f7U-A" name="external document">
+    <eAnnotations xmi:id="_8MaIAefAEei5auRY4f7U-A" source="analyzeSourceTag">
+      <details xmi:id="_8MaIAufAEei5auRY4f7U-A" key="customPackage" value="yes"/>
+    </eAnnotations>
+    <containedElements xsi:type="pjm:PJExternalDocument" xmi:id="_9nb7kOfAEei5auRY4f7U-A" mediniIdentifier="_9nb7kOfAEei5auRY4f7U-A" name="req_excel_import.xlsx" uri="docs/_9nb7kOfAEei5auRY4f7U-A/req_excel_import.xlsx"/>
+  </nestedPackages>
+</pjm:MediniProject>

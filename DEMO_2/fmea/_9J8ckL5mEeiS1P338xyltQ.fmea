@@ -1,0 +1,115 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<fmea:FMEAWorksheet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:fmea="http://www.ikv.de/analyze/metamodels/FMEA/1.0" xmi:id="_9J8ckL5mEeiS1P338xyltQ" mediniIdentifier="_9J8ckL5mEeiS1P338xyltQ" name="System FMEA" fmeaTeam="A" teamLeader="person" kind="COMPONENT" fmeaNumber="1">
+  <components xmi:id="_9_BqcL5mEeiS1P338xyltQ" mediniIdentifier="_9_BqcL5mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_uS_MML5iEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_Bqcb5mEeiS1P338xyltQ" mediniIdentifier="_9_Bqcb5mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_IhfgcL5jEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_Bqcr5mEeiS1P338xyltQ" mediniIdentifier="_9_Bqcr5mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_cI6L8L5jEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRgL5mEeiS1P338xyltQ" mediniIdentifier="_9_CRgL5mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_0JwV0L5jEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRgb5mEeiS1P338xyltQ" mediniIdentifier="_9_CRgb5mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_e5VFIL5jEeiS1P338xyltQ"/>
+    <failureModes xmi:id="_UWliUL5nEeiS1P338xyltQ" mediniIdentifier="_UWliUL5nEeiS1P338xyltQ">
+      <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_UWjGEL5nEeiS1P338xyltQ"/>
+      <failureEffects xmi:id="_fkSw4L5nEeiS1P338xyltQ" mediniIdentifier="_fkSw4L5nEeiS1P338xyltQ">
+        <element href="../failures/_dmxDIL45EeiPzcqKDn9RDw.failures#_4NK6AL45EeiPzcqKDn9RDw"/>
+      </failureEffects>
+      <failureEffects xmi:id="_fkSw4b5nEeiS1P338xyltQ" mediniIdentifier="_fkSw4b5nEeiS1P338xyltQ">
+        <element href="../failures/_dmxDIL45EeiPzcqKDn9RDw.failures#_LiwOoL46EeiPzcqKDn9RDw"/>
+      </failureEffects>
+      <failureCauses xmi:id="_ilep8L5nEeiS1P338xyltQ" mediniIdentifier="_ilep8L5nEeiS1P338xyltQ">
+        <element href="../sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_gpGlML5ZEeiS1P338xyltQ"/>
+        <currentDesignControls xmi:id="_459YoL5nEeiS1P338xyltQ" mediniIdentifier="_459YoL5nEeiS1P338xyltQ">
+          <element href="../sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_458xkL5nEeiS1P338xyltQ"/>
+        </currentDesignControls>
+      </failureCauses>
+      <failureCauses xmi:id="_ilfRAL5nEeiS1P338xyltQ" mediniIdentifier="_ilfRAL5nEeiS1P338xyltQ">
+        <element href="../sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_hmRYEL5ZEeiS1P338xyltQ"/>
+        <currentDesignControls xmi:id="_7amJYL5nEeiS1P338xyltQ" mediniIdentifier="_7amJYL5nEeiS1P338xyltQ">
+          <element href="../sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_7aliUL5nEeiS1P338xyltQ"/>
+        </currentDesignControls>
+      </failureCauses>
+      <failureCauses xmi:id="_ilfRAb5nEeiS1P338xyltQ" mediniIdentifier="_ilfRAb5nEeiS1P338xyltQ">
+        <element href="../sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_lVmwkL5ZEeiS1P338xyltQ"/>
+        <currentDesignControls xmi:id="_7ju3Qb5nEeiS1P338xyltQ" mediniIdentifier="_7ju3Qb5nEeiS1P338xyltQ">
+          <element href="../sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_7ju3QL5nEeiS1P338xyltQ"/>
+        </currentDesignControls>
+      </failureCauses>
+      <failureCauses xmi:id="_ilfRAr5nEeiS1P338xyltQ" mediniIdentifier="_ilfRAr5nEeiS1P338xyltQ">
+        <element href="../sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_mHNzsL5ZEeiS1P338xyltQ"/>
+        <currentDesignControls xmi:id="_7q-Hsb5nEeiS1P338xyltQ" mediniIdentifier="_7q-Hsb5nEeiS1P338xyltQ">
+          <element href="../sysml/_FM9vQL5QEeiS1P338xyltQ.sysml#_7q-HsL5nEeiS1P338xyltQ"/>
+        </currentDesignControls>
+      </failureCauses>
+      <failureCauses xmi:id="_8Rgb4L5qEeiS1P338xyltQ" mediniIdentifier="_8Rgb4L5qEeiS1P338xyltQ">
+        <element href="../sysml/_s2H8sL5OEeiS1P338xyltQ.sysml#_ySa8kL5qEeiS1P338xyltQ"/>
+      </failureCauses>
+    </failureModes>
+  </components>
+  <components xmi:id="_9_CRgr5mEeiS1P338xyltQ" mediniIdentifier="_9_CRgr5mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_0sZI0L5jEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRg75mEeiS1P338xyltQ" mediniIdentifier="_9_CRg75mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_UMmnQL5kEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRhL5mEeiS1P338xyltQ" mediniIdentifier="_9_CRhL5mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_G7iH4L5mEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRhb5mEeiS1P338xyltQ" mediniIdentifier="_9_CRhb5mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_jA5XcL5jEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRhr5mEeiS1P338xyltQ" mediniIdentifier="_9_CRhr5mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_1L020L5jEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRh75mEeiS1P338xyltQ" mediniIdentifier="_9_CRh75mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_16wZYL5jEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRiL5mEeiS1P338xyltQ" mediniIdentifier="_9_CRiL5mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_r7vLgL5jEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRib5mEeiS1P338xyltQ" mediniIdentifier="_9_CRib5mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_2ZbSYL5jEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRir5mEeiS1P338xyltQ" mediniIdentifier="_9_CRir5mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_3D7n8L5jEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRi75mEeiS1P338xyltQ" mediniIdentifier="_9_CRi75mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_e2_tYL5kEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRjL5mEeiS1P338xyltQ" mediniIdentifier="_9_CRjL5mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_kSxZkL5kEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRjb5mEeiS1P338xyltQ" mediniIdentifier="_9_CRjb5mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_31jnQL5lEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRjr5mEeiS1P338xyltQ" mediniIdentifier="_9_CRjr5mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_9bxo4L5lEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRj75mEeiS1P338xyltQ" mediniIdentifier="_9_CRj75mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_MAczQL5mEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRkL5mEeiS1P338xyltQ" mediniIdentifier="_9_CRkL5mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_JPQlYL5jEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRkb5mEeiS1P338xyltQ" mediniIdentifier="_9_CRkb5mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_x4wHEL5kEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRkr5mEeiS1P338xyltQ" mediniIdentifier="_9_CRkr5mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_-1nmIL5kEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRk75mEeiS1P338xyltQ" mediniIdentifier="_9_CRk75mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_2gqtYL5kEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRlL5mEeiS1P338xyltQ" mediniIdentifier="_9_CRlL5mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_6kQeoL5kEeiS1P338xyltQ"/>
+  </components>
+  <components xmi:id="_9_CRlb5mEeiS1P338xyltQ" mediniIdentifier="_9_CRlb5mEeiS1P338xyltQ">
+    <element href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_-dWQEL5kEeiS1P338xyltQ"/>
+  </components>
+  <analyzedModel href="../sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_TqGCAL5iEeiS1P338xyltQ"/>
+</fmea:FMEAWorksheet>

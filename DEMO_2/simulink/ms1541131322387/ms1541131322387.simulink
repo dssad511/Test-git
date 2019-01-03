@@ -1,0 +1,1327 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<Structure:SimulinkSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Configuration="http://www.ikv.de/Simulink/Configuration" xmlns:Structure="http://www.ikv.de/Simulink/Structure" xmi:id="_Dd-loN5UEeic8oKnJqmC4w" name="Lights" ports="_Dd_Nat5UEeic8oKnJqmC4w _Dd_Na95UEeic8oKnJqmC4w _Dd_NbN5UEeic8oKnJqmC4w">
+  <properties xsi:type="Configuration:FloatProperty" xmi:id="_Dd-lod5UEeic8oKnJqmC4w" name="Version" value="6.4"/>
+  <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-lot5UEeic8oKnJqmC4w" name="MdlSubVersion" value="0"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-lo95UEeic8oKnJqmC4w" name="SavedCharacterEncoding" value="windows-1252"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lpN5UEeic8oKnJqmC4w" name="SaveDefaultBlockParams" value="on"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lpd5UEeic8oKnJqmC4w" name="SampleTimeColors" value="off"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-lpt5UEeic8oKnJqmC4w" name="LibraryLinkDisplay" value="none"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lp95UEeic8oKnJqmC4w" name="WideLines" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lqN5UEeic8oKnJqmC4w" name="ShowLineDimensions" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lqd5UEeic8oKnJqmC4w" name="ShowPortDataTypes" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lqt5UEeic8oKnJqmC4w" name="ShowLoopsOnError" value="on"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lq95UEeic8oKnJqmC4w" name="IgnoreBidirectionalLines" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lrN5UEeic8oKnJqmC4w" name="ShowStorageClass" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lrd5UEeic8oKnJqmC4w" name="ShowTestPointIcons" value="on"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lrt5UEeic8oKnJqmC4w" name="ShowViewerIcons" value="on"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lr95UEeic8oKnJqmC4w" name="SortedOrder" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lsN5UEeic8oKnJqmC4w" name="ExecutionContextIcon" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lsd5UEeic8oKnJqmC4w" name="ShowLinearizationAnnotations" value="on"/>
+  <properties xsi:type="Configuration:FloatProperty" xmi:id="_Dd-lst5UEeic8oKnJqmC4w" name="ScopeRefreshTime" value="0.035"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-ls95UEeic8oKnJqmC4w" name="OverrideScopeRefreshTime" value="on"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-ltN5UEeic8oKnJqmC4w" name="DisableAllScopes" value="off"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-ltd5UEeic8oKnJqmC4w" name="DataTypeOverride" value="UseLocalSettings"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-ltt5UEeic8oKnJqmC4w" name="MinMaxOverflowLogging" value="UseLocalSettings"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-lt95UEeic8oKnJqmC4w" name="MinMaxOverflowArchiveMode" value="Overwrite"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-luN5UEeic8oKnJqmC4w" name="BlockNameDataTip" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lud5UEeic8oKnJqmC4w" name="BlockParametersDataTip" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lut5UEeic8oKnJqmC4w" name="BlockDescriptionStringDataTip" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lu95UEeic8oKnJqmC4w" name="ToolBar" value="on"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lvN5UEeic8oKnJqmC4w" name="StatusBar" value="on"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lvd5UEeic8oKnJqmC4w" name="BrowserShowLibraryLinks" value="on"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lvt5UEeic8oKnJqmC4w" name="BrowserLookUnderMasks" value="off"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-lv95UEeic8oKnJqmC4w" name="Created" value="Mon Jul 30 02:47:24 2007"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-lwN5UEeic8oKnJqmC4w" name="Creator" value="VMAdmin"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-lwd5UEeic8oKnJqmC4w" name="UpdateHistory" value="UpdateHistoryNever"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-lwt5UEeic8oKnJqmC4w" name="ModifiedByFormat" value="%&lt;Auto&gt;"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-lw95UEeic8oKnJqmC4w" name="LastModifiedBy" value="VMAdmin"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-lxN5UEeic8oKnJqmC4w" name="ModifiedDateFormat" value="%&lt;Auto&gt;"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-lxd5UEeic8oKnJqmC4w" name="LastModifiedDate" value="Sun Jun 14 12:49:25 2009"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-lxt5UEeic8oKnJqmC4w" name="ModelVersionFormat" value="1.%&lt;AutoIncrement:61&gt;"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-lx95UEeic8oKnJqmC4w" name="ConfigurationManager" value="None"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-lyN5UEeic8oKnJqmC4w" name="LinearizationMsg" value="none"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lyd5UEeic8oKnJqmC4w" name="Profile" value="off"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-lyt5UEeic8oKnJqmC4w" name="ParamWorkspaceSource" value="MATLABWorkspace"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-ly95UEeic8oKnJqmC4w" name="AccelSystemTargetFile" value="accel.tlc"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-lzN5UEeic8oKnJqmC4w" name="AccelTemplateMakefile" value="accel_default_tmf"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-lzd5UEeic8oKnJqmC4w" name="AccelMakeCommand" value="make_rtw"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lzt5UEeic8oKnJqmC4w" name="TryForcingSFcnDF" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-lz95UEeic8oKnJqmC4w" name="RecordCoverage" value="off"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-l0N5UEeic8oKnJqmC4w" name="CovPath" value="/"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-l0d5UEeic8oKnJqmC4w" name="CovSaveName" value="covdata"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-l0t5UEeic8oKnJqmC4w" name="CovMetricSettings" value="dw"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-l095UEeic8oKnJqmC4w" name="CovNameIncrementing" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-l1N5UEeic8oKnJqmC4w" name="CovHtmlReporting" value="on"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-l1d5UEeic8oKnJqmC4w" name="covSaveCumulativeToWorkspaceVar" value="on"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-l1t5UEeic8oKnJqmC4w" name="CovSaveSingleToWorkspaceVar" value="on"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-l195UEeic8oKnJqmC4w" name="CovCumulativeVarName" value="covCumulativeData"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-l2N5UEeic8oKnJqmC4w" name="CovCumulativeReport" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-l2d5UEeic8oKnJqmC4w" name="CovReportOnPause" value="on"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-l2t5UEeic8oKnJqmC4w" name="ExtModeBatchMode" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-l295UEeic8oKnJqmC4w" name="ExtModeEnableFloating" value="on"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-l3N5UEeic8oKnJqmC4w" name="ExtModeTrigType" value="manual"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-l3d5UEeic8oKnJqmC4w" name="ExtModeTrigMode" value="normal"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-l3t5UEeic8oKnJqmC4w" name="ExtModeTrigPort" value="1"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-l395UEeic8oKnJqmC4w" name="ExtModeTrigElement" value="any"/>
+  <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-l4N5UEeic8oKnJqmC4w" name="ExtModeTrigDuration" value="1000"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-l4d5UEeic8oKnJqmC4w" name="ExtModeTrigDurationFloating" value="auto"/>
+  <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-l4t5UEeic8oKnJqmC4w" name="ExtModeTrigHoldOff" value="0"/>
+  <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-l495UEeic8oKnJqmC4w" name="ExtModeTrigDelay" value="0"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-l5N5UEeic8oKnJqmC4w" name="ExtModeTrigDirection" value="rising"/>
+  <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-l5d5UEeic8oKnJqmC4w" name="ExtModeTrigLevel" value="0"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-l5t5UEeic8oKnJqmC4w" name="ExtModeArchiveMode" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-l595UEeic8oKnJqmC4w" name="ExtModeAutoIncOneShot" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-l6N5UEeic8oKnJqmC4w" name="ExtModeIncDirWhenArm" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-l6d5UEeic8oKnJqmC4w" name="ExtModeAddSuffixToVar" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-l6t5UEeic8oKnJqmC4w" name="ExtModeWriteAllDataToWs" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-l695UEeic8oKnJqmC4w" name="ExtModeArmWhenConnect" value="on"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-l7N5UEeic8oKnJqmC4w" name="ExtModeSkipDownloadWhenConnect" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-l7d5UEeic8oKnJqmC4w" name="ExtModeLogAll" value="on"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-l7t5UEeic8oKnJqmC4w" name="ExtModeAutoUpdateStatusClock" value="on"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-l795UEeic8oKnJqmC4w" name="BufferReuse" value="on"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-l8N5UEeic8oKnJqmC4w" name="ProdHWDeviceType" value="32-bit Generic"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-l8d5UEeic8oKnJqmC4w" name="ShowModelReferenceBlockVersion" value="off"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-l8t5UEeic8oKnJqmC4w" name="ShowModelReferenceBlockIO" value="off"/>
+  <properties xsi:type="Configuration:Array" xmi:id="_Dd-l895UEeic8oKnJqmC4w" name="ConfigurationSets">
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-l9N5UEeic8oKnJqmC4w" name="Type" value="Handle"/>
+    <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-l9d5UEeic8oKnJqmC4w" name="Dimension" value="1"/>
+    <properties xsi:type="Configuration:ConfigSet" xmi:id="_Dd-l9t5UEeic8oKnJqmC4w" name="Configuration">
+      <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-l995UEeic8oKnJqmC4w" name="$ObjectID" value="1"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-l-N5UEeic8oKnJqmC4w" name="Version" value="1.2.0"/>
+      <properties xsi:type="Configuration:Array" xmi:id="_Dd-l-d5UEeic8oKnJqmC4w" name="Components">
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-l-t5UEeic8oKnJqmC4w" name="Type" value="Handle"/>
+        <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-l-95UEeic8oKnJqmC4w" name="Dimension" value="7"/>
+        <properties xsi:type="Configuration:SimulinkPropertyList" xmi:id="_Dd-l_N5UEeic8oKnJqmC4w" name="Simulink.SolverCC">
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-l_d5UEeic8oKnJqmC4w" name="$ObjectID" value="2"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-l_t5UEeic8oKnJqmC4w" name="Version" value="1.2.0"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-l_95UEeic8oKnJqmC4w" name="StartTime" value="0.0"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mAN5UEeic8oKnJqmC4w" name="StopTime" value="5000"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mAd5UEeic8oKnJqmC4w" name="AbsTol" value="auto"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mAt5UEeic8oKnJqmC4w" name="FixedStep" value="auto"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mA95UEeic8oKnJqmC4w" name="InitialStep" value="auto"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mBN5UEeic8oKnJqmC4w" name="MaxNumMinSteps" value="-1"/>
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-mBd5UEeic8oKnJqmC4w" name="MaxOrder" value="5"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mBt5UEeic8oKnJqmC4w" name="ConsecutiveZCsStepRelTol" value="10*128*eps"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mB95UEeic8oKnJqmC4w" name="MaxConsecutiveZCs" value="1000"/>
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-mCN5UEeic8oKnJqmC4w" name="ExtrapolationOrder" value="4"/>
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-mCd5UEeic8oKnJqmC4w" name="NumberNewtonIterations" value="1"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mCt5UEeic8oKnJqmC4w" name="MaxStep" value="auto"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mC95UEeic8oKnJqmC4w" name="MinStep" value="auto"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mDN5UEeic8oKnJqmC4w" name="MaxConsecutiveMinStep" value="1"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mDd5UEeic8oKnJqmC4w" name="RelTol" value="1e-3"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mDt5UEeic8oKnJqmC4w" name="SolverMode" value="Auto"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mD95UEeic8oKnJqmC4w" name="Solver" value="ode45"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mEN5UEeic8oKnJqmC4w" name="SolverName" value="ode45"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mEd5UEeic8oKnJqmC4w" name="ZeroCrossControl" value="UseLocalSettings"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mEt5UEeic8oKnJqmC4w" name="AlgebraicLoopSolver" value="TrustRegion"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mE95UEeic8oKnJqmC4w" name="SolverResetMethod" value="Fast"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mFN5UEeic8oKnJqmC4w" name="PositivePriorityOrder" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mFd5UEeic8oKnJqmC4w" name="AutoInsertRateTranBlk" value="off"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mFt5UEeic8oKnJqmC4w" name="SampleTimeConstraint" value="Unconstrained"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mF95UEeic8oKnJqmC4w" name="RateTranMode" value="Deterministic"/>
+        </properties>
+        <properties xsi:type="Configuration:SimulinkPropertyList" xmi:id="_Dd-mGN5UEeic8oKnJqmC4w" name="Simulink.DataIOCC">
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-mGd5UEeic8oKnJqmC4w" name="$ObjectID" value="3"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mGt5UEeic8oKnJqmC4w" name="Version" value="1.2.0"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mG95UEeic8oKnJqmC4w" name="Decimation" value="1"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mHN5UEeic8oKnJqmC4w" name="ExternalInput" value="[t, u&#x5d;"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mHd5UEeic8oKnJqmC4w" name="FinalStateName" value="xFinal"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mHt5UEeic8oKnJqmC4w" name="InitialState" value="xInitial"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mH95UEeic8oKnJqmC4w" name="LimitDataPoints" value="on"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mIN5UEeic8oKnJqmC4w" name="MaxDataPoints" value="1000"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mId5UEeic8oKnJqmC4w" name="LoadExternalInput" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mIt5UEeic8oKnJqmC4w" name="LoadInitialState" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mI95UEeic8oKnJqmC4w" name="SaveFinalState" value="off"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mJN5UEeic8oKnJqmC4w" name="SaveFormat" value="Structure"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mJd5UEeic8oKnJqmC4w" name="SaveOutput" value="on"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mJt5UEeic8oKnJqmC4w" name="SaveState" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mJ95UEeic8oKnJqmC4w" name="SignalLogging" value="on"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mKN5UEeic8oKnJqmC4w" name="InspectSignalLogs" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mKd5UEeic8oKnJqmC4w" name="SaveTime" value="on"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mKt5UEeic8oKnJqmC4w" name="StateSaveName" value="xout"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mK95UEeic8oKnJqmC4w" name="TimeSaveName" value="tout"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mLN5UEeic8oKnJqmC4w" name="OutputSaveName" value="yout"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mLd5UEeic8oKnJqmC4w" name="SignalLoggingName" value="logsout"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mLt5UEeic8oKnJqmC4w" name="OutputOption" value="RefineOutputTimes"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mL95UEeic8oKnJqmC4w" name="OutputTimes" value="[&#x5d;"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mMN5UEeic8oKnJqmC4w" name="Refine" value="1"/>
+        </properties>
+        <properties xsi:type="Configuration:SimulinkPropertyList" xmi:id="_Dd-mMd5UEeic8oKnJqmC4w" name="Simulink.OptimizationCC">
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-mMt5UEeic8oKnJqmC4w" name="$ObjectID" value="4"/>
+          <properties xsi:type="Configuration:CellArray" xmi:id="_Dd-mM95UEeic8oKnJqmC4w" name="DisabledProps" value="ACED0005737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B0200007870BB3B3342">
+            <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mNN5UEeic8oKnJqmC4w" name="001" value="ZeroExternalMemoryAtStartup"/>
+            <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mNd5UEeic8oKnJqmC4w" name="002" value="ZeroInternalMemoryAtStartup"/>
+            <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mNt5UEeic8oKnJqmC4w" name="003" value="InitFltsAndDblsToZero"/>
+            <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mN95UEeic8oKnJqmC4w" name="004" value="OptimizeModelRefInitCode"/>
+            <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mON5UEeic8oKnJqmC4w" name="005" value="NoFixptDivByZeroProtection"/>
+            <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-mOd5UEeic8oKnJqmC4w" name="Dimension" value="5"/>
+          </properties>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mOt5UEeic8oKnJqmC4w" name="Version" value="1.2.0"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mO95UEeic8oKnJqmC4w" name="BlockReduction" value="on"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mPN5UEeic8oKnJqmC4w" name="BooleanDataType" value="on"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mPd5UEeic8oKnJqmC4w" name="ConditionallyExecuteInputs" value="on"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mPt5UEeic8oKnJqmC4w" name="InlineParams" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mP95UEeic8oKnJqmC4w" name="InlineInvariantSignals" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mQN5UEeic8oKnJqmC4w" name="OptimizeBlockIOStorage" value="on"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mQd5UEeic8oKnJqmC4w" name="BufferReuse" value="on"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mQt5UEeic8oKnJqmC4w" name="EnforceIntegerDowncast" value="on"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mQ95UEeic8oKnJqmC4w" name="ExpressionFolding" value="on"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mRN5UEeic8oKnJqmC4w" name="FoldNonRolledExpr" value="on"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mRd5UEeic8oKnJqmC4w" name="LocalBlockOutputs" value="on"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mRt5UEeic8oKnJqmC4w" name="ParameterPooling" value="on"/>
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-mR95UEeic8oKnJqmC4w" name="RollThreshold" value="5"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mSN5UEeic8oKnJqmC4w" name="SystemCodeInlineAuto" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mSd5UEeic8oKnJqmC4w" name="StateBitsets" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mSt5UEeic8oKnJqmC4w" name="DataBitsets" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mS95UEeic8oKnJqmC4w" name="UseTempVars" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mTN5UEeic8oKnJqmC4w" name="ZeroExternalMemoryAtStartup" value="on"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mTd5UEeic8oKnJqmC4w" name="ZeroInternalMemoryAtStartup" value="on"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mTt5UEeic8oKnJqmC4w" name="InitFltsAndDblsToZero" value="on"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mT95UEeic8oKnJqmC4w" name="NoFixptDivByZeroProtection" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mUN5UEeic8oKnJqmC4w" name="EfficientFloat2IntCast" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mUd5UEeic8oKnJqmC4w" name="OptimizeModelRefInitCode" value="off"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mUt5UEeic8oKnJqmC4w" name="LifeSpan" value="inf"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mU95UEeic8oKnJqmC4w" name="BufferReusableBoundary" value="on"/>
+        </properties>
+        <properties xsi:type="Configuration:SimulinkPropertyList" xmi:id="_Dd-mVN5UEeic8oKnJqmC4w" name="Simulink.DebuggingCC">
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-mVd5UEeic8oKnJqmC4w" name="$ObjectID" value="5"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mVt5UEeic8oKnJqmC4w" name="Version" value="1.2.0"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mV95UEeic8oKnJqmC4w" name="RTPrefix" value="error"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mWN5UEeic8oKnJqmC4w" name="ConsistencyChecking" value="none"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mWd5UEeic8oKnJqmC4w" name="ArrayBoundsChecking" value="none"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mWt5UEeic8oKnJqmC4w" name="SignalInfNanChecking" value="none"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mW95UEeic8oKnJqmC4w" name="ReadBeforeWriteMsg" value="UseLocalSettings"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mXN5UEeic8oKnJqmC4w" name="WriteAfterWriteMsg" value="UseLocalSettings"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mXd5UEeic8oKnJqmC4w" name="WriteAfterReadMsg" value="UseLocalSettings"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mXt5UEeic8oKnJqmC4w" name="AlgebraicLoopMsg" value="warning"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mX95UEeic8oKnJqmC4w" name="ArtificialAlgebraicLoopMsg" value="warning"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mYN5UEeic8oKnJqmC4w" name="CheckSSInitialOutputMsg" value="on"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mYd5UEeic8oKnJqmC4w" name="CheckExecutionContextPreStartOutputMsg" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mYt5UEeic8oKnJqmC4w" name="CheckExecutionContextRuntimeOutputMsg" value="off"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mY95UEeic8oKnJqmC4w" name="SignalResolutionControl" value="UseLocalSettings"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mZN5UEeic8oKnJqmC4w" name="BlockPriorityViolationMsg" value="warning"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mZd5UEeic8oKnJqmC4w" name="MinStepSizeMsg" value="warning"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mZt5UEeic8oKnJqmC4w" name="MaxConsecutiveZCsMsg" value="error"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mZ95UEeic8oKnJqmC4w" name="SolverPrmCheckMsg" value="warning"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-maN5UEeic8oKnJqmC4w" name="InheritedTsInSrcMsg" value="warning"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mad5UEeic8oKnJqmC4w" name="DiscreteInheritContinuousMsg" value="warning"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mat5UEeic8oKnJqmC4w" name="MultiTaskDSMMsg" value="error"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-ma95UEeic8oKnJqmC4w" name="MultiTaskCondExecSysMsg" value="error"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mbN5UEeic8oKnJqmC4w" name="MultiTaskRateTransMsg" value="error"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mbd5UEeic8oKnJqmC4w" name="SingleTaskRateTransMsg" value="none"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mbt5UEeic8oKnJqmC4w" name="TasksWithSamePriorityMsg" value="warning"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mb95UEeic8oKnJqmC4w" name="SigSpecEnsureSampleTimeMsg" value="warning"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mcN5UEeic8oKnJqmC4w" name="CheckMatrixSingularityMsg" value="none"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mcd5UEeic8oKnJqmC4w" name="IntegerOverflowMsg" value="warning"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mct5UEeic8oKnJqmC4w" name="Int32ToFloatConvMsg" value="warning"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mc95UEeic8oKnJqmC4w" name="ParameterDowncastMsg" value="error"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mdN5UEeic8oKnJqmC4w" name="ParameterOverflowMsg" value="error"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mdd5UEeic8oKnJqmC4w" name="ParameterUnderflowMsg" value="none"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mdt5UEeic8oKnJqmC4w" name="ParameterPrecisionLossMsg" value="warning"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-md95UEeic8oKnJqmC4w" name="UnderSpecifiedDataTypeMsg" value="none"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-meN5UEeic8oKnJqmC4w" name="UnnecessaryDatatypeConvMsg" value="none"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-med5UEeic8oKnJqmC4w" name="VectorMatrixConversionMsg" value="none"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-met5UEeic8oKnJqmC4w" name="InvalidFcnCallConnMsg" value="error"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-me95UEeic8oKnJqmC4w" name="FcnCallInpInsideContextMsg" value="Use local settings"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mfN5UEeic8oKnJqmC4w" name="SignalLabelMismatchMsg" value="none"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mfd5UEeic8oKnJqmC4w" name="UnconnectedInputMsg" value="warning"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mft5UEeic8oKnJqmC4w" name="UnconnectedOutputMsg" value="warning"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mf95UEeic8oKnJqmC4w" name="UnconnectedLineMsg" value="warning"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mgN5UEeic8oKnJqmC4w" name="SFcnCompatibilityMsg" value="none"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mgd5UEeic8oKnJqmC4w" name="UniqueDataStoreMsg" value="none"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mgt5UEeic8oKnJqmC4w" name="BusObjectLabelMismatch" value="warning"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mg95UEeic8oKnJqmC4w" name="RootOutportRequireBusObject" value="warning"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mhN5UEeic8oKnJqmC4w" name="AssertControl" value="UseLocalSettings"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mhd5UEeic8oKnJqmC4w" name="EnableOverflowDetection" value="off"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mht5UEeic8oKnJqmC4w" name="ModelReferenceIOMsg" value="none"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mh95UEeic8oKnJqmC4w" name="ModelReferenceVersionMismatchMessage" value="none"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-miN5UEeic8oKnJqmC4w" name="ModelReferenceIOMismatchMessage" value="none"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mid5UEeic8oKnJqmC4w" name="ModelReferenceCSMismatchMessage" value="none"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd-mit5UEeic8oKnJqmC4w" name="ModelReferenceSimTargetVerbose" value="off"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mi95UEeic8oKnJqmC4w" name="UnknownTsInhSupMsg" value="warning"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mjN5UEeic8oKnJqmC4w" name="ModelReferenceDataLoggingMessage" value="warning"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mjd5UEeic8oKnJqmC4w" name="ModelReferenceSymbolNameMessage" value="warning"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mjt5UEeic8oKnJqmC4w" name="ModelReferenceExtraNoncontSigs" value="error"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mj95UEeic8oKnJqmC4w" name="StrictBusMsg" value="Warning"/>
+        </properties>
+        <properties xsi:type="Configuration:SimulinkPropertyList" xmi:id="_Dd-mkN5UEeic8oKnJqmC4w" name="Simulink.HardwareCC">
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-mkd5UEeic8oKnJqmC4w" name="$ObjectID" value="6"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-mkt5UEeic8oKnJqmC4w" name="Version" value="1.2.0"/>
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-mk95UEeic8oKnJqmC4w" name="ProdBitPerChar" value="8"/>
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-mlN5UEeic8oKnJqmC4w" name="ProdBitPerShort" value="16"/>
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-mld5UEeic8oKnJqmC4w" name="ProdBitPerInt" value="32"/>
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd-mlt5UEeic8oKnJqmC4w" name="ProdBitPerLong" value="32"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd-ml95UEeic8oKnJqmC4w" name="ProdIntDivRoundTo" value="Undefined"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_MsN5UEeic8oKnJqmC4w" name="ProdEndianess" value="Unspecified"/>
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_Msd5UEeic8oKnJqmC4w" name="ProdWordSize" value="32"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Mst5UEeic8oKnJqmC4w" name="ProdShiftRightIntArith" value="on"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Ms95UEeic8oKnJqmC4w" name="ProdHWDeviceType" value="32-bit Generic"/>
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_MtN5UEeic8oKnJqmC4w" name="TargetBitPerChar" value="8"/>
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_Mtd5UEeic8oKnJqmC4w" name="TargetBitPerShort" value="16"/>
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_Mtt5UEeic8oKnJqmC4w" name="TargetBitPerInt" value="32"/>
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_Mt95UEeic8oKnJqmC4w" name="TargetBitPerLong" value="32"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_MuN5UEeic8oKnJqmC4w" name="TargetShiftRightIntArith" value="on"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Mud5UEeic8oKnJqmC4w" name="TargetIntDivRoundTo" value="Undefined"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Mut5UEeic8oKnJqmC4w" name="TargetEndianess" value="Unspecified"/>
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_Mu95UEeic8oKnJqmC4w" name="TargetWordSize" value="32"/>
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_MvN5UEeic8oKnJqmC4w" name="TargetTypeEmulationWarnSuppressLevel" value="0"/>
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_Mvd5UEeic8oKnJqmC4w" name="TargetPreprocMaxBitsSint" value="32"/>
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_Mvt5UEeic8oKnJqmC4w" name="TargetPreprocMaxBitsUint" value="32"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Mv95UEeic8oKnJqmC4w" name="TargetHWDeviceType" value="Specified"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_MwN5UEeic8oKnJqmC4w" name="TargetUnknown" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Mwd5UEeic8oKnJqmC4w" name="ProdEqTarget" value="on"/>
+        </properties>
+        <properties xsi:type="Configuration:SimulinkPropertyList" xmi:id="_Dd_Mwt5UEeic8oKnJqmC4w" name="Simulink.ModelReferenceCC">
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_Mw95UEeic8oKnJqmC4w" name="$ObjectID" value="7"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_MxN5UEeic8oKnJqmC4w" name="Version" value="1.2.0"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Mxd5UEeic8oKnJqmC4w" name="UpdateModelReferenceTargets" value="IfOutOfDateOrStructuralChange"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Mxt5UEeic8oKnJqmC4w" name="CheckModelReferenceTargetMessage" value="error"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Mx95UEeic8oKnJqmC4w" name="ModelReferenceNumInstancesAllowed" value="Multi"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_MyN5UEeic8oKnJqmC4w" name="ModelReferencePassRootInputsByReference" value="on"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Myd5UEeic8oKnJqmC4w" name="ModelReferenceMinAlgLoopOccurrences" value="off"/>
+        </properties>
+        <properties xsi:type="Configuration:SimulinkPropertyList" xmi:id="_Dd_Myt5UEeic8oKnJqmC4w" name="Simulink.RTWCC">
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_My95UEeic8oKnJqmC4w" name="$BackupClass" value="Simulink.RTWCC"/>
+          <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_MzN5UEeic8oKnJqmC4w" name="$ObjectID" value="8"/>
+          <properties xsi:type="Configuration:CellArray" xmi:id="_Dd_Mzd5UEeic8oKnJqmC4w" name="DisabledProps" value="ACED0005737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B0200007870C90D9898">
+            <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Mzt5UEeic8oKnJqmC4w" name="001" value="IncludeHyperlinkInReport"/>
+            <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Mz95UEeic8oKnJqmC4w" name="002" value="GenerateTraceInfo"/>
+            <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_M0N5UEeic8oKnJqmC4w" name="Dimension" value="2"/>
+          </properties>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M0d5UEeic8oKnJqmC4w" name="Version" value="1.2.0"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M0t5UEeic8oKnJqmC4w" name="SystemTargetFile" value="grt.tlc"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_M095UEeic8oKnJqmC4w" name="GenCodeOnly" value="off"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M1N5UEeic8oKnJqmC4w" name="MakeCommand" value="make_rtw"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_M1d5UEeic8oKnJqmC4w" name="GenerateMakefile" value="on"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M1t5UEeic8oKnJqmC4w" name="TemplateMakefile" value="grt_default_tmf"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_M195UEeic8oKnJqmC4w" name="GenerateReport" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_M2N5UEeic8oKnJqmC4w" name="SaveLog" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_M2d5UEeic8oKnJqmC4w" name="RTWVerbose" value="on"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_M2t5UEeic8oKnJqmC4w" name="RetainRTWFile" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_M295UEeic8oKnJqmC4w" name="ProfileTLC" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_M3N5UEeic8oKnJqmC4w" name="TLCDebug" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_M3d5UEeic8oKnJqmC4w" name="TLCCoverage" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_M3t5UEeic8oKnJqmC4w" name="TLCAssert" value="off"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M395UEeic8oKnJqmC4w" name="ProcessScriptMode" value="Default"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M4N5UEeic8oKnJqmC4w" name="ConfigurationMode" value="Optimized"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_M4d5UEeic8oKnJqmC4w" name="ConfigAtBuild" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_M4t5UEeic8oKnJqmC4w" name="IncludeHyperlinkInReport" value="off"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_M495UEeic8oKnJqmC4w" name="LaunchReport" value="off"/>
+          <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M5N5UEeic8oKnJqmC4w" name="TargetLang" value="C"/>
+          <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_M5d5UEeic8oKnJqmC4w" name="IncludeBusHierarchyInRTWFileBlockHierarchyMap" value="off"/>
+          <properties xsi:type="Configuration:Array" xmi:id="_Dd_M5t5UEeic8oKnJqmC4w" name="Components">
+            <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M595UEeic8oKnJqmC4w" name="Type" value="Handle"/>
+            <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_M6N5UEeic8oKnJqmC4w" name="Dimension" value="2"/>
+            <properties xsi:type="Configuration:SimulinkPropertyList" xmi:id="_Dd_M6d5UEeic8oKnJqmC4w" name="Simulink.CodeAppCC">
+              <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_M6t5UEeic8oKnJqmC4w" name="$ObjectID" value="9"/>
+              <properties xsi:type="Configuration:CellArray" xmi:id="_Dd_M695UEeic8oKnJqmC4w" name="DisabledProps" value="ACED0005737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B0200007870EF5EDFE1">
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M7N5UEeic8oKnJqmC4w" name="001" value="IgnoreCustomStorageClasses"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M7d5UEeic8oKnJqmC4w" name="002" value="InsertBlockDesc"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M7t5UEeic8oKnJqmC4w" name="003" value="SFDataObjDesc"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M795UEeic8oKnJqmC4w" name="004" value="SimulinkDataObjDesc"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M8N5UEeic8oKnJqmC4w" name="005" value="DefineNamingRule"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M8d5UEeic8oKnJqmC4w" name="006" value="SignalNamingRule"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M8t5UEeic8oKnJqmC4w" name="007" value="ParamNamingRule"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M895UEeic8oKnJqmC4w" name="008" value="InlinedPrmAccess"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M9N5UEeic8oKnJqmC4w" name="009" value="CustomSymbolStr"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M9d5UEeic8oKnJqmC4w" name="010" value="CustomSymbolStrGlobalVar"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M9t5UEeic8oKnJqmC4w" name="011" value="CustomSymbolStrType"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M995UEeic8oKnJqmC4w" name="012" value="CustomSymbolStrField"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M-N5UEeic8oKnJqmC4w" name="013" value="CustomSymbolStrFcn"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M-d5UEeic8oKnJqmC4w" name="014" value="CustomSymbolStrBlkIO"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M-t5UEeic8oKnJqmC4w" name="015" value="CustomSymbolStrTmpVar"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M-95UEeic8oKnJqmC4w" name="016" value="CustomSymbolStrMacro"/>
+                <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_M_N5UEeic8oKnJqmC4w" name="Dimension" value="16"/>
+              </properties>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_M_d5UEeic8oKnJqmC4w" name="Version" value="1.2.0"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_M_t5UEeic8oKnJqmC4w" name="ForceParamTrailComments" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_M_95UEeic8oKnJqmC4w" name="GenerateComments" value="on"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NAN5UEeic8oKnJqmC4w" name="IgnoreCustomStorageClasses" value="on"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NAd5UEeic8oKnJqmC4w" name="IncHierarchyInIds" value="off"/>
+              <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_NAt5UEeic8oKnJqmC4w" name="MaxIdLength" value="31"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NA95UEeic8oKnJqmC4w" name="PreserveName" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NBN5UEeic8oKnJqmC4w" name="PreserveNameWithParent" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NBd5UEeic8oKnJqmC4w" name="ShowEliminatedStatement" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NBt5UEeic8oKnJqmC4w" name="IncAutoGenComments" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NB95UEeic8oKnJqmC4w" name="SimulinkDataObjDesc" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NCN5UEeic8oKnJqmC4w" name="SFDataObjDesc" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NCd5UEeic8oKnJqmC4w" name="IncDataTypeInIds" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NCt5UEeic8oKnJqmC4w" name="PrefixModelToSubsysFcnNames" value="on"/>
+              <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_NC95UEeic8oKnJqmC4w" name="MangleLength" value="1"/>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NDN5UEeic8oKnJqmC4w" name="CustomSymbolStrGlobalVar" value="$R$N$M"/>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NDd5UEeic8oKnJqmC4w" name="CustomSymbolStrType" value="$N$R$M"/>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NDt5UEeic8oKnJqmC4w" name="CustomSymbolStrField" value="$N$M"/>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_ND95UEeic8oKnJqmC4w" name="CustomSymbolStrFcn" value="$R$N$M$F"/>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NEN5UEeic8oKnJqmC4w" name="CustomSymbolStrBlkIO" value="rtb_$N$M"/>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NEd5UEeic8oKnJqmC4w" name="CustomSymbolStrTmpVar" value="$N$M"/>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NEt5UEeic8oKnJqmC4w" name="CustomSymbolStrMacro" value="$R$N$M"/>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NE95UEeic8oKnJqmC4w" name="DefineNamingRule" value="None"/>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NFN5UEeic8oKnJqmC4w" name="ParamNamingRule" value="None"/>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NFd5UEeic8oKnJqmC4w" name="SignalNamingRule" value="None"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NFt5UEeic8oKnJqmC4w" name="InsertBlockDesc" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NF95UEeic8oKnJqmC4w" name="SimulinkBlockComments" value="on"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NGN5UEeic8oKnJqmC4w" name="EnableCustomComments" value="off"/>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NGd5UEeic8oKnJqmC4w" name="InlinedPrmAccess" value="Literals"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NGt5UEeic8oKnJqmC4w" name="ReqsInCode" value="off"/>
+            </properties>
+            <properties xsi:type="Configuration:SimulinkPropertyList" xmi:id="_Dd_NG95UEeic8oKnJqmC4w" name="Simulink.GRTTargetCC">
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NHN5UEeic8oKnJqmC4w" name="$BackupClass" value="Simulink.TargetCC"/>
+              <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_NHd5UEeic8oKnJqmC4w" name="$ObjectID" value="10"/>
+              <properties xsi:type="Configuration:CellArray" xmi:id="_Dd_NHt5UEeic8oKnJqmC4w" name="DisabledProps" value="ACED0005737200116A6176612E6C616E672E496E746567657212E2A0A4F781873802000149000576616C7565787200106A6176612E6C616E672E4E756D62657286AC951D0B94E08B02000078709B27AAF5">
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NH95UEeic8oKnJqmC4w" name="001" value="IncludeMdlTerminateFcn"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NIN5UEeic8oKnJqmC4w" name="002" value="CombineOutputUpdateFcns"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NId5UEeic8oKnJqmC4w" name="003" value="SuppressErrorStatus"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NIt5UEeic8oKnJqmC4w" name="004" value="ERTCustomFileBanners"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NI95UEeic8oKnJqmC4w" name="005" value="GenerateSampleERTMain"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NJN5UEeic8oKnJqmC4w" name="006" value="GenerateTestInterfaces"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NJd5UEeic8oKnJqmC4w" name="007" value="ModelStepFunctionPrototypeControlCompliant"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NJt5UEeic8oKnJqmC4w" name="008" value="MultiInstanceERTCode"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NJ95UEeic8oKnJqmC4w" name="009" value="PurelyIntegerCode"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NKN5UEeic8oKnJqmC4w" name="010" value="SupportNonFinite"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NKd5UEeic8oKnJqmC4w" name="011" value="SupportComplex"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NKt5UEeic8oKnJqmC4w" name="012" value="SupportAbsoluteTime"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NK95UEeic8oKnJqmC4w" name="013" value="SupportContinuousTime"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NLN5UEeic8oKnJqmC4w" name="014" value="SupportNonInlinedSFcns"/>
+                <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NLd5UEeic8oKnJqmC4w" name="015" value="PortableWordSizes"/>
+                <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_NLt5UEeic8oKnJqmC4w" name="Dimension" value="15"/>
+              </properties>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NL95UEeic8oKnJqmC4w" name="Version" value="1.2.0"/>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NMN5UEeic8oKnJqmC4w" name="TargetFcnLib" value="ansi_tfl_table_tmw.mat"/>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NMd5UEeic8oKnJqmC4w" name="TargetLibSuffix" value=""/>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NMt5UEeic8oKnJqmC4w" name="TargetPreCompLibLocation" value=""/>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NM95UEeic8oKnJqmC4w" name="GenFloatMathFcnCalls" value="ANSI_C"/>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NNN5UEeic8oKnJqmC4w" name="UtilityFuncGeneration" value="Auto"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NNd5UEeic8oKnJqmC4w" name="GenerateFullHeader" value="on"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NNt5UEeic8oKnJqmC4w" name="GenerateSampleERTMain" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NN95UEeic8oKnJqmC4w" name="GenerateTestInterfaces" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NON5UEeic8oKnJqmC4w" name="IsPILTarget" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NOd5UEeic8oKnJqmC4w" name="ModelReferenceCompliant" value="on"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NOt5UEeic8oKnJqmC4w" name="IncludeMdlTerminateFcn" value="on"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NO95UEeic8oKnJqmC4w" name="CombineOutputUpdateFcns" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NPN5UEeic8oKnJqmC4w" name="SuppressErrorStatus" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NPd5UEeic8oKnJqmC4w" name="IncludeERTFirstTime" value="on"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NPt5UEeic8oKnJqmC4w" name="ERTFirstTimeCompliant" value="off"/>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NP95UEeic8oKnJqmC4w" name="IncludeFileDelimiter" value="Auto"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NQN5UEeic8oKnJqmC4w" name="ERTCustomFileBanners" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NQd5UEeic8oKnJqmC4w" name="SupportAbsoluteTime" value="on"/>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NQt5UEeic8oKnJqmC4w" name="LogVarNameModifier" value="rt_"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NQ95UEeic8oKnJqmC4w" name="MatFileLogging" value="on"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NRN5UEeic8oKnJqmC4w" name="MultiInstanceERTCode" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NRd5UEeic8oKnJqmC4w" name="SupportNonFinite" value="on"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NRt5UEeic8oKnJqmC4w" name="SupportComplex" value="on"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NR95UEeic8oKnJqmC4w" name="PurelyIntegerCode" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NSN5UEeic8oKnJqmC4w" name="SupportContinuousTime" value="on"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NSd5UEeic8oKnJqmC4w" name="SupportNonInlinedSFcns" value="on"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NSt5UEeic8oKnJqmC4w" name="ExtMode" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NS95UEeic8oKnJqmC4w" name="ExtModeStaticAlloc" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NTN5UEeic8oKnJqmC4w" name="ExtModeTesting" value="off"/>
+              <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_NTd5UEeic8oKnJqmC4w" name="ExtModeStaticAllocSize" value="1000000"/>
+              <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_NTt5UEeic8oKnJqmC4w" name="ExtModeTransport" value="0"/>
+              <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NT95UEeic8oKnJqmC4w" name="ExtModeMexFile" value="ext_comm"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NUN5UEeic8oKnJqmC4w" name="RTWCAPISignals" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NUd5UEeic8oKnJqmC4w" name="RTWCAPIParams" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NUt5UEeic8oKnJqmC4w" name="RTWCAPIStates" value="off"/>
+              <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NU95UEeic8oKnJqmC4w" name="GenerateASAP2" value="off"/>
+            </properties>
+            <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NVN5UEeic8oKnJqmC4w" name="PropName" value="Components"/>
+          </properties>
+        </properties>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NVd5UEeic8oKnJqmC4w" name="PropName" value="Components"/>
+      </properties>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NVt5UEeic8oKnJqmC4w" name="SimulationMode" value="normal"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NV95UEeic8oKnJqmC4w" name="CurrentDlgPage" value="Solver"/>
+    </properties>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NWN5UEeic8oKnJqmC4w" name="PropName" value="ConfigurationSets"/>
+  </properties>
+  <properties xsi:type="Configuration:ConfigSet" xmi:id="_Dd_NWd5UEeic8oKnJqmC4w" name="Simulink.ConfigSet">
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NWt5UEeic8oKnJqmC4w" name="$PropName" value="ActiveConfigurationSet"/>
+    <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_NW95UEeic8oKnJqmC4w" name="$ObjectID" value="1"/>
+  </properties>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NXN5UEeic8oKnJqmC4w" name="Location" value="[2, 78, 1022, 718&#x5d;"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NXd5UEeic8oKnJqmC4w" name="Open" value="on"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NXt5UEeic8oKnJqmC4w" name="ModelBrowserVisibility" value="off"/>
+  <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_NX95UEeic8oKnJqmC4w" name="ModelBrowserWidth" value="212"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NYN5UEeic8oKnJqmC4w" name="ScreenColor" value="white"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NYd5UEeic8oKnJqmC4w" name="PaperOrientation" value="portrait"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NYt5UEeic8oKnJqmC4w" name="PaperPositionMode" value="auto"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NY95UEeic8oKnJqmC4w" name="PaperType" value="a4letter"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NZN5UEeic8oKnJqmC4w" name="PaperUnits" value="inches"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NZd5UEeic8oKnJqmC4w" name="TiledPaperMargins" value="[0.500000, 0.500000, 0.500000, 0.500000&#x5d;"/>
+  <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_NZt5UEeic8oKnJqmC4w" name="TiledPageScale" value="1"/>
+  <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NZ95UEeic8oKnJqmC4w" name="ShowPageBoundaries" value="off"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NaN5UEeic8oKnJqmC4w" name="ZoomFactor" value="100"/>
+  <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nad5UEeic8oKnJqmC4w" name="ReportName" value="simulink-default.rpt"/>
+  <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_Nat5UEeic8oKnJqmC4w" block="_Dd-loN5UEeic8oKnJqmC4w" portBlock="_Dd_z9t5UEeic8oKnJqmC4w"/>
+  <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_Na95UEeic8oKnJqmC4w" block="_Dd-loN5UEeic8oKnJqmC4w" number="2" portBlock="_Dd_z_N5UEeic8oKnJqmC4w"/>
+  <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_NbN5UEeic8oKnJqmC4w" block="_Dd-loN5UEeic8oKnJqmC4w" number="3" portBlock="_Dd_0A95UEeic8oKnJqmC4w"/>
+  <blocks xmi:id="_Dd_Nbd5UEeic8oKnJqmC4w" name="Constant" blockType="Constant" ports="_Dd_Ned5UEeic8oKnJqmC4w" nameProperty="_Dd_Nbt5UEeic8oKnJqmC4w">
+    <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_Nbt5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nb95UEeic8oKnJqmC4w" name="Position" value="[55, 275, 85, 305&#x5d;"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NcN5UEeic8oKnJqmC4w" name="Value" value="0"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Ncd5UEeic8oKnJqmC4w" name="VectorParams1D" value="on"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nct5UEeic8oKnJqmC4w" name="SamplingMode" value="Sample based"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nc95UEeic8oKnJqmC4w" name="OutDataTypeMode" value="Inherit from 'Constant value'"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NdN5UEeic8oKnJqmC4w" name="OutDataType" value="sfix(16)"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Ndd5UEeic8oKnJqmC4w" name="ConRadixGroup" value="Use specified scaling"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Ndt5UEeic8oKnJqmC4w" name="OutScaling" value="2^0"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nd95UEeic8oKnJqmC4w" name="SampleTime" value="inf"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NeN5UEeic8oKnJqmC4w" name="FramePeriod" value="inf"/>
+    <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_Ned5UEeic8oKnJqmC4w" block="_Dd_Nbd5UEeic8oKnJqmC4w" outgoingLines="_Dd_0Kt5UEeic8oKnJqmC4w"/>
+  </blocks>
+  <blocks xmi:id="_Dd_Net5UEeic8oKnJqmC4w" name="Constant1" blockType="Constant" ports="_Dd_Nht5UEeic8oKnJqmC4w" nameProperty="_Dd_Ne95UEeic8oKnJqmC4w">
+    <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_Ne95UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NfN5UEeic8oKnJqmC4w" name="Position" value="[55, 205, 85, 235&#x5d;"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nfd5UEeic8oKnJqmC4w" name="Value" value="1"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Nft5UEeic8oKnJqmC4w" name="VectorParams1D" value="on"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nf95UEeic8oKnJqmC4w" name="SamplingMode" value="Sample based"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NgN5UEeic8oKnJqmC4w" name="OutDataTypeMode" value="Inherit from 'Constant value'"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Ngd5UEeic8oKnJqmC4w" name="OutDataType" value="sfix(16)"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Ngt5UEeic8oKnJqmC4w" name="ConRadixGroup" value="Use specified scaling"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Ng95UEeic8oKnJqmC4w" name="OutScaling" value="2^0"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NhN5UEeic8oKnJqmC4w" name="SampleTime" value="inf"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nhd5UEeic8oKnJqmC4w" name="FramePeriod" value="inf"/>
+    <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_Nht5UEeic8oKnJqmC4w" block="_Dd_Net5UEeic8oKnJqmC4w" outgoingLines="_Dd_0KN5UEeic8oKnJqmC4w"/>
+  </blocks>
+  <blocks xsi:type="Structure:SimulinkSubSystem" xmi:id="_Dd_Nh95UEeic8oKnJqmC4w" name="Driver Light Switch" blockType="SubSystem" ports="_Dd_NiN5UEeic8oKnJqmC4w _Dd_Nid5UEeic8oKnJqmC4w _Dd_Nit5UEeic8oKnJqmC4w _Dd_Ni95UEeic8oKnJqmC4w" nameProperty="_Dd_NjN5UEeic8oKnJqmC4w">
+    <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_NiN5UEeic8oKnJqmC4w" block="_Dd_Nh95UEeic8oKnJqmC4w" outgoingLines="_Dd_0IN5UEeic8oKnJqmC4w" portBlock="_Dd_OBd5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_Nid5UEeic8oKnJqmC4w" block="_Dd_Nh95UEeic8oKnJqmC4w" number="2" outgoingLines="_Dd_0It5UEeic8oKnJqmC4w" portBlock="_Dd_ODN5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_Nit5UEeic8oKnJqmC4w" block="_Dd_Nh95UEeic8oKnJqmC4w" number="3" outgoingLines="_Dd_0JN5UEeic8oKnJqmC4w" portBlock="_Dd_OE95UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_Ni95UEeic8oKnJqmC4w" block="_Dd_Nh95UEeic8oKnJqmC4w" number="4" outgoingLines="_Dd_0Jt5UEeic8oKnJqmC4w" portBlock="_Dd_OGt5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_NjN5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Njd5UEeic8oKnJqmC4w" name="Position" value="[185, 430, 290, 520&#x5d;"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Njt5UEeic8oKnJqmC4w" name="MinAlgLoopOccurrences" value="off"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nj95UEeic8oKnJqmC4w" name="RTWSystemCode" value="Auto"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NkN5UEeic8oKnJqmC4w" name="FunctionWithSeparateData" value="off"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Nkd5UEeic8oKnJqmC4w" name="MaskHideContents" value="off"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nkt5UEeic8oKnJqmC4w" name="Location" value="[150, 106, 687, 622&#x5d;"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Nk95UEeic8oKnJqmC4w" name="Open" value="off"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_NlN5UEeic8oKnJqmC4w" name="ModelBrowserVisibility" value="off"/>
+    <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_Nld5UEeic8oKnJqmC4w" name="ModelBrowserWidth" value="200"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nlt5UEeic8oKnJqmC4w" name="ScreenColor" value="white"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nl95UEeic8oKnJqmC4w" name="PaperOrientation" value="landscape"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NmN5UEeic8oKnJqmC4w" name="PaperPositionMode" value="auto"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nmd5UEeic8oKnJqmC4w" name="PaperType" value="usletter"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nmt5UEeic8oKnJqmC4w" name="PaperUnits" value="inches"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nm95UEeic8oKnJqmC4w" name="TiledPaperMargins" value="[0.500000, 0.500000, 0.500000, 0.500000&#x5d;"/>
+    <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_NnN5UEeic8oKnJqmC4w" name="TiledPageScale" value="1"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Nnd5UEeic8oKnJqmC4w" name="ShowPageBoundaries" value="off"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nnt5UEeic8oKnJqmC4w" name="ZoomFactor" value="100"/>
+    <blocks xmi:id="_Dd_Nn95UEeic8oKnJqmC4w" name="Auto Switch" blockType="Reference" ports="_Dd_NoN5UEeic8oKnJqmC4w _Dd_Nod5UEeic8oKnJqmC4w _Dd_Not5UEeic8oKnJqmC4w" nameProperty="_Dd_No95UEeic8oKnJqmC4w">
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_NoN5UEeic8oKnJqmC4w" block="_Dd_Nn95UEeic8oKnJqmC4w" incomingLines="_Dd_OK95UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_Nod5UEeic8oKnJqmC4w" block="_Dd_Nn95UEeic8oKnJqmC4w" number="2" incomingLines="_Dd_OId5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_Not5UEeic8oKnJqmC4w" block="_Dd_Nn95UEeic8oKnJqmC4w" outgoingLines="_Dd_OKd5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_No95UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NpN5UEeic8oKnJqmC4w" name="Position" value="[250, 17, 280, 53&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Npd5UEeic8oKnJqmC4w" name="SourceBlock" value="simulink/Signal&#xA;Routing/Manual Switch"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Npt5UEeic8oKnJqmC4w" name="SourceType" value="Manual Switch"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Np95UEeic8oKnJqmC4w" name="ShowPortLabels" value="FromPortIcon"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NqN5UEeic8oKnJqmC4w" name="SystemSampleTime" value="-1"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nqd5UEeic8oKnJqmC4w" name="FunctionWithSeparateData" value="off"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nqt5UEeic8oKnJqmC4w" name="RTWMemSecFuncInitTerm" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nq95UEeic8oKnJqmC4w" name="RTWMemSecFuncExecute" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NrN5UEeic8oKnJqmC4w" name="RTWMemSecDataConstants" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nrd5UEeic8oKnJqmC4w" name="RTWMemSecDataInternal" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nrt5UEeic8oKnJqmC4w" name="RTWMemSecDataParameters" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nr95UEeic8oKnJqmC4w" name="sw" value="1"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NsN5UEeic8oKnJqmC4w" name="action" value="0"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nsd5UEeic8oKnJqmC4w" name="varsize" value="off"/>
+    </blocks>
+    <blocks xmi:id="_Dd_Nst5UEeic8oKnJqmC4w" name="Constant" blockType="Constant" ports="_Dd_Nvt5UEeic8oKnJqmC4w" nameProperty="_Dd_Ns95UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_Ns95UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NtN5UEeic8oKnJqmC4w" name="Position" value="[40, 15, 70, 45&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Ntd5UEeic8oKnJqmC4w" name="Value" value="1"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Ntt5UEeic8oKnJqmC4w" name="VectorParams1D" value="on"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nt95UEeic8oKnJqmC4w" name="SamplingMode" value="Sample based"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NuN5UEeic8oKnJqmC4w" name="OutDataTypeMode" value="boolean"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nud5UEeic8oKnJqmC4w" name="OutDataType" value="sfix(16)"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nut5UEeic8oKnJqmC4w" name="ConRadixGroup" value="Use specified scaling"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nu95UEeic8oKnJqmC4w" name="OutScaling" value="2^0"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NvN5UEeic8oKnJqmC4w" name="SampleTime" value="inf"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nvd5UEeic8oKnJqmC4w" name="FramePeriod" value="inf"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_Nvt5UEeic8oKnJqmC4w" block="_Dd_Nst5UEeic8oKnJqmC4w" outgoingLines="_Dd_OK95UEeic8oKnJqmC4w _Dd_OLd5UEeic8oKnJqmC4w _Dd_OL95UEeic8oKnJqmC4w _Dd_OMd5UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xmi:id="_Dd_Nv95UEeic8oKnJqmC4w" name="Constant1" blockType="Constant" ports="_Dd_Ny95UEeic8oKnJqmC4w" nameProperty="_Dd_NwN5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_NwN5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nwd5UEeic8oKnJqmC4w" name="Position" value="[40, 405, 70, 435&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nwt5UEeic8oKnJqmC4w" name="Value" value="0"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Nw95UEeic8oKnJqmC4w" name="VectorParams1D" value="on"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NxN5UEeic8oKnJqmC4w" name="SamplingMode" value="Sample based"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nxd5UEeic8oKnJqmC4w" name="OutDataTypeMode" value="boolean"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nxt5UEeic8oKnJqmC4w" name="OutDataType" value="sfix(16)"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nx95UEeic8oKnJqmC4w" name="ConRadixGroup" value="Use specified scaling"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_NyN5UEeic8oKnJqmC4w" name="OutScaling" value="2^0"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nyd5UEeic8oKnJqmC4w" name="SampleTime" value="inf"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Nyt5UEeic8oKnJqmC4w" name="FramePeriod" value="inf"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_Ny95UEeic8oKnJqmC4w" block="_Dd_Nv95UEeic8oKnJqmC4w" outgoingLines="_Dd_OId5UEeic8oKnJqmC4w _Dd_OI95UEeic8oKnJqmC4w _Dd_OJd5UEeic8oKnJqmC4w _Dd_OJ95UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xmi:id="_Dd_NzN5UEeic8oKnJqmC4w" name="Farlight Switch" blockType="Reference" ports="_Dd_Nzd5UEeic8oKnJqmC4w _Dd_Nzt5UEeic8oKnJqmC4w _Dd_Nz95UEeic8oKnJqmC4w" nameProperty="_Dd_N0N5UEeic8oKnJqmC4w">
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_Nzd5UEeic8oKnJqmC4w" block="_Dd_NzN5UEeic8oKnJqmC4w" incomingLines="_Dd_OMd5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_Nzt5UEeic8oKnJqmC4w" block="_Dd_NzN5UEeic8oKnJqmC4w" number="2" incomingLines="_Dd_OJ95UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_Nz95UEeic8oKnJqmC4w" block="_Dd_NzN5UEeic8oKnJqmC4w" outgoingLines="_Dd_ONt5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_N0N5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N0d5UEeic8oKnJqmC4w" name="Position" value="[245, 267, 275, 303&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N0t5UEeic8oKnJqmC4w" name="SourceBlock" value="simulink/Signal&#xA;Routing/Manual Switch"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N095UEeic8oKnJqmC4w" name="SourceType" value="Manual Switch"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N1N5UEeic8oKnJqmC4w" name="ShowPortLabels" value="FromPortIcon"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N1d5UEeic8oKnJqmC4w" name="SystemSampleTime" value="-1"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N1t5UEeic8oKnJqmC4w" name="FunctionWithSeparateData" value="off"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N195UEeic8oKnJqmC4w" name="RTWMemSecFuncInitTerm" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N2N5UEeic8oKnJqmC4w" name="RTWMemSecFuncExecute" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N2d5UEeic8oKnJqmC4w" name="RTWMemSecDataConstants" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N2t5UEeic8oKnJqmC4w" name="RTWMemSecDataInternal" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N295UEeic8oKnJqmC4w" name="RTWMemSecDataParameters" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N3N5UEeic8oKnJqmC4w" name="sw" value="1"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N3d5UEeic8oKnJqmC4w" name="action" value="0"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N3t5UEeic8oKnJqmC4w" name="varsize" value="off"/>
+    </blocks>
+    <blocks xmi:id="_Dd_N395UEeic8oKnJqmC4w" name="Light Switch" blockType="Reference" ports="_Dd_N4N5UEeic8oKnJqmC4w _Dd_N4d5UEeic8oKnJqmC4w _Dd_N4t5UEeic8oKnJqmC4w" nameProperty="_Dd_N495UEeic8oKnJqmC4w">
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_N4N5UEeic8oKnJqmC4w" block="_Dd_N395UEeic8oKnJqmC4w" incomingLines="_Dd_OL95UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_N4d5UEeic8oKnJqmC4w" block="_Dd_N395UEeic8oKnJqmC4w" number="2" incomingLines="_Dd_OJd5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_N4t5UEeic8oKnJqmC4w" block="_Dd_N395UEeic8oKnJqmC4w" outgoingLines="_Dd_ONN5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_N495UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N5N5UEeic8oKnJqmC4w" name="Position" value="[245, 177, 275, 213&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N5d5UEeic8oKnJqmC4w" name="SourceBlock" value="simulink/Signal&#xA;Routing/Manual Switch"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N5t5UEeic8oKnJqmC4w" name="SourceType" value="Manual Switch"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N595UEeic8oKnJqmC4w" name="ShowPortLabels" value="FromPortIcon"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N6N5UEeic8oKnJqmC4w" name="SystemSampleTime" value="-1"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N6d5UEeic8oKnJqmC4w" name="FunctionWithSeparateData" value="off"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N6t5UEeic8oKnJqmC4w" name="RTWMemSecFuncInitTerm" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N695UEeic8oKnJqmC4w" name="RTWMemSecFuncExecute" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N7N5UEeic8oKnJqmC4w" name="RTWMemSecDataConstants" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N7d5UEeic8oKnJqmC4w" name="RTWMemSecDataInternal" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N7t5UEeic8oKnJqmC4w" name="RTWMemSecDataParameters" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N795UEeic8oKnJqmC4w" name="sw" value="0"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N8N5UEeic8oKnJqmC4w" name="action" value="0"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N8d5UEeic8oKnJqmC4w" name="varsize" value="off"/>
+    </blocks>
+    <blocks xmi:id="_Dd_N8t5UEeic8oKnJqmC4w" name="Park  Switch" blockType="Reference" ports="_Dd_N895UEeic8oKnJqmC4w _Dd_N9N5UEeic8oKnJqmC4w _Dd_N9d5UEeic8oKnJqmC4w" nameProperty="_Dd_N9t5UEeic8oKnJqmC4w">
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_N895UEeic8oKnJqmC4w" block="_Dd_N8t5UEeic8oKnJqmC4w" incomingLines="_Dd_OLd5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_N9N5UEeic8oKnJqmC4w" block="_Dd_N8t5UEeic8oKnJqmC4w" number="2" incomingLines="_Dd_OI95UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_N9d5UEeic8oKnJqmC4w" block="_Dd_N8t5UEeic8oKnJqmC4w" outgoingLines="_Dd_OM95UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_N9t5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N995UEeic8oKnJqmC4w" name="Position" value="[250, 97, 280, 133&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N-N5UEeic8oKnJqmC4w" name="SourceBlock" value="simulink/Signal&#xA;Routing/Manual Switch"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N-d5UEeic8oKnJqmC4w" name="SourceType" value="Manual Switch"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N-t5UEeic8oKnJqmC4w" name="ShowPortLabels" value="FromPortIcon"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N-95UEeic8oKnJqmC4w" name="SystemSampleTime" value="-1"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N_N5UEeic8oKnJqmC4w" name="FunctionWithSeparateData" value="off"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N_d5UEeic8oKnJqmC4w" name="RTWMemSecFuncInitTerm" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N_t5UEeic8oKnJqmC4w" name="RTWMemSecFuncExecute" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_N_95UEeic8oKnJqmC4w" name="RTWMemSecDataConstants" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OAN5UEeic8oKnJqmC4w" name="RTWMemSecDataInternal" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OAd5UEeic8oKnJqmC4w" name="RTWMemSecDataParameters" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OAt5UEeic8oKnJqmC4w" name="sw" value="0"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OA95UEeic8oKnJqmC4w" name="action" value="0"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OBN5UEeic8oKnJqmC4w" name="varsize" value="off"/>
+    </blocks>
+    <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_OBd5UEeic8oKnJqmC4w" name="Auto" blockType="Outport" ports="_Dd_OC95UEeic8oKnJqmC4w" nameProperty="_Dd_OBt5UEeic8oKnJqmC4w" correspondingPort="_Dd_NiN5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_OBt5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OB95UEeic8oKnJqmC4w" name="Position" value="[365, 23, 395, 37&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OCN5UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_OCd5UEeic8oKnJqmC4w" name="BusOutputAsStruct" value="off"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OCt5UEeic8oKnJqmC4w" name="DataType" value="boolean"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_OC95UEeic8oKnJqmC4w" block="_Dd_OBd5UEeic8oKnJqmC4w" incomingLines="_Dd_OKd5UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_ODN5UEeic8oKnJqmC4w" name="Park" blockType="Outport" ports="_Dd_OEt5UEeic8oKnJqmC4w" nameProperty="_Dd_ODd5UEeic8oKnJqmC4w" correspondingPort="_Dd_Nid5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_ODd5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_ODt5UEeic8oKnJqmC4w" name="Position" value="[365, 108, 395, 122&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OD95UEeic8oKnJqmC4w" name="Port" value="2"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OEN5UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_OEd5UEeic8oKnJqmC4w" name="BusOutputAsStruct" value="off"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_OEt5UEeic8oKnJqmC4w" block="_Dd_ODN5UEeic8oKnJqmC4w" incomingLines="_Dd_OM95UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_OE95UEeic8oKnJqmC4w" name="On" blockType="Outport" ports="_Dd_OGd5UEeic8oKnJqmC4w" nameProperty="_Dd_OFN5UEeic8oKnJqmC4w" correspondingPort="_Dd_Nit5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_OFN5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OFd5UEeic8oKnJqmC4w" name="Position" value="[365, 193, 395, 207&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OFt5UEeic8oKnJqmC4w" name="Port" value="3"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OF95UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_OGN5UEeic8oKnJqmC4w" name="BusOutputAsStruct" value="off"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_OGd5UEeic8oKnJqmC4w" block="_Dd_OE95UEeic8oKnJqmC4w" incomingLines="_Dd_ONN5UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_OGt5UEeic8oKnJqmC4w" name="Far" blockType="Outport" ports="_Dd_OIN5UEeic8oKnJqmC4w" nameProperty="_Dd_OG95UEeic8oKnJqmC4w" correspondingPort="_Dd_Ni95UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_OG95UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OHN5UEeic8oKnJqmC4w" name="Position" value="[365, 283, 395, 297&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OHd5UEeic8oKnJqmC4w" name="Port" value="4"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OHt5UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_OH95UEeic8oKnJqmC4w" name="BusOutputAsStruct" value="off"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_OIN5UEeic8oKnJqmC4w" block="_Dd_OGt5UEeic8oKnJqmC4w" incomingLines="_Dd_ONt5UEeic8oKnJqmC4w"/>
+    </blocks>
+    <lines xmi:id="_Dd_OId5UEeic8oKnJqmC4w" sourcePort="_Dd_Ny95UEeic8oKnJqmC4w" destinationPort="_Dd_Nod5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OIt5UEeic8oKnJqmC4w" name="Points" value="[80, 0; 0, -125; 0, -95; 0, -70; 0, -85&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_OI95UEeic8oKnJqmC4w" sourcePort="_Dd_Ny95UEeic8oKnJqmC4w" destinationPort="_Dd_N9N5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OJN5UEeic8oKnJqmC4w" name="Points" value="[80, 0; 0, -125; 0, -95; 0, -70; 80, 0&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_OJd5UEeic8oKnJqmC4w" sourcePort="_Dd_Ny95UEeic8oKnJqmC4w" destinationPort="_Dd_N4d5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OJt5UEeic8oKnJqmC4w" name="Points" value="[80, 0; 0, -125; 0, -95; 75, 0&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_OJ95UEeic8oKnJqmC4w" sourcePort="_Dd_Ny95UEeic8oKnJqmC4w" destinationPort="_Dd_Nzt5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OKN5UEeic8oKnJqmC4w" name="Points" value="[80, 0; 0, -125&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_OKd5UEeic8oKnJqmC4w" sourcePort="_Dd_Not5UEeic8oKnJqmC4w" destinationPort="_Dd_OC95UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OKt5UEeic8oKnJqmC4w" name="Points" value="[30, 0; 0, -5&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_OK95UEeic8oKnJqmC4w" sourcePort="_Dd_Nvt5UEeic8oKnJqmC4w" destinationPort="_Dd_NoN5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OLN5UEeic8oKnJqmC4w" name="Points" value="[30, 0; 65, 0; 0, -5&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_OLd5UEeic8oKnJqmC4w" sourcePort="_Dd_Nvt5UEeic8oKnJqmC4w" destinationPort="_Dd_N895UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OLt5UEeic8oKnJqmC4w" name="Points" value="[30, 0; 0, 75&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_OL95UEeic8oKnJqmC4w" sourcePort="_Dd_Nvt5UEeic8oKnJqmC4w" destinationPort="_Dd_N4N5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OMN5UEeic8oKnJqmC4w" name="Points" value="[30, 0; 0, 75; 0, 80&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_OMd5UEeic8oKnJqmC4w" sourcePort="_Dd_Nvt5UEeic8oKnJqmC4w" destinationPort="_Dd_Nzd5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OMt5UEeic8oKnJqmC4w" name="Points" value="[30, 0; 0, 75; 0, 80; 0, 90&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_OM95UEeic8oKnJqmC4w" sourcePort="_Dd_N9d5UEeic8oKnJqmC4w" destinationPort="_Dd_OEt5UEeic8oKnJqmC4w"/>
+    <lines xmi:id="_Dd_ONN5UEeic8oKnJqmC4w" sourcePort="_Dd_N4t5UEeic8oKnJqmC4w" destinationPort="_Dd_OGd5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_ONd5UEeic8oKnJqmC4w" name="Points" value="[35, 0; 0, 5&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_ONt5UEeic8oKnJqmC4w" sourcePort="_Dd_Nz95UEeic8oKnJqmC4w" destinationPort="_Dd_OIN5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_ON95UEeic8oKnJqmC4w" name="Points" value="[35, 0; 0, 5&#x5d;"/>
+    </lines>
+  </blocks>
+  <blocks xsi:type="Structure:SimulinkSubSystem" xmi:id="_Dd_OON5UEeic8oKnJqmC4w" name="Front Light Sensor" blockType="SubSystem" ports="_Dd_OOd5UEeic8oKnJqmC4w _Dd_OOt5UEeic8oKnJqmC4w" nameProperty="_Dd_OO95UEeic8oKnJqmC4w">
+    <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_OOd5UEeic8oKnJqmC4w" block="_Dd_OON5UEeic8oKnJqmC4w" incomingLines="_Dd_0HN5UEeic8oKnJqmC4w" portBlock="_Dd_OT95UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_OOt5UEeic8oKnJqmC4w" block="_Dd_OON5UEeic8oKnJqmC4w" outgoingLines="_Dd_0LN5UEeic8oKnJqmC4w" portBlock="_Dd_OeN5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_OO95UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OPN5UEeic8oKnJqmC4w" name="Position" value="[190, 64, 290, 106&#x5d;"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OPd5UEeic8oKnJqmC4w" name="AncestorBlock" value="Sensors_Lib/Front Light Sensor"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_OPt5UEeic8oKnJqmC4w" name="MinAlgLoopOccurrences" value="off"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OP95UEeic8oKnJqmC4w" name="RTWSystemCode" value="Auto"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_OQN5UEeic8oKnJqmC4w" name="FunctionWithSeparateData" value="off"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_OQd5UEeic8oKnJqmC4w" name="MaskHideContents" value="off"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OQt5UEeic8oKnJqmC4w" name="Location" value="[311, 344, 739, 644&#x5d;"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_OQ95UEeic8oKnJqmC4w" name="Open" value="off"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_ORN5UEeic8oKnJqmC4w" name="ModelBrowserVisibility" value="off"/>
+    <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_ORd5UEeic8oKnJqmC4w" name="ModelBrowserWidth" value="200"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_ORt5UEeic8oKnJqmC4w" name="ScreenColor" value="white"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OR95UEeic8oKnJqmC4w" name="PaperOrientation" value="landscape"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OSN5UEeic8oKnJqmC4w" name="PaperPositionMode" value="auto"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OSd5UEeic8oKnJqmC4w" name="PaperType" value="usletter"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OSt5UEeic8oKnJqmC4w" name="PaperUnits" value="inches"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OS95UEeic8oKnJqmC4w" name="TiledPaperMargins" value="[0.500000, 0.500000, 0.500000, 0.500000&#x5d;"/>
+    <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_OTN5UEeic8oKnJqmC4w" name="TiledPageScale" value="1"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_OTd5UEeic8oKnJqmC4w" name="ShowPageBoundaries" value="off"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OTt5UEeic8oKnJqmC4w" name="ZoomFactor" value="100"/>
+    <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_OT95UEeic8oKnJqmC4w" name="Ignition" blockType="Inport" ports="_Dd_OU95UEeic8oKnJqmC4w" nameProperty="_Dd_OUN5UEeic8oKnJqmC4w" correspondingPort="_Dd_OOd5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_OUN5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OUd5UEeic8oKnJqmC4w" name="Position" value="[35, 98, 65, 112&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OUt5UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_OU95UEeic8oKnJqmC4w" block="_Dd_OT95UEeic8oKnJqmC4w" outgoingLines="_Dd_Ogd5UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xmi:id="_Dd_OVN5UEeic8oKnJqmC4w" name="Constant" blockType="Constant" ports="_Dd_OYN5UEeic8oKnJqmC4w" nameProperty="_Dd_OVd5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_OVd5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OVt5UEeic8oKnJqmC4w" name="Position" value="[35, 20, 65, 50&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OV95UEeic8oKnJqmC4w" name="Value" value="50"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_OWN5UEeic8oKnJqmC4w" name="VectorParams1D" value="on"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OWd5UEeic8oKnJqmC4w" name="SamplingMode" value="Sample based"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OWt5UEeic8oKnJqmC4w" name="OutDataTypeMode" value="Inherit from 'Constant value'"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OW95UEeic8oKnJqmC4w" name="OutDataType" value="sfix(16)"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OXN5UEeic8oKnJqmC4w" name="ConRadixGroup" value="Use specified scaling"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OXd5UEeic8oKnJqmC4w" name="OutScaling" value="2^0"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OXt5UEeic8oKnJqmC4w" name="SampleTime" value="inf"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OX95UEeic8oKnJqmC4w" name="FramePeriod" value="inf"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_OYN5UEeic8oKnJqmC4w" block="_Dd_OVN5UEeic8oKnJqmC4w" outgoingLines="_Dd_Ogt5UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xmi:id="_Dd_OYd5UEeic8oKnJqmC4w" name="Constant1" blockType="Constant" ports="_Dd_Obd5UEeic8oKnJqmC4w" nameProperty="_Dd_OYt5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_OYt5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OY95UEeic8oKnJqmC4w" name="Position" value="[35, 180, 65, 210&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OZN5UEeic8oKnJqmC4w" name="Value" value="0"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_OZd5UEeic8oKnJqmC4w" name="VectorParams1D" value="on"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OZt5UEeic8oKnJqmC4w" name="SamplingMode" value="Sample based"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OZ95UEeic8oKnJqmC4w" name="OutDataTypeMode" value="Inherit from 'Constant value'"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OaN5UEeic8oKnJqmC4w" name="OutDataType" value="sfix(16)"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Oad5UEeic8oKnJqmC4w" name="ConRadixGroup" value="Use specified scaling"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Oat5UEeic8oKnJqmC4w" name="OutScaling" value="2^0"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Oa95UEeic8oKnJqmC4w" name="SampleTime" value="inf"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_ObN5UEeic8oKnJqmC4w" name="FramePeriod" value="inf"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_Obd5UEeic8oKnJqmC4w" block="_Dd_OYd5UEeic8oKnJqmC4w" outgoingLines="_Dd_Of95UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xmi:id="_Dd_Obt5UEeic8oKnJqmC4w" name="Switch" blockType="Switch" ports="_Dd_OdN5UEeic8oKnJqmC4w _Dd_Odd5UEeic8oKnJqmC4w _Dd_Odt5UEeic8oKnJqmC4w _Dd_Od95UEeic8oKnJqmC4w" nameProperty="_Dd_Ob95UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_Ob95UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OcN5UEeic8oKnJqmC4w" name="Position" value="[180, 90, 210, 120&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Ocd5UEeic8oKnJqmC4w" name="Criteria" value="u2 &gt; Threshold"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Oct5UEeic8oKnJqmC4w" name="InputSameDT" value="off"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Oc95UEeic8oKnJqmC4w" name="SaturateOnIntegerOverflow" value="off"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_OdN5UEeic8oKnJqmC4w" block="_Dd_Obt5UEeic8oKnJqmC4w" outgoingLines="_Dd_Oft5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_Odd5UEeic8oKnJqmC4w" block="_Dd_Obt5UEeic8oKnJqmC4w" number="3" incomingLines="_Dd_Of95UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_Odt5UEeic8oKnJqmC4w" block="_Dd_Obt5UEeic8oKnJqmC4w" number="2" incomingLines="_Dd_Ogd5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_Od95UEeic8oKnJqmC4w" block="_Dd_Obt5UEeic8oKnJqmC4w" incomingLines="_Dd_Ogt5UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_OeN5UEeic8oKnJqmC4w" name="Out1" blockType="Outport" ports="_Dd_Ofd5UEeic8oKnJqmC4w" nameProperty="_Dd_Oed5UEeic8oKnJqmC4w" correspondingPort="_Dd_OOt5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_Oed5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Oet5UEeic8oKnJqmC4w" name="Position" value="[365, 98, 395, 112&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Oe95UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_OfN5UEeic8oKnJqmC4w" name="BusOutputAsStruct" value="off"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_Ofd5UEeic8oKnJqmC4w" block="_Dd_OeN5UEeic8oKnJqmC4w" incomingLines="_Dd_Oft5UEeic8oKnJqmC4w"/>
+    </blocks>
+    <lines xmi:id="_Dd_Oft5UEeic8oKnJqmC4w" sourcePort="_Dd_OdN5UEeic8oKnJqmC4w" destinationPort="_Dd_Ofd5UEeic8oKnJqmC4w"/>
+    <lines xmi:id="_Dd_Of95UEeic8oKnJqmC4w" sourcePort="_Dd_Obd5UEeic8oKnJqmC4w" destinationPort="_Dd_Odd5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OgN5UEeic8oKnJqmC4w" name="Points" value="[50, 0; 0, -80&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_Ogd5UEeic8oKnJqmC4w" sourcePort="_Dd_OU95UEeic8oKnJqmC4w" destinationPort="_Dd_Odt5UEeic8oKnJqmC4w"/>
+    <lines xmi:id="_Dd_Ogt5UEeic8oKnJqmC4w" sourcePort="_Dd_OYN5UEeic8oKnJqmC4w" destinationPort="_Dd_Od95UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Og95UEeic8oKnJqmC4w" name="Points" value="[45, 0; 0, 60&#x5d;"/>
+    </lines>
+  </blocks>
+  <blocks xmi:id="_Dd_OhN5UEeic8oKnJqmC4w" name="Ignition Switch" blockType="Reference" ports="_Dd_Ohd5UEeic8oKnJqmC4w _Dd_Oht5UEeic8oKnJqmC4w _Dd_Oh95UEeic8oKnJqmC4w" nameProperty="_Dd_OiN5UEeic8oKnJqmC4w">
+    <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_Ohd5UEeic8oKnJqmC4w" block="_Dd_OhN5UEeic8oKnJqmC4w" incomingLines="_Dd_0KN5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_Oht5UEeic8oKnJqmC4w" block="_Dd_OhN5UEeic8oKnJqmC4w" number="2" incomingLines="_Dd_0Kt5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_Oh95UEeic8oKnJqmC4w" block="_Dd_OhN5UEeic8oKnJqmC4w" outgoingLines="_Dd_0Gt5UEeic8oKnJqmC4w _Dd_0HN5UEeic8oKnJqmC4w _Dd_0Ht5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_OiN5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Oid5UEeic8oKnJqmC4w" name="Position" value="[130, 237, 160, 273&#x5d;"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Oit5UEeic8oKnJqmC4w" name="SourceBlock" value="simulink/Signal&#xA;Routing/Manual Switch"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Oi95UEeic8oKnJqmC4w" name="SourceType" value="Manual Switch"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_OjN5UEeic8oKnJqmC4w" name="ShowPortLabels" value="on"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Ojd5UEeic8oKnJqmC4w" name="SystemSampleTime" value="-1"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Ojt5UEeic8oKnJqmC4w" name="FunctionWithSeparateData" value="off"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Oj95UEeic8oKnJqmC4w" name="RTWMemSecFuncInitTerm" value="Inherit from model"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OkN5UEeic8oKnJqmC4w" name="RTWMemSecFuncExecute" value="Inherit from model"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Okd5UEeic8oKnJqmC4w" name="RTWMemSecDataConstants" value="Inherit from model"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Okt5UEeic8oKnJqmC4w" name="RTWMemSecDataInternal" value="Inherit from model"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Ok95UEeic8oKnJqmC4w" name="RTWMemSecDataParameters" value="Inherit from model"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OlN5UEeic8oKnJqmC4w" name="sw" value="0"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Old5UEeic8oKnJqmC4w" name="action" value="0"/>
+  </blocks>
+  <blocks xsi:type="Structure:SimulinkSubSystem" xmi:id="_Dd_Olt5UEeic8oKnJqmC4w" name="Light Control Unit" blockType="SubSystem" ports="_Dd_Ol95UEeic8oKnJqmC4w _Dd_OmN5UEeic8oKnJqmC4w _Dd_Omd5UEeic8oKnJqmC4w _Dd_Omt5UEeic8oKnJqmC4w _Dd_Om95UEeic8oKnJqmC4w _Dd_OnN5UEeic8oKnJqmC4w _Dd_Ond5UEeic8oKnJqmC4w _Dd_Ont5UEeic8oKnJqmC4w _Dd_On95UEeic8oKnJqmC4w _Dd_OoN5UEeic8oKnJqmC4w" nameProperty="_Dd_Ood5UEeic8oKnJqmC4w">
+    <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_Ol95UEeic8oKnJqmC4w" block="_Dd_Olt5UEeic8oKnJqmC4w" incomingLines="_Dd_0LN5UEeic8oKnJqmC4w" portBlock="_Dd_Owd5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_OmN5UEeic8oKnJqmC4w" block="_Dd_Olt5UEeic8oKnJqmC4w" number="2" incomingLines="_Dd_0Gt5UEeic8oKnJqmC4w" portBlock="_Dd_Ox95UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_Omd5UEeic8oKnJqmC4w" block="_Dd_Olt5UEeic8oKnJqmC4w" number="3" incomingLines="_Dd_0Lt5UEeic8oKnJqmC4w" portBlock="_Dd_Ozd5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_Omt5UEeic8oKnJqmC4w" block="_Dd_Olt5UEeic8oKnJqmC4w" number="4" incomingLines="_Dd_0JN5UEeic8oKnJqmC4w" portBlock="_Dd_O095UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_Om95UEeic8oKnJqmC4w" block="_Dd_Olt5UEeic8oKnJqmC4w" number="5" incomingLines="_Dd_0IN5UEeic8oKnJqmC4w" portBlock="_Dd_O2d5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_OnN5UEeic8oKnJqmC4w" block="_Dd_Olt5UEeic8oKnJqmC4w" number="6" incomingLines="_Dd_0It5UEeic8oKnJqmC4w" portBlock="_Dd_O395UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_Ond5UEeic8oKnJqmC4w" block="_Dd_Olt5UEeic8oKnJqmC4w" number="7" incomingLines="_Dd_0Jt5UEeic8oKnJqmC4w" portBlock="_Dd_O5d5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_Ont5UEeic8oKnJqmC4w" block="_Dd_Olt5UEeic8oKnJqmC4w" outgoingLines="_Dd_0L95UEeic8oKnJqmC4w" portBlock="_Dd_PKN5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_On95UEeic8oKnJqmC4w" block="_Dd_Olt5UEeic8oKnJqmC4w" number="2" outgoingLines="_Dd_0Md5UEeic8oKnJqmC4w" portBlock="_Dd_PLt5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_OoN5UEeic8oKnJqmC4w" block="_Dd_Olt5UEeic8oKnJqmC4w" number="3" outgoingLines="_Dd_0M95UEeic8oKnJqmC4w" portBlock="_Dd_PNd5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_Ood5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Oot5UEeic8oKnJqmC4w" name="Position" value="[360, 57, 505, 533&#x5d;"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Oo95UEeic8oKnJqmC4w" name="MinAlgLoopOccurrences" value="off"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OpN5UEeic8oKnJqmC4w" name="RTWSystemCode" value="Auto"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Opd5UEeic8oKnJqmC4w" name="FunctionWithSeparateData" value="off"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Opt5UEeic8oKnJqmC4w" name="MaskHideContents" value="off"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Op95UEeic8oKnJqmC4w" name="MaskDescription" value="masked subsystem&#xA;demonstration mode"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OqN5UEeic8oKnJqmC4w" name="MaskPromptString" value="activate initial setting"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Oqd5UEeic8oKnJqmC4w" name="MaskStyleString" value="checkbox"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Oqt5UEeic8oKnJqmC4w" name="MaskTunableValueString" value="off"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Oq95UEeic8oKnJqmC4w" name="MaskEnableString" value="on"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OrN5UEeic8oKnJqmC4w" name="MaskVisibilityString" value="on"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Ord5UEeic8oKnJqmC4w" name="MaskToolTipString" value="on"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Ort5UEeic8oKnJqmC4w" name="MaskVariables" value="do_init=&amp;1;"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Or95UEeic8oKnJqmC4w" name="MaskIconFrame" value="on"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_OsN5UEeic8oKnJqmC4w" name="MaskIconOpaque" value="on"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Osd5UEeic8oKnJqmC4w" name="MaskIconRotate" value="none"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Ost5UEeic8oKnJqmC4w" name="MaskIconUnits" value="autoscale"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Os95UEeic8oKnJqmC4w" name="MaskValueString" value="off"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OtN5UEeic8oKnJqmC4w" name="Location" value="[2, 82, 1014, 722&#x5d;"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Otd5UEeic8oKnJqmC4w" name="Open" value="off"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Ott5UEeic8oKnJqmC4w" name="ModelBrowserVisibility" value="off"/>
+    <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_Ot95UEeic8oKnJqmC4w" name="ModelBrowserWidth" value="140"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OuN5UEeic8oKnJqmC4w" name="ScreenColor" value="white"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Oud5UEeic8oKnJqmC4w" name="PaperOrientation" value="landscape"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Out5UEeic8oKnJqmC4w" name="PaperPositionMode" value="auto"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Ou95UEeic8oKnJqmC4w" name="PaperType" value="usletter"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OvN5UEeic8oKnJqmC4w" name="PaperUnits" value="inches"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Ovd5UEeic8oKnJqmC4w" name="TiledPaperMargins" value="[0.500000, 0.500000, 0.500000, 0.500000&#x5d;"/>
+    <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_Ovt5UEeic8oKnJqmC4w" name="TiledPageScale" value="1"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_Ov95UEeic8oKnJqmC4w" name="ShowPageBoundaries" value="off"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OwN5UEeic8oKnJqmC4w" name="ZoomFactor" value="100"/>
+    <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_Owd5UEeic8oKnJqmC4w" name="Front Light Sensor" blockType="Inport" ports="_Dd_Oxt5UEeic8oKnJqmC4w" nameProperty="_Dd_Owt5UEeic8oKnJqmC4w" correspondingPort="_Dd_Ol95UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_Owt5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Ow95UEeic8oKnJqmC4w" name="Position" value="[30, 88, 60, 102&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_OxN5UEeic8oKnJqmC4w" name="NamePlacement" value="alternate"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Oxd5UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_Oxt5UEeic8oKnJqmC4w" block="_Dd_Owd5UEeic8oKnJqmC4w" outgoingLines="_Dd_PU95UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_Ox95UEeic8oKnJqmC4w" name="Ignition" blockType="Inport" ports="_Dd_OzN5UEeic8oKnJqmC4w" nameProperty="_Dd_OyN5UEeic8oKnJqmC4w" correspondingPort="_Dd_OmN5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_OyN5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Oyd5UEeic8oKnJqmC4w" name="Position" value="[30, 298, 60, 312&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Oyt5UEeic8oKnJqmC4w" name="Port" value="2"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Oy95UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_OzN5UEeic8oKnJqmC4w" block="_Dd_Ox95UEeic8oKnJqmC4w" outgoingLines="_Dd_PPN5UEeic8oKnJqmC4w _Dd_PPt5UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_Ozd5UEeic8oKnJqmC4w" name="Upper Light Sensor" blockType="Inport" ports="_Dd_O0t5UEeic8oKnJqmC4w" nameProperty="_Dd_Ozt5UEeic8oKnJqmC4w" correspondingPort="_Dd_Omd5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_Ozt5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Oz95UEeic8oKnJqmC4w" name="Position" value="[30, 128, 60, 142&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_O0N5UEeic8oKnJqmC4w" name="Port" value="3"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_O0d5UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_O0t5UEeic8oKnJqmC4w" block="_Dd_Ozd5UEeic8oKnJqmC4w" outgoingLines="_Dd_PVN5UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_O095UEeic8oKnJqmC4w" name="Switch On" blockType="Inport" ports="_Dd_O2N5UEeic8oKnJqmC4w" nameProperty="_Dd_O1N5UEeic8oKnJqmC4w" correspondingPort="_Dd_Omt5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_O1N5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_O1d5UEeic8oKnJqmC4w" name="Position" value="[30, 368, 60, 382&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_O1t5UEeic8oKnJqmC4w" name="Port" value="4"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_O195UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_O2N5UEeic8oKnJqmC4w" block="_Dd_O095UEeic8oKnJqmC4w" outgoingLines="_Dd_PRd5UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_O2d5UEeic8oKnJqmC4w" name="Switch Auto" blockType="Inport" ports="_Dd_O3t5UEeic8oKnJqmC4w" nameProperty="_Dd_O2t5UEeic8oKnJqmC4w" correspondingPort="_Dd_Om95UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_O2t5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_O295UEeic8oKnJqmC4w" name="Position" value="[30, 213, 60, 227&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_O3N5UEeic8oKnJqmC4w" name="Port" value="5"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_O3d5UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_O3t5UEeic8oKnJqmC4w" block="_Dd_O2d5UEeic8oKnJqmC4w" outgoingLines="_Dd_PVd5UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_O395UEeic8oKnJqmC4w" name="Switch Stand" blockType="Inport" ports="_Dd_O5N5UEeic8oKnJqmC4w" nameProperty="_Dd_O4N5UEeic8oKnJqmC4w" correspondingPort="_Dd_OnN5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_O4N5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_O4d5UEeic8oKnJqmC4w" name="Position" value="[30, 13, 60, 27&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_O4t5UEeic8oKnJqmC4w" name="Port" value="6"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_O495UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_O5N5UEeic8oKnJqmC4w" block="_Dd_O395UEeic8oKnJqmC4w" outgoingLines="_Dd_PQ95UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_O5d5UEeic8oKnJqmC4w" name="Switch Far " blockType="Inport" ports="_Dd_O6t5UEeic8oKnJqmC4w" nameProperty="_Dd_O5t5UEeic8oKnJqmC4w" correspondingPort="_Dd_Ond5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_O5t5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_O595UEeic8oKnJqmC4w" name="Position" value="[30, 433, 60, 447&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_O6N5UEeic8oKnJqmC4w" name="Port" value="7"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_O6d5UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_O6t5UEeic8oKnJqmC4w" block="_Dd_O5d5UEeic8oKnJqmC4w" outgoingLines="_Dd_PUd5UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xmi:id="_Dd_O695UEeic8oKnJqmC4w" name="Logical&#xA;Operator" blockType="Logic" ports="_Dd_O7N5UEeic8oKnJqmC4w _Dd_O7d5UEeic8oKnJqmC4w _Dd_O7t5UEeic8oKnJqmC4w _Dd_O795UEeic8oKnJqmC4w" nameProperty="_Dd_O8N5UEeic8oKnJqmC4w">
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_O7N5UEeic8oKnJqmC4w" block="_Dd_O695UEeic8oKnJqmC4w" incomingLines="_Dd_PVt5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_O7d5UEeic8oKnJqmC4w" block="_Dd_O695UEeic8oKnJqmC4w" number="2" incomingLines="_Dd_PVd5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_O7t5UEeic8oKnJqmC4w" block="_Dd_O695UEeic8oKnJqmC4w" number="3" incomingLines="_Dd_PPN5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_O795UEeic8oKnJqmC4w" block="_Dd_O695UEeic8oKnJqmC4w" outgoingLines="_Dd_PR95UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_O8N5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_O8d5UEeic8oKnJqmC4w" name="Position" value="[370, 203, 400, 237&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_O8t5UEeic8oKnJqmC4w" name="Inputs" value="3"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_O895UEeic8oKnJqmC4w" name="AllPortsSameDT" value="off"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_O9N5UEeic8oKnJqmC4w" name="OutDataTypeMode" value="Boolean"/>
+    </blocks>
+    <blocks xmi:id="_Dd_O9d5UEeic8oKnJqmC4w" name="Logical&#xA;Operator1" blockType="Logic" ports="_Dd_O9t5UEeic8oKnJqmC4w _Dd_O995UEeic8oKnJqmC4w _Dd_O-N5UEeic8oKnJqmC4w" nameProperty="_Dd_O-d5UEeic8oKnJqmC4w">
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_O9t5UEeic8oKnJqmC4w" block="_Dd_O9d5UEeic8oKnJqmC4w" incomingLines="_Dd_PPt5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_O995UEeic8oKnJqmC4w" block="_Dd_O9d5UEeic8oKnJqmC4w" number="2" incomingLines="_Dd_PRd5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_O-N5UEeic8oKnJqmC4w" block="_Dd_O9d5UEeic8oKnJqmC4w" outgoingLines="_Dd_PSd5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_O-d5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_O-t5UEeic8oKnJqmC4w" name="Position" value="[270, 262, 300, 293&#x5d;"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_O-95UEeic8oKnJqmC4w" name="AllPortsSameDT" value="off"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_O_N5UEeic8oKnJqmC4w" name="OutDataTypeMode" value="Boolean"/>
+    </blocks>
+    <blocks xmi:id="_Dd_O_d5UEeic8oKnJqmC4w" name="Logical&#xA;Operator2" blockType="Logic" ports="_Dd_O_t5UEeic8oKnJqmC4w _Dd_O_95UEeic8oKnJqmC4w _Dd_PAN5UEeic8oKnJqmC4w" nameProperty="_Dd_PAd5UEeic8oKnJqmC4w">
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_O_t5UEeic8oKnJqmC4w" block="_Dd_O_d5UEeic8oKnJqmC4w" incomingLines="_Dd_PQ95UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_O_95UEeic8oKnJqmC4w" block="_Dd_O_d5UEeic8oKnJqmC4w" number="2" incomingLines="_Dd_PTd5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_PAN5UEeic8oKnJqmC4w" block="_Dd_O_d5UEeic8oKnJqmC4w" outgoingLines="_Dd_PQt5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_PAd5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PAt5UEeic8oKnJqmC4w" name="Position" value="[620, 92, 650, 123&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PA95UEeic8oKnJqmC4w" name="Operator" value="OR"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_PBN5UEeic8oKnJqmC4w" name="AllPortsSameDT" value="off"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PBd5UEeic8oKnJqmC4w" name="OutDataTypeMode" value="Boolean"/>
+    </blocks>
+    <blocks xmi:id="_Dd_PBt5UEeic8oKnJqmC4w" name="Logical&#xA;Operator3" blockType="Logic" ports="_Dd_PB95UEeic8oKnJqmC4w _Dd_PCN5UEeic8oKnJqmC4w _Dd_PCd5UEeic8oKnJqmC4w" nameProperty="_Dd_PCt5UEeic8oKnJqmC4w">
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_PB95UEeic8oKnJqmC4w" block="_Dd_PBt5UEeic8oKnJqmC4w" incomingLines="_Dd_PT95UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_PCN5UEeic8oKnJqmC4w" block="_Dd_PBt5UEeic8oKnJqmC4w" number="2" incomingLines="_Dd_PUd5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_PCd5UEeic8oKnJqmC4w" block="_Dd_PBt5UEeic8oKnJqmC4w" outgoingLines="_Dd_PQN5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_PCt5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PC95UEeic8oKnJqmC4w" name="Position" value="[630, 247, 660, 278&#x5d;"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_PDN5UEeic8oKnJqmC4w" name="AllPortsSameDT" value="off"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PDd5UEeic8oKnJqmC4w" name="OutDataTypeMode" value="Boolean"/>
+    </blocks>
+    <blocks xmi:id="_Dd_PDt5UEeic8oKnJqmC4w" name="Logical&#xA;Operator4" blockType="Logic" ports="_Dd_PD95UEeic8oKnJqmC4w _Dd_PEN5UEeic8oKnJqmC4w _Dd_PEd5UEeic8oKnJqmC4w" nameProperty="_Dd_PEt5UEeic8oKnJqmC4w">
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_PD95UEeic8oKnJqmC4w" block="_Dd_PDt5UEeic8oKnJqmC4w" incomingLines="_Dd_PR95UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_PEN5UEeic8oKnJqmC4w" block="_Dd_PDt5UEeic8oKnJqmC4w" number="2" incomingLines="_Dd_PSd5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_PEd5UEeic8oKnJqmC4w" block="_Dd_PDt5UEeic8oKnJqmC4w" outgoingLines="_Dd_PS95UEeic8oKnJqmC4w _Dd_PTd5UEeic8oKnJqmC4w _Dd_PT95UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_PEt5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PE95UEeic8oKnJqmC4w" name="Position" value="[445, 207, 475, 238&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PFN5UEeic8oKnJqmC4w" name="Operator" value="OR"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_PFd5UEeic8oKnJqmC4w" name="AllPortsSameDT" value="off"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PFt5UEeic8oKnJqmC4w" name="OutDataTypeMode" value="Boolean"/>
+    </blocks>
+    <blocks xmi:id="_Dd_PF95UEeic8oKnJqmC4w" name="Sensor Signal Computation " blockType="Reference" ports="_Dd_PGN5UEeic8oKnJqmC4w _Dd_PGd5UEeic8oKnJqmC4w _Dd_PGt5UEeic8oKnJqmC4w _Dd_PG95UEeic8oKnJqmC4w" nameProperty="_Dd_PHN5UEeic8oKnJqmC4w">
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_PGN5UEeic8oKnJqmC4w" block="_Dd_PF95UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_PGd5UEeic8oKnJqmC4w" block="_Dd_PF95UEeic8oKnJqmC4w" number="2" incomingLines="_Dd_PU95UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_PGt5UEeic8oKnJqmC4w" block="_Dd_PF95UEeic8oKnJqmC4w" number="3" incomingLines="_Dd_PVN5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_PG95UEeic8oKnJqmC4w" block="_Dd_PF95UEeic8oKnJqmC4w" outgoingLines="_Dd_PVt5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_PHN5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PHd5UEeic8oKnJqmC4w" name="Position" value="[185, 33, 340, 157&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PHt5UEeic8oKnJqmC4w" name="SourceBlock" value="Sensors_Lib/Sensor Signal Computation "/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PH95UEeic8oKnJqmC4w" name="SourceType" value="SubSystem"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PIN5UEeic8oKnJqmC4w" name="ShowPortLabels" value="on"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PId5UEeic8oKnJqmC4w" name="SystemSampleTime" value="-1"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PIt5UEeic8oKnJqmC4w" name="FunctionWithSeparateData" value="off"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PI95UEeic8oKnJqmC4w" name="RTWMemSecFuncInitTerm" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PJN5UEeic8oKnJqmC4w" name="RTWMemSecFuncExecute" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PJd5UEeic8oKnJqmC4w" name="RTWMemSecDataConstants" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PJt5UEeic8oKnJqmC4w" name="RTWMemSecDataInternal" value="Inherit from model"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PJ95UEeic8oKnJqmC4w" name="RTWMemSecDataParameters" value="Inherit from model"/>
+    </blocks>
+    <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_PKN5UEeic8oKnJqmC4w" name="Headlight" blockType="Outport" ports="_Dd_PLd5UEeic8oKnJqmC4w" nameProperty="_Dd_PKd5UEeic8oKnJqmC4w" correspondingPort="_Dd_Ont5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_PKd5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PKt5UEeic8oKnJqmC4w" name="Position" value="[735, 33, 765, 47&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PK95UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_PLN5UEeic8oKnJqmC4w" name="BusOutputAsStruct" value="off"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_PLd5UEeic8oKnJqmC4w" block="_Dd_PKN5UEeic8oKnJqmC4w" incomingLines="_Dd_PS95UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_PLt5UEeic8oKnJqmC4w" name="Standight" blockType="Outport" ports="_Dd_PNN5UEeic8oKnJqmC4w" nameProperty="_Dd_PL95UEeic8oKnJqmC4w" correspondingPort="_Dd_On95UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_PL95UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PMN5UEeic8oKnJqmC4w" name="Position" value="[735, 103, 765, 117&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PMd5UEeic8oKnJqmC4w" name="Port" value="2"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PMt5UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_PM95UEeic8oKnJqmC4w" name="BusOutputAsStruct" value="off"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_PNN5UEeic8oKnJqmC4w" block="_Dd_PLt5UEeic8oKnJqmC4w" incomingLines="_Dd_PQt5UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_PNd5UEeic8oKnJqmC4w" name="Farlight" blockType="Outport" ports="_Dd_PO95UEeic8oKnJqmC4w" nameProperty="_Dd_PNt5UEeic8oKnJqmC4w" correspondingPort="_Dd_OoN5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_PNt5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PN95UEeic8oKnJqmC4w" name="Position" value="[735, 193, 765, 207&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PON5UEeic8oKnJqmC4w" name="Port" value="3"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_POd5UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_POt5UEeic8oKnJqmC4w" name="BusOutputAsStruct" value="off"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_PO95UEeic8oKnJqmC4w" block="_Dd_PNd5UEeic8oKnJqmC4w" incomingLines="_Dd_PQN5UEeic8oKnJqmC4w"/>
+    </blocks>
+    <lines xmi:id="_Dd_PPN5UEeic8oKnJqmC4w" sourcePort="_Dd_OzN5UEeic8oKnJqmC4w" destinationPort="_Dd_O7t5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PPd5UEeic8oKnJqmC4w" name="Points" value="[0, 0; 0, -35; 65, 0; 0, -40&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_PPt5UEeic8oKnJqmC4w" sourcePort="_Dd_OzN5UEeic8oKnJqmC4w" destinationPort="_Dd_O9t5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PP95UEeic8oKnJqmC4w" name="Points" value="[0, 0; 0, -35&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_PQN5UEeic8oKnJqmC4w" sourcePort="_Dd_PCd5UEeic8oKnJqmC4w" destinationPort="_Dd_PO95UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PQd5UEeic8oKnJqmC4w" name="Points" value="[0, -65&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_PQt5UEeic8oKnJqmC4w" sourcePort="_Dd_PAN5UEeic8oKnJqmC4w" destinationPort="_Dd_PNN5UEeic8oKnJqmC4w"/>
+    <lines xmi:id="_Dd_PQ95UEeic8oKnJqmC4w" sourcePort="_Dd_O5N5UEeic8oKnJqmC4w" destinationPort="_Dd_O_t5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PRN5UEeic8oKnJqmC4w" name="Points" value="[355, 0; 0, 80&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_PRd5UEeic8oKnJqmC4w" sourcePort="_Dd_O2N5UEeic8oKnJqmC4w" destinationPort="_Dd_O995UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PRt5UEeic8oKnJqmC4w" name="Points" value="[140, 0; 0, -90&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_PR95UEeic8oKnJqmC4w" sourcePort="_Dd_O795UEeic8oKnJqmC4w" destinationPort="_Dd_PD95UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PSN5UEeic8oKnJqmC4w" name="Points" value="[0, -5&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_PSd5UEeic8oKnJqmC4w" sourcePort="_Dd_O-N5UEeic8oKnJqmC4w" destinationPort="_Dd_PEN5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PSt5UEeic8oKnJqmC4w" name="Points" value="[125, 0&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_PS95UEeic8oKnJqmC4w" sourcePort="_Dd_PEd5UEeic8oKnJqmC4w" destinationPort="_Dd_PLd5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PTN5UEeic8oKnJqmC4w" name="Points" value="[0, 0; 50, 0; 0, -185&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_PTd5UEeic8oKnJqmC4w" sourcePort="_Dd_PEd5UEeic8oKnJqmC4w" destinationPort="_Dd_O_95UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PTt5UEeic8oKnJqmC4w" name="Points" value="[0, 0; 65, 0; 0, -30; 50, 0; 0, -80&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_PT95UEeic8oKnJqmC4w" sourcePort="_Dd_PEd5UEeic8oKnJqmC4w" destinationPort="_Dd_PB95UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PUN5UEeic8oKnJqmC4w" name="Points" value="[0, 0; 65, 0; 0, 30&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_PUd5UEeic8oKnJqmC4w" sourcePort="_Dd_O6t5UEeic8oKnJqmC4w" destinationPort="_Dd_PCN5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PUt5UEeic8oKnJqmC4w" name="Points" value="[400, 0; 0, -170&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_PU95UEeic8oKnJqmC4w" sourcePort="_Dd_Oxt5UEeic8oKnJqmC4w" destinationPort="_Dd_PGd5UEeic8oKnJqmC4w"/>
+    <lines xmi:id="_Dd_PVN5UEeic8oKnJqmC4w" sourcePort="_Dd_O0t5UEeic8oKnJqmC4w" destinationPort="_Dd_PGt5UEeic8oKnJqmC4w"/>
+    <lines xmi:id="_Dd_PVd5UEeic8oKnJqmC4w" sourcePort="_Dd_O3t5UEeic8oKnJqmC4w" destinationPort="_Dd_O7d5UEeic8oKnJqmC4w"/>
+    <lines xmi:id="_Dd_PVt5UEeic8oKnJqmC4w" sourcePort="_Dd_PG95UEeic8oKnJqmC4w" destinationPort="_Dd_O7N5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PV95UEeic8oKnJqmC4w" name="Points" value="[10, 0&#x5d;"/>
+    </lines>
+  </blocks>
+  <blocks xsi:type="Structure:SimulinkSubSystem" xmi:id="_Dd_PWN5UEeic8oKnJqmC4w" name="Upper Light Sensor" blockType="SubSystem" ports="_Dd_PWd5UEeic8oKnJqmC4w _Dd_PWt5UEeic8oKnJqmC4w" nameProperty="_Dd_PW95UEeic8oKnJqmC4w">
+    <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_PWd5UEeic8oKnJqmC4w" block="_Dd_PWN5UEeic8oKnJqmC4w" incomingLines="_Dd_0Ht5UEeic8oKnJqmC4w" portBlock="_Dd_zwt5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_PWt5UEeic8oKnJqmC4w" block="_Dd_PWN5UEeic8oKnJqmC4w" outgoingLines="_Dd_0Lt5UEeic8oKnJqmC4w" portBlock="_Dd_z6t5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_PW95UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PXN5UEeic8oKnJqmC4w" name="Position" value="[190, 204, 290, 246&#x5d;"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PXd5UEeic8oKnJqmC4w" name="AncestorBlock" value="Sensors_Lib/Upper Light Sensor"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_PXt5UEeic8oKnJqmC4w" name="MinAlgLoopOccurrences" value="off"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PX95UEeic8oKnJqmC4w" name="RTWSystemCode" value="Auto"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_PYN5UEeic8oKnJqmC4w" name="FunctionWithSeparateData" value="off"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_PYd5UEeic8oKnJqmC4w" name="MaskHideContents" value="off"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PYt5UEeic8oKnJqmC4w" name="Location" value="[645, 646, 1277, 1108&#x5d;"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_PY95UEeic8oKnJqmC4w" name="Open" value="off"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_PZN5UEeic8oKnJqmC4w" name="ModelBrowserVisibility" value="off"/>
+    <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_PZd5UEeic8oKnJqmC4w" name="ModelBrowserWidth" value="200"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PZt5UEeic8oKnJqmC4w" name="ScreenColor" value="white"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PZ95UEeic8oKnJqmC4w" name="PaperOrientation" value="landscape"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_PaN5UEeic8oKnJqmC4w" name="PaperPositionMode" value="auto"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Pad5UEeic8oKnJqmC4w" name="PaperType" value="usletter"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Pat5UEeic8oKnJqmC4w" name="PaperUnits" value="inches"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_Pa95UEeic8oKnJqmC4w" name="TiledPaperMargins" value="[0.500000, 0.500000, 0.500000, 0.500000&#x5d;"/>
+    <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_PbN5UEeic8oKnJqmC4w" name="TiledPageScale" value="1"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_zwN5UEeic8oKnJqmC4w" name="ShowPageBoundaries" value="off"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_zwd5UEeic8oKnJqmC4w" name="ZoomFactor" value="100"/>
+    <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_zwt5UEeic8oKnJqmC4w" name="Ignition" blockType="Inport" ports="_Dd_zxt5UEeic8oKnJqmC4w" nameProperty="_Dd_zw95UEeic8oKnJqmC4w" correspondingPort="_Dd_PWd5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_zw95UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_zxN5UEeic8oKnJqmC4w" name="Position" value="[30, 113, 60, 127&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_zxd5UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_zxt5UEeic8oKnJqmC4w" block="_Dd_zwt5UEeic8oKnJqmC4w" outgoingLines="_Dd_z8N5UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xmi:id="_Dd_zx95UEeic8oKnJqmC4w" name="Constant" blockType="Constant" ports="_Dd_z095UEeic8oKnJqmC4w" nameProperty="_Dd_zyN5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_zyN5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_zyd5UEeic8oKnJqmC4w" name="Position" value="[30, 20, 60, 50&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_zyt5UEeic8oKnJqmC4w" name="Value" value="70"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_zy95UEeic8oKnJqmC4w" name="VectorParams1D" value="on"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_zzN5UEeic8oKnJqmC4w" name="SamplingMode" value="Sample based"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_zzd5UEeic8oKnJqmC4w" name="OutDataTypeMode" value="Inherit from 'Constant value'"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_zzt5UEeic8oKnJqmC4w" name="OutDataType" value="sfix(16)"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_zz95UEeic8oKnJqmC4w" name="ConRadixGroup" value="Use specified scaling"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z0N5UEeic8oKnJqmC4w" name="OutScaling" value="2^0"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z0d5UEeic8oKnJqmC4w" name="SampleTime" value="inf"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z0t5UEeic8oKnJqmC4w" name="FramePeriod" value="inf"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_z095UEeic8oKnJqmC4w" block="_Dd_zx95UEeic8oKnJqmC4w" outgoingLines="_Dd_z8d5UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xmi:id="_Dd_z1N5UEeic8oKnJqmC4w" name="Constant1" blockType="Constant" ports="_Dd_z4N5UEeic8oKnJqmC4w" nameProperty="_Dd_z1d5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_z1d5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z1t5UEeic8oKnJqmC4w" name="Position" value="[25, 205, 55, 235&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z195UEeic8oKnJqmC4w" name="Value" value="0"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_z2N5UEeic8oKnJqmC4w" name="VectorParams1D" value="on"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z2d5UEeic8oKnJqmC4w" name="SamplingMode" value="Sample based"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z2t5UEeic8oKnJqmC4w" name="OutDataTypeMode" value="Inherit from 'Constant value'"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z295UEeic8oKnJqmC4w" name="OutDataType" value="sfix(16)"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z3N5UEeic8oKnJqmC4w" name="ConRadixGroup" value="Use specified scaling"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z3d5UEeic8oKnJqmC4w" name="OutScaling" value="2^0"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z3t5UEeic8oKnJqmC4w" name="SampleTime" value="inf"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z395UEeic8oKnJqmC4w" name="FramePeriod" value="inf"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_z4N5UEeic8oKnJqmC4w" block="_Dd_z1N5UEeic8oKnJqmC4w" outgoingLines="_Dd_z895UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xmi:id="_Dd_z4d5UEeic8oKnJqmC4w" name="Switch" blockType="Switch" ports="_Dd_z5t5UEeic8oKnJqmC4w _Dd_z595UEeic8oKnJqmC4w _Dd_z6N5UEeic8oKnJqmC4w _Dd_z6d5UEeic8oKnJqmC4w" nameProperty="_Dd_z4t5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_z4t5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z495UEeic8oKnJqmC4w" name="Position" value="[210, 105, 240, 135&#x5d;"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_z5N5UEeic8oKnJqmC4w" name="InputSameDT" value="off"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_z5d5UEeic8oKnJqmC4w" name="SaturateOnIntegerOverflow" value="off"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_z5t5UEeic8oKnJqmC4w" block="_Dd_z4d5UEeic8oKnJqmC4w" number="2" incomingLines="_Dd_z8N5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_z595UEeic8oKnJqmC4w" block="_Dd_z4d5UEeic8oKnJqmC4w" incomingLines="_Dd_z8d5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_z6N5UEeic8oKnJqmC4w" block="_Dd_z4d5UEeic8oKnJqmC4w" number="3" incomingLines="_Dd_z895UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_z6d5UEeic8oKnJqmC4w" block="_Dd_z4d5UEeic8oKnJqmC4w" outgoingLines="_Dd_z9d5UEeic8oKnJqmC4w"/>
+    </blocks>
+    <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_z6t5UEeic8oKnJqmC4w" name="Out1" blockType="Outport" ports="_Dd_z795UEeic8oKnJqmC4w" nameProperty="_Dd_z695UEeic8oKnJqmC4w" correspondingPort="_Dd_PWt5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_z695UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z7N5UEeic8oKnJqmC4w" name="Position" value="[385, 113, 415, 127&#x5d;"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z7d5UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_z7t5UEeic8oKnJqmC4w" name="BusOutputAsStruct" value="off"/>
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_z795UEeic8oKnJqmC4w" block="_Dd_z6t5UEeic8oKnJqmC4w" incomingLines="_Dd_z9d5UEeic8oKnJqmC4w"/>
+    </blocks>
+    <lines xmi:id="_Dd_z8N5UEeic8oKnJqmC4w" sourcePort="_Dd_zxt5UEeic8oKnJqmC4w" destinationPort="_Dd_z5t5UEeic8oKnJqmC4w"/>
+    <lines xmi:id="_Dd_z8d5UEeic8oKnJqmC4w" sourcePort="_Dd_z095UEeic8oKnJqmC4w" destinationPort="_Dd_z595UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z8t5UEeic8oKnJqmC4w" name="Points" value="[65, 0; 0, 75&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_z895UEeic8oKnJqmC4w" sourcePort="_Dd_z4N5UEeic8oKnJqmC4w" destinationPort="_Dd_z6N5UEeic8oKnJqmC4w">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z9N5UEeic8oKnJqmC4w" name="Points" value="[65, 0; 0, -90&#x5d;"/>
+    </lines>
+    <lines xmi:id="_Dd_z9d5UEeic8oKnJqmC4w" sourcePort="_Dd_z6d5UEeic8oKnJqmC4w" destinationPort="_Dd_z795UEeic8oKnJqmC4w"/>
+  </blocks>
+  <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_z9t5UEeic8oKnJqmC4w" name="Headlight On" blockType="Outport" ports="_Dd_z-95UEeic8oKnJqmC4w" nameProperty="_Dd_z995UEeic8oKnJqmC4w" correspondingPort="_Dd_Nat5UEeic8oKnJqmC4w">
+    <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_z995UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z-N5UEeic8oKnJqmC4w" name="Position" value="[570, 128, 600, 142&#x5d;"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z-d5UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_z-t5UEeic8oKnJqmC4w" name="BusOutputAsStruct" value="off"/>
+    <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_z-95UEeic8oKnJqmC4w" block="_Dd_z9t5UEeic8oKnJqmC4w" incomingLines="_Dd_0L95UEeic8oKnJqmC4w"/>
+  </blocks>
+  <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_z_N5UEeic8oKnJqmC4w" name="Daylight On" blockType="Outport" ports="_Dd_0At5UEeic8oKnJqmC4w" nameProperty="_Dd_z_d5UEeic8oKnJqmC4w" correspondingPort="_Dd_Na95UEeic8oKnJqmC4w">
+    <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_z_d5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z_t5UEeic8oKnJqmC4w" name="Position" value="[570, 288, 600, 302&#x5d;"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_z_95UEeic8oKnJqmC4w" name="Port" value="2"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0AN5UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0Ad5UEeic8oKnJqmC4w" name="BusOutputAsStruct" value="off"/>
+    <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_0At5UEeic8oKnJqmC4w" block="_Dd_z_N5UEeic8oKnJqmC4w" incomingLines="_Dd_0Md5UEeic8oKnJqmC4w"/>
+  </blocks>
+  <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_0A95UEeic8oKnJqmC4w" name="Farlight On" blockType="Outport" ports="_Dd_0Cd5UEeic8oKnJqmC4w" nameProperty="_Dd_0BN5UEeic8oKnJqmC4w" correspondingPort="_Dd_NbN5UEeic8oKnJqmC4w">
+    <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_0BN5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Bd5UEeic8oKnJqmC4w" name="Position" value="[575, 448, 605, 462&#x5d;"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Bt5UEeic8oKnJqmC4w" name="Port" value="3"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0B95UEeic8oKnJqmC4w" name="IconDisplay" value="Port number"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0CN5UEeic8oKnJqmC4w" name="BusOutputAsStruct" value="off"/>
+    <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_0Cd5UEeic8oKnJqmC4w" block="_Dd_0A95UEeic8oKnJqmC4w" incomingLines="_Dd_0M95UEeic8oKnJqmC4w"/>
+  </blocks>
+  <blocks xmi:id="_Dd_0Ct5UEeic8oKnJqmC4w" name="Scope1" blockType="SignalViewerScope" nameProperty="_Dd_0C95UEeic8oKnJqmC4w">
+    <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_0C95UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0DN5UEeic8oKnJqmC4w" name="Position" value="[20, 15, 60, 55&#x5d;"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Dd5UEeic8oKnJqmC4w" name="IOType" value="viewer"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Dt5UEeic8oKnJqmC4w" name="Location" value="[188, 365, 512, 604&#x5d;"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0D95UEeic8oKnJqmC4w" name="Open" value="off"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0EN5UEeic8oKnJqmC4w" name="NumInputPorts" value="1"/>
+    <properties xsi:type="Configuration:SimulinkPropertyList" xmi:id="_Dd_0Ed5UEeic8oKnJqmC4w" name="AxesTitles">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Et5UEeic8oKnJqmC4w" name="ListType" value="AxesTitles"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0E95UEeic8oKnJqmC4w" name="axes1" value="%&lt;SignalLabel&gt;"/>
+    </properties>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0FN5UEeic8oKnJqmC4w" name="ShowDataMarkers" value="off"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0Fd5UEeic8oKnJqmC4w" name="ShowLegends" value="off"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Ft5UEeic8oKnJqmC4w" name="DataFormat" value="Array"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0F95UEeic8oKnJqmC4w" name="MaxDataPoints" value="7500"/>
+    <properties xsi:type="Configuration:FloatProperty" xmi:id="_Dd_0GN5UEeic8oKnJqmC4w" name="RefreshTime" value="0.035"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0Gd5UEeic8oKnJqmC4w" name="Disabled" value="off"/>
+  </blocks>
+  <lines xmi:id="_Dd_0Gt5UEeic8oKnJqmC4w" sourcePort="_Dd_Oh95UEeic8oKnJqmC4w" destinationPort="_Dd_OmN5UEeic8oKnJqmC4w">
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0G95UEeic8oKnJqmC4w" name="Points" value="[0, 0; 0, -100&#x5d;"/>
+  </lines>
+  <lines xmi:id="_Dd_0HN5UEeic8oKnJqmC4w" sourcePort="_Dd_Oh95UEeic8oKnJqmC4w" destinationPort="_Dd_OOd5UEeic8oKnJqmC4w">
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Hd5UEeic8oKnJqmC4w" name="Points" value="[0, 0; 0, -170&#x5d;"/>
+  </lines>
+  <lines xmi:id="_Dd_0Ht5UEeic8oKnJqmC4w" sourcePort="_Dd_Oh95UEeic8oKnJqmC4w" destinationPort="_Dd_PWd5UEeic8oKnJqmC4w">
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0H95UEeic8oKnJqmC4w" name="Points" value="[0, 0; 0, -30&#x5d;"/>
+  </lines>
+  <lines xmi:id="_Dd_0IN5UEeic8oKnJqmC4w" sourcePort="_Dd_NiN5UEeic8oKnJqmC4w" destinationPort="_Dd_Om95UEeic8oKnJqmC4w">
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Id5UEeic8oKnJqmC4w" name="Points" value="[0, -80&#x5d;"/>
+  </lines>
+  <lines xmi:id="_Dd_0It5UEeic8oKnJqmC4w" sourcePort="_Dd_Nid5UEeic8oKnJqmC4w" destinationPort="_Dd_OnN5UEeic8oKnJqmC4w">
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0I95UEeic8oKnJqmC4w" name="Points" value="[25, 0; 0, -30&#x5d;"/>
+  </lines>
+  <lines xmi:id="_Dd_0JN5UEeic8oKnJqmC4w" sourcePort="_Dd_Nit5UEeic8oKnJqmC4w" destinationPort="_Dd_Omt5UEeic8oKnJqmC4w">
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Jd5UEeic8oKnJqmC4w" name="Points" value="[45, 0; 0, -190&#x5d;"/>
+  </lines>
+  <lines xmi:id="_Dd_0Jt5UEeic8oKnJqmC4w" sourcePort="_Dd_Ni95UEeic8oKnJqmC4w" destinationPort="_Dd_Ond5UEeic8oKnJqmC4w">
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0J95UEeic8oKnJqmC4w" name="Points" value="[0, 0&#x5d;"/>
+  </lines>
+  <lines xmi:id="_Dd_0KN5UEeic8oKnJqmC4w" sourcePort="_Dd_Nht5UEeic8oKnJqmC4w" destinationPort="_Dd_Ohd5UEeic8oKnJqmC4w">
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Kd5UEeic8oKnJqmC4w" name="Points" value="[15, 0; 0, 25&#x5d;"/>
+  </lines>
+  <lines xmi:id="_Dd_0Kt5UEeic8oKnJqmC4w" sourcePort="_Dd_Ned5UEeic8oKnJqmC4w" destinationPort="_Dd_Oht5UEeic8oKnJqmC4w">
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0K95UEeic8oKnJqmC4w" name="Points" value="[15, 0; 0, -25&#x5d;"/>
+  </lines>
+  <lines xmi:id="_Dd_0LN5UEeic8oKnJqmC4w" sourcePort="_Dd_OOt5UEeic8oKnJqmC4w" destinationPort="_Dd_Ol95UEeic8oKnJqmC4w">
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Ld5UEeic8oKnJqmC4w" name="Points" value="[0, 0&#x5d;"/>
+  </lines>
+  <lines xmi:id="_Dd_0Lt5UEeic8oKnJqmC4w" sourcePort="_Dd_PWt5UEeic8oKnJqmC4w" destinationPort="_Dd_Omd5UEeic8oKnJqmC4w"/>
+  <lines xmi:id="_Dd_0L95UEeic8oKnJqmC4w" sourcePort="_Dd_Ont5UEeic8oKnJqmC4w" destinationPort="_Dd_z-95UEeic8oKnJqmC4w">
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0MN5UEeic8oKnJqmC4w" name="Points" value="[0, 0&#x5d;"/>
+  </lines>
+  <lines xmi:id="_Dd_0Md5UEeic8oKnJqmC4w" sourcePort="_Dd_On95UEeic8oKnJqmC4w" destinationPort="_Dd_0At5UEeic8oKnJqmC4w">
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Mt5UEeic8oKnJqmC4w" name="Points" value="[0, 0&#x5d;"/>
+  </lines>
+  <lines xmi:id="_Dd_0M95UEeic8oKnJqmC4w" sourcePort="_Dd_OoN5UEeic8oKnJqmC4w" destinationPort="_Dd_0Cd5UEeic8oKnJqmC4w">
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0NN5UEeic8oKnJqmC4w" name="Points" value="[0, 0&#x5d;"/>
+  </lines>
+  <annotations xmi:id="_Dd_0Nd5UEeic8oKnJqmC4w" name="Light System Example Model" nameProperty="_Dd_0Nt5UEeic8oKnJqmC4w">
+    <properties xsi:type="Configuration:NameProperty" xmi:id="_Dd_0Nt5UEeic8oKnJqmC4w"/>
+    <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0N95UEeic8oKnJqmC4w" name="Position" value="[343, 28&#x5d;"/>
+    <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0ON5UEeic8oKnJqmC4w" name="UseDisplayTextAsClickCallback" value="off"/>
+  </annotations>
+  <defaults xmi:id="_Dd_0Od5UEeic8oKnJqmC4w">
+    <defaults xmi:id="_Dd_0Ot5UEeic8oKnJqmC4w" name="GraphicalInterface">
+      <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_0O95UEeic8oKnJqmC4w" name="NumRootInports" value="0"/>
+      <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_0PN5UEeic8oKnJqmC4w" name="NumRootOutports" value="3"/>
+      <properties xsi:type="Configuration:SimulinkPropertyList" xmi:id="_Dd_0Pd5UEeic8oKnJqmC4w" name="Headlight On">
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Pt5UEeic8oKnJqmC4w" name="BusObject" value=""/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0P95UEeic8oKnJqmC4w" name="BusOutputAsStruct" value="off"/>
+      </properties>
+      <properties xsi:type="Configuration:SimulinkPropertyList" xmi:id="_Dd_0QN5UEeic8oKnJqmC4w" name="Daylight On">
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Qd5UEeic8oKnJqmC4w" name="BusObject" value=""/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Qt5UEeic8oKnJqmC4w" name="BusOutputAsStruct" value="off"/>
+      </properties>
+      <properties xsi:type="Configuration:SimulinkPropertyList" xmi:id="_Dd_0Q95UEeic8oKnJqmC4w" name="Farlight On">
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0RN5UEeic8oKnJqmC4w" name="BusObject" value=""/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Rd5UEeic8oKnJqmC4w" name="BusOutputAsStruct" value="off"/>
+      </properties>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Rt5UEeic8oKnJqmC4w" name="ParameterArgumentNames" value=""/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0R95UEeic8oKnJqmC4w" name="ComputedModelVersion" value="1.61"/>
+      <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_0SN5UEeic8oKnJqmC4w" name="NumModelReferences" value="0"/>
+      <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_0Sd5UEeic8oKnJqmC4w" name="NumTestPointedSignals" value="0"/>
+    </defaults>
+    <defaults xmi:id="_Dd_0St5UEeic8oKnJqmC4w" name="BlockDefaults">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0S95UEeic8oKnJqmC4w" name="Orientation" value="right"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0TN5UEeic8oKnJqmC4w" name="ForegroundColor" value="black"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Td5UEeic8oKnJqmC4w" name="BackgroundColor" value="white"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0Tt5UEeic8oKnJqmC4w" name="DropShadow" value="off"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0T95UEeic8oKnJqmC4w" name="NamePlacement" value="normal"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0UN5UEeic8oKnJqmC4w" name="FontName" value="Arial"/>
+      <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_0Ud5UEeic8oKnJqmC4w" name="FontSize" value="10"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Ut5UEeic8oKnJqmC4w" name="FontWeight" value="normal"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0U95UEeic8oKnJqmC4w" name="FontAngle" value="normal"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0VN5UEeic8oKnJqmC4w" name="ShowName" value="on"/>
+    </defaults>
+    <defaults xmi:id="_Dd_0Vd5UEeic8oKnJqmC4w" name="BlockParameterDefaults">
+      <properties xsi:type="Structure:SimulinkInport" xmi:id="_Dd_0Vt5UEeic8oKnJqmC4w" portBlock="_Dd_0Wd5UEeic8oKnJqmC4w"/>
+      <properties xsi:type="Structure:SimulinkOutport" xmi:id="_Dd_0V95UEeic8oKnJqmC4w" portBlock="_Dd_0gt5UEeic8oKnJqmC4w"/>
+      <blocks xmi:id="_Dd_0WN5UEeic8oKnJqmC4w" name="Constant" blockType="Constant"/>
+      <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_0Wd5UEeic8oKnJqmC4w" name="Inport" blockType="Inport" correspondingPort="_Dd_0Vt5UEeic8oKnJqmC4w">
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Wt5UEeic8oKnJqmC4w" name="Port" value="1"/>
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0W95UEeic8oKnJqmC4w" name="UseBusObject" value="off"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0XN5UEeic8oKnJqmC4w" name="BusObject" value="BusObject"/>
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0Xd5UEeic8oKnJqmC4w" name="BusOutputAsStruct" value="off"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Xt5UEeic8oKnJqmC4w" name="PortDimensions" value="-1"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0X95UEeic8oKnJqmC4w" name="SampleTime" value="-1"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0YN5UEeic8oKnJqmC4w" name="DataType" value="auto"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Yd5UEeic8oKnJqmC4w" name="OutDataType" value="sfix(16)"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Yt5UEeic8oKnJqmC4w" name="OutScaling" value="2^0"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0Y95UEeic8oKnJqmC4w" name="SignalType" value="auto"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0ZN5UEeic8oKnJqmC4w" name="SamplingMode" value="auto"/>
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0Zd5UEeic8oKnJqmC4w" name="LatchByDelayingOutsideSignal" value="off"/>
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0Zt5UEeic8oKnJqmC4w" name="LatchByCopyingInsideSignal" value="off"/>
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0Z95UEeic8oKnJqmC4w" name="Interpolate" value="on"/>
+      </blocks>
+      <blocks xmi:id="_Dd_0aN5UEeic8oKnJqmC4w" name="Logic" blockType="Logic">
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0ad5UEeic8oKnJqmC4w" name="Operator" value="AND"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0at5UEeic8oKnJqmC4w" name="Inputs" value="2"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0a95UEeic8oKnJqmC4w" name="IconShape" value="rectangular"/>
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0bN5UEeic8oKnJqmC4w" name="AllPortsSameDT" value="on"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0bd5UEeic8oKnJqmC4w" name="OutDataTypeMode" value="Logical (see Configuration Parameters: Optimization)"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0bt5UEeic8oKnJqmC4w" name="LogicDataType" value="uint(8)"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0b95UEeic8oKnJqmC4w" name="SampleTime" value="-1"/>
+      </blocks>
+      <blocks xmi:id="_Dd_0cN5UEeic8oKnJqmC4w" name="SignalViewerScope" blockType="SignalViewerScope">
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0cd5UEeic8oKnJqmC4w" name="Floating" value="off"/>
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0ct5UEeic8oKnJqmC4w" name="ModelBased" value="off"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0c95UEeic8oKnJqmC4w" name="TickLabels" value="OneTimeTick"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0dN5UEeic8oKnJqmC4w" name="ZoomMode" value="on"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0dd5UEeic8oKnJqmC4w" name="Grid" value="on"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0dt5UEeic8oKnJqmC4w" name="TimeRange" value="auto"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0d95UEeic8oKnJqmC4w" name="YMin" value="-5"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0eN5UEeic8oKnJqmC4w" name="YMax" value="5"/>
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0ed5UEeic8oKnJqmC4w" name="SaveToWorkspace" value="off"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0et5UEeic8oKnJqmC4w" name="SaveName" value="ScopeData"/>
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0e95UEeic8oKnJqmC4w" name="LimitDataPoints" value="on"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0fN5UEeic8oKnJqmC4w" name="MaxDataPoints" value="5000"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0fd5UEeic8oKnJqmC4w" name="Decimation" value="1"/>
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0ft5UEeic8oKnJqmC4w" name="SampleInput" value="off"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0f95UEeic8oKnJqmC4w" name="SampleTime" value="0"/>
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0gN5UEeic8oKnJqmC4w" name="Disabled" value="off"/>
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0gd5UEeic8oKnJqmC4w" name="ScrollMode" value="on"/>
+      </blocks>
+      <blocks xsi:type="Structure:SimulinkPortBlock" xmi:id="_Dd_0gt5UEeic8oKnJqmC4w" name="Outport" blockType="Outport" correspondingPort="_Dd_0V95UEeic8oKnJqmC4w">
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0g95UEeic8oKnJqmC4w" name="Port" value="1"/>
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0hN5UEeic8oKnJqmC4w" name="UseBusObject" value="off"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0hd5UEeic8oKnJqmC4w" name="BusObject" value="BusObject"/>
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0ht5UEeic8oKnJqmC4w" name="BusOutputAsStruct" value="off"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0h95UEeic8oKnJqmC4w" name="PortDimensions" value="-1"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0iN5UEeic8oKnJqmC4w" name="SampleTime" value="-1"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0id5UEeic8oKnJqmC4w" name="DataType" value="auto"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0it5UEeic8oKnJqmC4w" name="OutDataType" value="sfix(16)"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0i95UEeic8oKnJqmC4w" name="OutScaling" value="2^0"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0jN5UEeic8oKnJqmC4w" name="SignalType" value="auto"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0jd5UEeic8oKnJqmC4w" name="SamplingMode" value="auto"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0jt5UEeic8oKnJqmC4w" name="OutputWhenDisabled" value="held"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0j95UEeic8oKnJqmC4w" name="InitialOutput" value="[&#x5d;"/>
+      </blocks>
+      <blocks xmi:id="_Dd_0kN5UEeic8oKnJqmC4w" name="Reference" blockType="Reference"/>
+      <blocks xmi:id="_Dd_0kd5UEeic8oKnJqmC4w" name="S-Function" blockType="S-Function">
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0kt5UEeic8oKnJqmC4w" name="FunctionName" value="system"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0k95UEeic8oKnJqmC4w" name="SFunctionModules" value="''"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0lN5UEeic8oKnJqmC4w" name="PortCounts" value="[&#x5d;"/>
+      </blocks>
+      <blocks xsi:type="Structure:SimulinkSubSystem" xmi:id="_Dd_0ld5UEeic8oKnJqmC4w" name="SubSystem" blockType="SubSystem">
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0lt5UEeic8oKnJqmC4w" name="ShowPortLabels" value="on"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0l95UEeic8oKnJqmC4w" name="Permissions" value="ReadWrite"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0mN5UEeic8oKnJqmC4w" name="PermitHierarchicalResolution" value="All"/>
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0md5UEeic8oKnJqmC4w" name="TreatAsAtomicUnit" value="off"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0mt5UEeic8oKnJqmC4w" name="SystemSampleTime" value="-1"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0m95UEeic8oKnJqmC4w" name="RTWFcnNameOpts" value="Auto"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0nN5UEeic8oKnJqmC4w" name="RTWFileNameOpts" value="Auto"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0nd5UEeic8oKnJqmC4w" name="RTWMemSecFuncInitTerm" value="Inherit from model"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0nt5UEeic8oKnJqmC4w" name="RTWMemSecFuncExecute" value="Inherit from model"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0n95UEeic8oKnJqmC4w" name="RTWMemSecDataConstants" value="Inherit from model"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0oN5UEeic8oKnJqmC4w" name="RTWMemSecDataInternal" value="Inherit from model"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0od5UEeic8oKnJqmC4w" name="RTWMemSecDataParameters" value="Inherit from model"/>
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0ot5UEeic8oKnJqmC4w" name="SimViewingDevice" value="off"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0o95UEeic8oKnJqmC4w" name="DataTypeOverride" value="UseLocalSettings"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0pN5UEeic8oKnJqmC4w" name="MinMaxOverflowLogging" value="UseLocalSettings"/>
+      </blocks>
+      <blocks xmi:id="_Dd_0pd5UEeic8oKnJqmC4w" name="Switch" blockType="Switch">
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0pt5UEeic8oKnJqmC4w" name="Criteria" value="u2 &gt;= Threshold"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0p95UEeic8oKnJqmC4w" name="Threshold" value="0"/>
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0qN5UEeic8oKnJqmC4w" name="InputSameDT" value="on"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0qd5UEeic8oKnJqmC4w" name="OutDataTypeMode" value="Inherit via internal rule"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0qt5UEeic8oKnJqmC4w" name="RndMeth" value="Floor"/>
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0q95UEeic8oKnJqmC4w" name="SaturateOnIntegerOverflow" value="on"/>
+        <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0rN5UEeic8oKnJqmC4w" name="ZeroCross" value="on"/>
+        <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0rd5UEeic8oKnJqmC4w" name="SampleTime" value="-1"/>
+      </blocks>
+    </defaults>
+    <defaults xmi:id="_Dd_0rt5UEeic8oKnJqmC4w" name="AnnotationDefaults">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0r95UEeic8oKnJqmC4w" name="HorizontalAlignment" value="center"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0sN5UEeic8oKnJqmC4w" name="VerticalAlignment" value="middle"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0sd5UEeic8oKnJqmC4w" name="ForegroundColor" value="black"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0st5UEeic8oKnJqmC4w" name="BackgroundColor" value="white"/>
+      <properties xsi:type="Configuration:BoolProperty" xmi:id="_Dd_0s95UEeic8oKnJqmC4w" name="DropShadow" value="off"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0tN5UEeic8oKnJqmC4w" name="FontName" value="Arial"/>
+      <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_0td5UEeic8oKnJqmC4w" name="FontSize" value="10"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0tt5UEeic8oKnJqmC4w" name="FontWeight" value="normal"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0t95UEeic8oKnJqmC4w" name="FontAngle" value="normal"/>
+    </defaults>
+    <defaults xmi:id="_Dd_0uN5UEeic8oKnJqmC4w" name="LineDefaults">
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0ud5UEeic8oKnJqmC4w" name="FontName" value="Arial"/>
+      <properties xsi:type="Configuration:IntegerProperty" xmi:id="_Dd_0ut5UEeic8oKnJqmC4w" name="FontSize" value="9"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0u95UEeic8oKnJqmC4w" name="FontWeight" value="normal"/>
+      <properties xsi:type="Configuration:StringProperty" xmi:id="_Dd_0vN5UEeic8oKnJqmC4w" name="FontAngle" value="normal"/>
+    </defaults>
+  </defaults>
+</Structure:SimulinkSystem>

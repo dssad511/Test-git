@@ -1,0 +1,14 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<safety:MeasureCatalog xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safety="http://www.ikv.de/medini/metamodels/SafetyModel/1.0" xmi:id="_arT-sE9BEeC1A4_enB0KXA" mediniIdentifier="_arT-sE9BEeC1A4_enB0KXA" name="Table D.8 — Communication bus (serial, parallel)">
+  <collectionType href="http://www.ikv.de/medini/metamodels/SafetyModel/1.0#//SafetyMechanism"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_dYdhcE9BEeC1A4_enB0KXA" mediniIdentifier="_dYdhcE9BEeC1A4_enB0KXA" id="D.2.7.1" name="One-bit hardware redundancy" maxDC="LOW" notes="-"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_dYdhcU9BEeC1A4_enB0KXA" mediniIdentifier="_dYdhcU9BEeC1A4_enB0KXA" id="D.2.7.2" name="Multi-bit hardware redundancy" maxDC="MEDIUM" notes="-"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_dYdhck9BEeC1A4_enB0KXA" mediniIdentifier="_dYdhck9BEeC1A4_enB0KXA" id="D.2.7.9" name="Read back of sent message" maxDC="MEDIUM" notes=""/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_dYdhc09BEeC1A4_enB0KXA" mediniIdentifier="_dYdhc09BEeC1A4_enB0KXA" id="D.2.7.3" name="Complete hardware redundancy" maxDC="HIGH" notes="Common failure modes can reduce diagnostic coverage."/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_dYdhdE9BEeC1A4_enB0KXA" mediniIdentifier="_dYdhdE9BEeC1A4_enB0KXA" id="D.2.7.4" name="Inspection using test patterns" maxDC="HIGH" notes="-"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_dYnScE9BEeC1A4_enB0KXA" mediniIdentifier="_dYnScE9BEeC1A4_enB0KXA" id="D.2.7.5" name="Transmission redundancy" maxDC="MEDIUM" notes="Depends on type of redundancy. Effective only against transient faults."/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_dYnScU9BEeC1A4_enB0KXA" mediniIdentifier="_dYnScU9BEeC1A4_enB0KXA" id="D.2.7.6" name="Information redundancy" maxDC="MEDIUM" notes="Depends on type of redundancy."/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_dYnSck9BEeC1A4_enB0KXA" mediniIdentifier="_dYnSck9BEeC1A4_enB0KXA" id="D.2.7.7" name="Frame counter" maxDC="MEDIUM" notes="-"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_dYnSc09BEeC1A4_enB0KXA" mediniIdentifier="_dYnSc09BEeC1A4_enB0KXA" id="D.2.7.8" name="Timeout monitoring" maxDC="MEDIUM" notes="-"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_dYnSdE9BEeC1A4_enB0KXA" mediniIdentifier="_dYnSdE9BEeC1A4_enB0KXA" id="D.2.7.6, D.2.7.7 and D.2.7.8" name="Combination of information redundancy, frame counter and timeout monitoring" maxDC="HIGH" notes="For systems without hardware redundancy or test patterns, high coverage can be claimed for the combination of these safety mechanisms."/>
+</safety:MeasureCatalog>

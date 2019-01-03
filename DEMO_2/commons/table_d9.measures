@@ -1,0 +1,6 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<safety:MeasureCatalog xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safety="http://www.ikv.de/medini/metamodels/SafetyModel/1.0" xmi:id="_hcfXkE9BEeC1A4_enB0KXA" mediniIdentifier="_hcfXkE9BEeC1A4_enB0KXA" name="Table D.9 — Power supply">
+  <collectionType href="http://www.ikv.de/medini/metamodels/SafetyModel/1.0#//SafetyMechanism"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_kC71YE9BEeC1A4_enB0KXA" mediniIdentifier="_kC71YE9BEeC1A4_enB0KXA" id="D.2.8.1" name="Voltage or current control (input)" maxDC="LOW" notes=""/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_kC71YU9BEeC1A4_enB0KXA" mediniIdentifier="_kC71YU9BEeC1A4_enB0KXA" id="D.2.8.2" name="Voltage or current control (output) " maxDC="HIGH" notes="-"/>
+</safety:MeasureCatalog>

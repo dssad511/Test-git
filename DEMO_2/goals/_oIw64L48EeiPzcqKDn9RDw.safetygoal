@@ -1,0 +1,38 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<safegoals:SafetyRequirementsModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safegoals="http://www.ikv.de/analyze/metamodels/SafetyGoals/1.0" xmlns:st="http://www.ikv.de/medini/metamodels/StereoTypes/1.0" xmi:id="_oIw64L48EeiPzcqKDn9RDw" mediniIdentifier="_oIw64L48EeiPzcqKDn9RDw" name="SG_SR">
+  <goals xsi:type="safegoals:SafetyGoal" xmi:id="_xOdUEL48EeiPzcqKDn9RDw" mediniIdentifier="_xOdUEL48EeiPzcqKDn9RDw" name="의도치 않는 시동 OFF 신호출력을 방지한다" identifier="G002">
+    <profilePropertyContainer xsi:type="st:DefaultSafetyGoalStereotype" xmi:id="_PdllIL49EeiPzcqKDn9RDw" ISO26262_asil="B"/>
+  </goals>
+  <reqRelations xsi:type="safegoals:SafetyReqRelation" xmi:id="_ndvcYL5GEeiPzcqKDn9RDw" mediniIdentifier="_ndvcYL5GEeiPzcqKDn9RDw" target="_xOdUEL48EeiPzcqKDn9RDw" source="_iwSgsL5EEeiPzcqKDn9RDw"/>
+  <reqRelations xsi:type="safegoals:SafetyReqRelation" xmi:id="_6PfEIL5GEeiPzcqKDn9RDw" mediniIdentifier="_6PfEIL5GEeiPzcqKDn9RDw" target="_iwSgsL5EEeiPzcqKDn9RDw" source="_3Wy_wL5GEeiPzcqKDn9RDw"/>
+  <reqRelations xsi:type="safegoals:SafetyReqRelation" xmi:id="_7ajJEL5GEeiPzcqKDn9RDw" mediniIdentifier="_7ajJEL5GEeiPzcqKDn9RDw" target="_iwSgsL5EEeiPzcqKDn9RDw" source="_33LwAL5GEeiPzcqKDn9RDw"/>
+  <reqRelations xsi:type="safegoals:SafetyReqRelation" xmi:id="_kAKs0L5HEeiPzcqKDn9RDw" mediniIdentifier="_kAKs0L5HEeiPzcqKDn9RDw" target="_33LwAL5GEeiPzcqKDn9RDw" source="_eiEscL5HEeiPzcqKDn9RDw"/>
+  <reqRelations xsi:type="safegoals:SafetyReqRelation" xmi:id="_kiunUL5HEeiPzcqKDn9RDw" mediniIdentifier="_kiunUL5HEeiPzcqKDn9RDw" target="_33LwAL5GEeiPzcqKDn9RDw" source="_hU1vAL5HEeiPzcqKDn9RDw"/>
+  <requirements xsi:type="safegoals:SafetyRequirement" xmi:id="_iwSgsL5EEeiPzcqKDn9RDw" mediniIdentifier="_iwSgsL5EEeiPzcqKDn9RDw" name="엔진상태를 Monitoring" identifier="SR001" kind="FUNCTIONAL">
+    <profilePropertyContainer xsi:type="st:DefaultSafetyRequirementStereotype" xmi:id="_izx5kL5EEeiPzcqKDn9RDw" ISO26262_asil="B"/>
+  </requirements>
+  <requirements xsi:type="safegoals:SafetyRequirement" xmi:id="_3Wy_wL5GEeiPzcqKDn9RDw" mediniIdentifier="_3Wy_wL5GEeiPzcqKDn9RDw" name="Monitoring Logic A 필요" identifier="SR003" kind="TECHNICAL">
+    <profilePropertyContainer xsi:type="st:DefaultSafetyRequirementStereotype" xmi:id="_pouWYMUOEeiLRo9SrSbk3A" ISO26262_asil="B"/>
+    <subRequirements xsi:type="safegoals:SafetyRequirement" xmi:id="_uxjy0L5HEeiPzcqKDn9RDw" mediniIdentifier="_uxjy0L5HEeiPzcqKDn9RDw" name="Fault Detection Logic B 필요" identifier="SR008" kind="TECHNICAL" decomposingRequirement="true">
+      <profilePropertyContainer xsi:type="st:DefaultSafetyRequirementStereotype" xmi:id="_ux04kL5HEeiPzcqKDn9RDw" ISO26262_asil="A(B)"/>
+    </subRequirements>
+    <subRequirements xsi:type="safegoals:SafetyRequirement" xmi:id="_ux3U0L5HEeiPzcqKDn9RDw" mediniIdentifier="_ux3U0L5HEeiPzcqKDn9RDw" name="Fault Detection Logic C 필요" identifier="SR009" kind="TECHNICAL" decomposingRequirement="true">
+      <profilePropertyContainer xsi:type="st:DefaultSafetyRequirementStereotype" xmi:id="_uyBF0L5HEeiPzcqKDn9RDw" ISO26262_asil="A(B)"/>
+    </subRequirements>
+  </requirements>
+  <requirements xsi:type="safegoals:SafetyRequirement" xmi:id="_33LwAL5GEeiPzcqKDn9RDw" mediniIdentifier="_33LwAL5GEeiPzcqKDn9RDw" name="Monitoring Module 필요" identifier="SR004" kind="TECHNICAL">
+    <profilePropertyContainer xsi:type="st:DefaultSafetyRequirementStereotype" xmi:id="_qRsa4MUOEeiLRo9SrSbk3A" ISO26262_asil="B"/>
+  </requirements>
+  <requirements xsi:type="safegoals:SafetyRequirement" xmi:id="_eiEscL5HEeiPzcqKDn9RDw" mediniIdentifier="_eiEscL5HEeiPzcqKDn9RDw" name="연산능력 XX 이상 MCU 필요" identifier="SR005" kind="HARDWARE">
+    <profilePropertyContainer xsi:type="st:DefaultSafetyRequirementStereotype" xmi:id="_41td8MUOEeiLRo9SrSbk3A" ISO26262_asil="B"/>
+  </requirements>
+  <requirements xsi:type="safegoals:SafetyRequirement" xmi:id="_hU1vAL5HEeiPzcqKDn9RDw" mediniIdentifier="_hU1vAL5HEeiPzcqKDn9RDw" name="Engine Pulse Input 기능 필요" identifier="SR006" kind="HARDWARE">
+    <profilePropertyContainer xsi:type="st:DefaultSafetyRequirementStereotype" xmi:id="_5l8BAMUOEeiLRo9SrSbk3A" ISO26262_asil="B"/>
+    <subRequirements xsi:type="safegoals:SafetyRequirement" xmi:id="_88TaQL5HEeiPzcqKDn9RDw" mediniIdentifier="_88TaQL5HEeiPzcqKDn9RDw" name="필요 조건 A" identifier="SR010" kind="HARDWARE">
+      <profilePropertyContainer xsi:type="st:DefaultSafetyRequirementStereotype" xmi:id="_88fngL5HEeiPzcqKDn9RDw" ISO26262_asil="B"/>
+    </subRequirements>
+    <subRequirements xsi:type="safegoals:SafetyRequirement" xmi:id="_9eWXYL5HEeiPzcqKDn9RDw" mediniIdentifier="_9eWXYL5HEeiPzcqKDn9RDw" name="필요 조건 B" identifier="SR011" kind="HARDWARE">
+      <profilePropertyContainer xsi:type="st:DefaultSafetyRequirementStereotype" xmi:id="_9ehWgL5HEeiPzcqKDn9RDw" ISO26262_asil="B"/>
+    </subRequirements>
+  </requirements>
+</safegoals:SafetyRequirementsModel>

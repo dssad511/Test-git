@@ -1,0 +1,99 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<dc:DCWorksheet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://www.ikv.de/analyze/metamodels/DiagnosticCoverage/1.0" xmi:id="_38xMcN54Eeic8oKnJqmC4w" mediniIdentifier="_38xMcN54Eeic8oKnJqmC4w" name="FMEDA" spfTargetValue="90.0" lmpfTargetValue="60.0" spfTransientTargetValue="90.0" lmpfTransientTargetValue="60.0">
+  <components xsi:type="dc:DCComponentEntry" xmi:id="_4WSfsN54Eeic8oKnJqmC4w" mediniIdentifier="_4WSfsN54Eeic8oKnJqmC4w">
+    <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_zZKkkN5bEeic8oKnJqmC4w"/>
+    <failureModes xsi:type="dc:DCFailureModeEntry" xmi:id="_4WSft954Eeic8oKnJqmC4w" mediniIdentifier="_4WSft954Eeic8oKnJqmC4w">
+      <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_zZZ1IN5bEeic8oKnJqmC4w"/>
+    </failureModes>
+    <failureModes xsi:type="dc:DCFailureModeEntry" xmi:id="_4WSfuN54Eeic8oKnJqmC4w" mediniIdentifier="_4WSfuN54Eeic8oKnJqmC4w">
+      <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_zZbDQN5bEeic8oKnJqmC4w"/>
+    </failureModes>
+  </components>
+  <components xsi:type="dc:DCComponentEntry" xmi:id="_4WSfsd54Eeic8oKnJqmC4w" mediniIdentifier="_4WSfsd54Eeic8oKnJqmC4w">
+    <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_zZX_8N5bEeic8oKnJqmC4w"/>
+  </components>
+  <components xsi:type="dc:DCComponentEntry" xmi:id="_4WSfst54Eeic8oKnJqmC4w" mediniIdentifier="_4WSfst54Eeic8oKnJqmC4w">
+    <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_zZKkkd5bEeic8oKnJqmC4w"/>
+    <failureModes xsi:type="dc:DCFailureModeEntry" xmi:id="_4WSfud54Eeic8oKnJqmC4w" mediniIdentifier="_4WSfud54Eeic8oKnJqmC4w" spfViolation="true" spfCoverage="80.0" lmpfViolation="true" lmpfCoverage="80.0" allSpfSafetyMechanismsApplicable="false">
+      <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_zZgi0N5bEeic8oKnJqmC4w"/>
+      <spfSafetyMechanisms href="../commons/_0AIi8L5nEeiS1P338xyltQ.measures#_2h0clb5nEeiS1P338xyltQ"/>
+    </failureModes>
+    <failureModes xsi:type="dc:DCFailureModeEntry" xmi:id="_4WSfut54Eeic8oKnJqmC4w" mediniIdentifier="_4WSfut54Eeic8oKnJqmC4w" spfViolation="true" spfCoverage="80.0" lmpfViolation="true" lmpfCoverage="80.0" allSpfSafetyMechanismsApplicable="false">
+      <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_zZhJ4N5bEeic8oKnJqmC4w"/>
+      <spfSafetyMechanisms href="../commons/_0AIi8L5nEeiS1P338xyltQ.measures#_2h0clb5nEeiS1P338xyltQ"/>
+    </failureModes>
+  </components>
+  <components xsi:type="dc:DCComponentEntry" xmi:id="_4WSfs954Eeic8oKnJqmC4w" mediniIdentifier="_4WSfs954Eeic8oKnJqmC4w">
+    <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_zZKkkt5bEeic8oKnJqmC4w"/>
+    <failureModes xsi:type="dc:DCFailureModeEntry" xmi:id="_4WSfu954Eeic8oKnJqmC4w" mediniIdentifier="_4WSfu954Eeic8oKnJqmC4w">
+      <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_zZmpcN5bEeic8oKnJqmC4w"/>
+    </failureModes>
+    <failureModes xsi:type="dc:DCFailureModeEntry" xmi:id="_4WSfvN54Eeic8oKnJqmC4w" mediniIdentifier="_4WSfvN54Eeic8oKnJqmC4w">
+      <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_zZmpcd5bEeic8oKnJqmC4w"/>
+    </failureModes>
+  </components>
+  <components xsi:type="dc:DCComponentEntry" xmi:id="_4WSftN54Eeic8oKnJqmC4w" mediniIdentifier="_4WSftN54Eeic8oKnJqmC4w">
+    <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_zZKkk95bEeic8oKnJqmC4w"/>
+    <failureModes xsi:type="dc:DCFailureModeEntry" xmi:id="_4WSfvd54Eeic8oKnJqmC4w" mediniIdentifier="_4WSfvd54Eeic8oKnJqmC4w" spfViolation="true" spfCoverage="80.0" lmpfViolation="true" lmpfCoverage="80.0" allSpfSafetyMechanismsApplicable="false">
+      <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_zZjmIN5bEeic8oKnJqmC4w"/>
+      <spfSafetyMechanisms href="../commons/_0AIi8L5nEeiS1P338xyltQ.measures#_2hz1gL5nEeiS1P338xyltQ"/>
+    </failureModes>
+    <failureModes xsi:type="dc:DCFailureModeEntry" xmi:id="_4WSfvt54Eeic8oKnJqmC4w" mediniIdentifier="_4WSfvt54Eeic8oKnJqmC4w" spfViolation="true" spfCoverage="80.0" lmpfViolation="true" lmpfCoverage="80.0" allSpfSafetyMechanismsApplicable="false">
+      <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_zZkNMN5bEeic8oKnJqmC4w"/>
+      <spfSafetyMechanisms href="../commons/_0AIi8L5nEeiS1P338xyltQ.measures#_2hz1gL5nEeiS1P338xyltQ"/>
+    </failureModes>
+  </components>
+  <components xsi:type="dc:DCComponentEntry" xmi:id="_4WSftd54Eeic8oKnJqmC4w" mediniIdentifier="_4WSftd54Eeic8oKnJqmC4w">
+    <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_zZKklN5bEeic8oKnJqmC4w"/>
+    <failureModes xsi:type="dc:DCFailureModeEntry" xmi:id="_4WSfv954Eeic8oKnJqmC4w" mediniIdentifier="_4WSfv954Eeic8oKnJqmC4w">
+      <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_zZlbUN5bEeic8oKnJqmC4w"/>
+    </failureModes>
+    <failureModes xsi:type="dc:DCFailureModeEntry" xmi:id="_4WSfwN54Eeic8oKnJqmC4w" mediniIdentifier="_4WSfwN54Eeic8oKnJqmC4w">
+      <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_zZlbUd5bEeic8oKnJqmC4w"/>
+    </failureModes>
+  </components>
+  <components xsi:type="dc:DCComponentEntry" xmi:id="_4WSftt54Eeic8oKnJqmC4w" mediniIdentifier="_4WSftt54Eeic8oKnJqmC4w">
+    <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_zZKkld5bEeic8oKnJqmC4w"/>
+    <failureModes xsi:type="dc:DCFailureModeEntry" xmi:id="_4WSfwd54Eeic8oKnJqmC4w" mediniIdentifier="_4WSfwd54Eeic8oKnJqmC4w">
+      <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_zZiYAN5bEeic8oKnJqmC4w"/>
+    </failureModes>
+    <failureModes xsi:type="dc:DCFailureModeEntry" xmi:id="_4WSfwt54Eeic8oKnJqmC4w" mediniIdentifier="_4WSfwt54Eeic8oKnJqmC4w">
+      <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_zZi_EN5bEeic8oKnJqmC4w"/>
+    </failureModes>
+  </components>
+  <components xsi:type="dc:DCComponentEntry" xmi:id="_T97_8OKREeiPr886xBE32g" mediniIdentifier="_T97_8OKREeiPr886xBE32g">
+    <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_HVZnluKQEeidB9GPVOcepg"/>
+    <failureModes xsi:type="dc:DCFailureModeEntry" xmi:id="_T9-cMOKREeiPr886xBE32g" mediniIdentifier="_T9-cMOKREeiPr886xBE32g">
+      <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_IhDiYOKQEeidB9GPVOcepg"/>
+    </failureModes>
+    <failureModes xsi:type="dc:DCFailureModeEntry" xmi:id="_T9-cMeKREeiPr886xBE32g" mediniIdentifier="_T9-cMeKREeiPr886xBE32g">
+      <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_IhEwgOKQEeidB9GPVOcepg"/>
+    </failureModes>
+  </components>
+  <components xsi:type="dc:DCComponentEntry" xmi:id="_T98nAOKREeiPr886xBE32g" mediniIdentifier="_T98nAOKREeiPr886xBE32g">
+    <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_IhCUQOKQEeidB9GPVOcepg"/>
+  </components>
+  <components xsi:type="dc:DCComponentEntry" xmi:id="_T98nAeKREeiPr886xBE32g" mediniIdentifier="_T98nAeKREeiPr886xBE32g">
+    <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_IhC7UOKQEeidB9GPVOcepg"/>
+  </components>
+  <components xsi:type="dc:DCComponentEntry" xmi:id="_T98nAuKREeiPr886xBE32g" mediniIdentifier="_T98nAuKREeiPr886xBE32g">
+    <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_HVZnl-KQEeidB9GPVOcepg"/>
+    <failureModes xsi:type="dc:DCFailureModeEntry" xmi:id="_T9_DQOKREeiPr886xBE32g" mediniIdentifier="_T9_DQOKREeiPr886xBE32g">
+      <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_IgzDsOKQEeidB9GPVOcepg"/>
+    </failureModes>
+    <failureModes xsi:type="dc:DCFailureModeEntry" xmi:id="_T9_DQeKREeiPr886xBE32g" mediniIdentifier="_T9_DQeKREeiPr886xBE32g">
+      <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_IgzqwOKQEeidB9GPVOcepg"/>
+    </failureModes>
+  </components>
+  <components xsi:type="dc:DCComponentEntry" xmi:id="_T99OEOKREeiPr886xBE32g" mediniIdentifier="_T99OEOKREeiPr886xBE32g">
+    <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_HVZnmOKQEeidB9GPVOcepg"/>
+    <failureModes xsi:type="dc:DCFailureModeEntry" xmi:id="_T9_DQuKREeiPr886xBE32g" mediniIdentifier="_T9_DQuKREeiPr886xBE32g">
+      <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_Ig5KUOKQEeidB9GPVOcepg"/>
+    </failureModes>
+    <failureModes xsi:type="dc:DCFailureModeEntry" xmi:id="_T9_DQ-KREeiPr886xBE32g" mediniIdentifier="_T9_DQ-KREeiPr886xBE32g">
+      <element href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_Ig5xYOKQEeidB9GPVOcepg"/>
+    </failureModes>
+  </components>
+  <analyzedModel href="../sysml/_8hNZEN5ZEeic8oKnJqmC4w.sysml#_8hNZEN5ZEeic8oKnJqmC4w"/>
+  <safetyGoal href="../goals/_oIw64L48EeiPzcqKDn9RDw.safetygoal#_xOdUEL48EeiPzcqKDn9RDw"/>
+</dc:DCWorksheet>

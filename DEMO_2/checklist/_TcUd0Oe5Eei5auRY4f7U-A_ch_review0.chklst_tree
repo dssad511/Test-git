@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Table columnSorter="customOrder:de.ikv.analyze.checklist.common.ui.model.view.ChecklistModelColumn#!name:de.ikv.analyze.checklist.common.ui.model.view.ChecklistModelColumn#!checked:de.ikv.medini.profiling.ui.tables.ProfilePropertyColumn#?DefaultStaticChecklistItemStereotype.related_requirement:de.ikv.analyze.checklist.common.ui.model.view.ChecklistModelColumn#!artifacts:de.ikv.analyze.checklist.common.ui.model.view.ChecklistModelColumn#!checkedBy:de.ikv.analyze.checklist.common.ui.model.view.ChecklistModelColumn#!checkDate:de.ikv.analyze.checklist.common.ui.model.view.ChecklistModelColumn#!note:de.ikv.medini.profiling.ui.tables.ProfilePropertyColumn#?DefaultStaticChecklistItemStereotype.related_document">
+  <Row id="de.ikv.medini.table.ui.model.tree.impl.DefaultMediniTreeTableModelRow#0" collapsed="true"/>
+  <Column id="de.ikv.analyze.checklist.common.ui.model.view.ChecklistModelColumn#!name" width="105"/>
+  <Column id="de.ikv.analyze.checklist.common.ui.model.view.ChecklistModelColumn#!artifacts" width="96"/>
+  <Column id="de.ikv.analyze.checklist.common.ui.model.view.ChecklistModelColumn#!checkDate" width="126"/>
+  <Column id="de.ikv.analyze.checklist.common.ui.model.view.ChecklistModelColumn#!note" width="66"/>
+  <Column id="de.ikv.medini.profiling.ui.tables.ProfilePropertyColumn#?DefaultStaticChecklistItemStereotype.related_requirement" width="200"/>
+  <Cell id="de.ikv.medini.table.ui.model.impl.DefaultMediniTableModelCell#0:!name" customText="Test case" customToolTip=""/>
+  <Cell id="de.ikv.medini.profiling.ui.tables.DefaultProfilePropertyCell#?ChecklistItem.subItems;_TcUd0ee5Eei5auRY4f7U-A:?DefaultStaticChecklistItemStereotype.related_document" selected="true"/>
+</Table>

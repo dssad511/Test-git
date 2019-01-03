@@ -1,0 +1,43 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<tracemodel:TraceSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:tracemodel="http:///de/ikv/medini/metamodel/traceability/TraceModel.ecore" xmi:id="_abnikLsUEeiB8vRl3oVbTA" mediniIdentifier="_abnikLsUEeiB8vRl3oVbTA">
+  <traces xmi:id="_yN_h0L5lEeiS1P338xyltQ" mediniIdentifier="_yN_h0L5lEeiS1P338xyltQ" type="Trace">
+    <sourceElements href="goals/_oIw64L48EeiPzcqKDn9RDw.safetygoal#_eiEscL5HEeiPzcqKDn9RDw"/>
+    <targetElements href="sysml/_s2H8sL5OEeiS1P338xyltQ.sysml#_Huz2YL5PEeiS1P338xyltQ"/>
+  </traces>
+  <traces xmi:id="_1aLiQL5rEeiS1P338xyltQ" mediniIdentifier="_1aLiQL5rEeiS1P338xyltQ" type="">
+    <sourceElements href="goals/_oIw64L48EeiPzcqKDn9RDw.safetygoal#_xOdUEL48EeiPzcqKDn9RDw"/>
+    <targetElements href="fta/_1Z0V4L5rEeiS1P338xyltQ.fta#_1Z0V4b5rEeiS1P338xyltQ"/>
+  </traces>
+  <traces xmi:id="_e-6kML5tEeiS1P338xyltQ" mediniIdentifier="_e-6kML5tEeiS1P338xyltQ" type="Trace">
+    <sourceElements href="goals/_oIw64L48EeiPzcqKDn9RDw.safetygoal#_88TaQL5HEeiPzcqKDn9RDw"/>
+    <targetElements href="sysml/_s2H8sL5OEeiS1P338xyltQ.sysml#_kQu-wL5PEeiS1P338xyltQ"/>
+  </traces>
+  <traces xmi:id="_fPn5sL5tEeiS1P338xyltQ" mediniIdentifier="_fPn5sL5tEeiS1P338xyltQ" type="Trace">
+    <sourceElements href="goals/_oIw64L48EeiPzcqKDn9RDw.safetygoal#_9eWXYL5HEeiPzcqKDn9RDw"/>
+    <targetElements href="sysml/_s2H8sL5OEeiS1P338xyltQ.sysml#_m5voYb5PEeiS1P338xyltQ"/>
+  </traces>
+  <traces xmi:id="_p0iSYcPdEei41KtvJaTVCA" mediniIdentifier="_p0iSYcPdEei41KtvJaTVCA" type="">
+    <sourceElements href="hls/_p0iSYMPdEei41KtvJaTVCA.ha#_p0iSYMPdEei41KtvJaTVCA"/>
+    <targetElements href="items/_Qn898L4mEei7Zr-IfEw2tw.item#_Qn898L4mEei7Zr-IfEw2tw"/>
+  </traces>
+  <traces xmi:id="_p2h2ccPdEei41KtvJaTVCA" mediniIdentifier="_p2h2ccPdEei41KtvJaTVCA" type="">
+    <sourceElements href="hls/_p2h2cMPdEei41KtvJaTVCA.ha#_p2h2cMPdEei41KtvJaTVCA"/>
+    <targetElements href="items/_Qn898L4mEei7Zr-IfEw2tw.item#_Qn898L4mEei7Zr-IfEw2tw"/>
+  </traces>
+  <traces xmi:id="_TKJJEMXVEeispoNJ4tc9Hw" mediniIdentifier="_TKJJEMXVEeispoNJ4tc9Hw" type="Trace">
+    <sourceElements href="goals/_oIw64L48EeiPzcqKDn9RDw.safetygoal#_iwSgsL5EEeiPzcqKDn9RDw"/>
+    <targetElements href="sysml/_7f10YL4oEei7Zr-IfEw2tw.sysml#_Emb9wL4vEeiEI8xqgnQSmw"/>
+  </traces>
+  <traces xmi:id="_TyUjYMXVEeispoNJ4tc9Hw" mediniIdentifier="_TyUjYMXVEeispoNJ4tc9Hw" type="Trace">
+    <sourceElements href="goals/_oIw64L48EeiPzcqKDn9RDw.safetygoal#_iwSgsL5EEeiPzcqKDn9RDw"/>
+    <targetElements href="sysml/_7f10YL4oEei7Zr-IfEw2tw.sysml#_I9Pl8L4vEeiEI8xqgnQSmw"/>
+  </traces>
+  <traces xmi:id="_eIZmYMXVEeispoNJ4tc9Hw" mediniIdentifier="_eIZmYMXVEeispoNJ4tc9Hw" type="Trace">
+    <sourceElements href="goals/_oIw64L48EeiPzcqKDn9RDw.safetygoal#_iwSgsL5EEeiPzcqKDn9RDw"/>
+    <targetElements href="sysml/_7f10YL4oEei7Zr-IfEw2tw.sysml#_NqexIL4vEeiEI8xqgnQSmw"/>
+  </traces>
+  <traces xmi:id="_JVOU0Me2EeiAd_n7jz9Qgw" mediniIdentifier="_JVOU0Me2EeiAd_n7jz9Qgw" type="Trace">
+    <sourceElements href="goals/_oIw64L48EeiPzcqKDn9RDw.safetygoal#_33LwAL5GEeiPzcqKDn9RDw"/>
+    <targetElements href="sysml/_TqGCAL5iEeiS1P338xyltQ.sysml#_31jnQL5lEeiS1P338xyltQ"/>
+  </traces>
+</tracemodel:TraceSet>

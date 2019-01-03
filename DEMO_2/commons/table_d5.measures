@@ -1,0 +1,9 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<safety:MeasureCatalog xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:safety="http://www.ikv.de/medini/metamodels/SafetyModel/1.0" xmi:id="_mmXQ4E9AEeC1A4_enB0KXA" mediniIdentifier="_mmXQ4E9AEeC1A4_enB0KXA" name="Table D.5 — Non-volatile memory">
+  <collectionType href="http://www.ikv.de/medini/metamodels/SafetyModel/1.0#//SafetyMechanism"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_-eMBok9AEeC1A4_enB0KXA" mediniIdentifier="_-eMBok9AEeC1A4_enB0KXA" id="D.2.5.2" name="Parity bit" maxDC="LOW" notes=""/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_-eMBo09AEeC1A4_enB0KXA" mediniIdentifier="_-eMBo09AEeC1A4_enB0KXA" id="D.2.4.1" name="Memory monitoring using error-detection-correction codes (EDC)" maxDC="HIGH" notes="The effectiveness depends on the number of redundant bits. Can be used to correct errors"/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_-eVLkE9AEeC1A4_enB0KXA" mediniIdentifier="_-eVLkE9AEeC1A4_enB0KXA" id="D.2.4.2" name="Modified checksum" maxDC="LOW" notes=" Depends on the number and location of bit errors within test area."/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_-eVLkU9AEeC1A4_enB0KXA" mediniIdentifier="_-eVLkU9AEeC1A4_enB0KXA" id="D.2.4.3" name="Memory Signature" maxDC="HIGH" notes=""/>
+  <measures xsi:type="safety:SafetyMechanism" xmi:id="_-eVLkk9AEeC1A4_enB0KXA" mediniIdentifier="_-eVLkk9AEeC1A4_enB0KXA" id="D.2.4.4" name="Block replication" maxDC="HIGH" notes=""/>
+</safety:MeasureCatalog>

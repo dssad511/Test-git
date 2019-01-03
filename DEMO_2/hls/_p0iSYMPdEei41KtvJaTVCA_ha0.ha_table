@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Table sortColumn="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!SEVERITY_COLUMN" reverseRowSort="false">
+  <Row id="de.ikv.analyze.hara.ui.tables.rows.HazardousEventTableModelRow#_p4FVosPdEei41KtvJaTVCA" heigth="?"/>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!OPSI_ROAD_COLUMN" visible="false"/>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!OPSI_OP_MODE_COLUMN" visible="false"/>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!OPSI_TRAFFIC_COLUMN" visible="false"/>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!EFFECT_COLUMN" visible="false"/>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!SEVERITY_COLUMN" width="51"/>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!SEVERITY_COMMENT_COLUMN" visible="false"/>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!EXPOSURE_COMMENT_COLUMN" visible="false"/>
+  <Column id="de.ikv.analyze.editors.tables.models.EditableFeatureColumn#!CONTROLLABILTY_COMMENT_COLUMN" visible="false"/>
+  <Cell id="de.ikv.analyze.hara.ui.tables.rows.HazardousEventTableModelRow$5#_p4C5YMPdEei41KtvJaTVCA:!ID_COLUMN" selected="true"/>
+</Table>

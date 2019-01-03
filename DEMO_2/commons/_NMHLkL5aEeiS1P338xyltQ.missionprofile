@@ -1,0 +1,5 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<failureratecatalogs:MissionProfile xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:failureratecatalogs="http://www.ikv.de/medini/failureratecatalogs/1.0" xmi:id="_NMHLkL5aEeiS1P338xyltQ" mediniIdentifier="_NMHLkL5aEeiS1P338xyltQ" name="MS_1">
+  <workingPhases xmi:id="_NMHLkb5aEeiS1P338xyltQ" mediniIdentifier="_NMHLkb5aEeiS1P338xyltQ" name="Phase 1"/>
+  <internalWorkingCycles xmi:id="_NMHLkr5aEeiS1P338xyltQ" mediniIdentifier="_NMHLkr5aEeiS1P338xyltQ" name="Temp. 1" tau="1"/>
+</failureratecatalogs:MissionProfile>

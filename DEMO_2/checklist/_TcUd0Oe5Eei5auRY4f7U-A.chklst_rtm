@@ -1,0 +1,14 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<de.ikv.analyze.checklist:Checklist xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:de.ikv.analyze.checklist="http:///de/ikv/analyze/checklist.ecore" xmlns:st="http://www.ikv.de/medini/metamodels/StereoTypes/1.0" xmi:id="_TcUd0Oe5Eei5auRY4f7U-A" mediniIdentifier="_TcUd0Oe5Eei5auRY4f7U-A" name="Test cases" version="14/11/2018 11:55">
+  <items xsi:type="de.ikv.analyze.checklist:StaticChecklistItem" xmi:id="_TcUd0ee5Eei5auRY4f7U-A" mediniIdentifier="_TcUd0ee5Eei5auRY4f7U-A" name="Case 1" checked="true" note="특이사항 1" checkDate="2018-11-14T16:21:02.956+0900" checkedBy="SeungWon.Lee">
+    <profilePropertyContainer xsi:type="st:DefaultStaticChecklistItemStereotype" xmi:id="_Cc2yYOfBEei5auRY4f7U-A">
+      <related_document href="../.project.medini#_9nb7kOfAEei5auRY4f7U-A"/>
+      <related_requirement href="../goals/_oIw64L48EeiPzcqKDn9RDw.safetygoal#_88TaQL5HEeiPzcqKDn9RDw"/>
+    </profilePropertyContainer>
+    <artifacts href="../sysml/_s2H8sL5OEeiS1P338xyltQ.sysml#_JbWQsL5PEeiS1P338xyltQ"/>
+  </items>
+  <items xsi:type="de.ikv.analyze.checklist:StaticChecklistItem" xmi:id="_TcUd0ue5Eei5auRY4f7U-A" mediniIdentifier="_TcUd0ue5Eei5auRY4f7U-A" name="Case 2"/>
+  <items xsi:type="de.ikv.analyze.checklist:StaticChecklistItem" xmi:id="_TcUd0-e5Eei5auRY4f7U-A" mediniIdentifier="_TcUd0-e5Eei5auRY4f7U-A" name="Case 3"/>
+  <items xsi:type="de.ikv.analyze.checklist:StaticChecklistItem" xmi:id="_TcUd1Oe5Eei5auRY4f7U-A" mediniIdentifier="_TcUd1Oe5Eei5auRY4f7U-A" name="Case 4"/>
+  <checklistTemplate href="_0GWggOe4Eei5auRY4f7U-A.chklst_def#_0GWggOe4Eei5auRY4f7U-A"/>
+</de.ikv.analyze.checklist:Checklist>

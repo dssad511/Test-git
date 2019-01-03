@@ -1,0 +1,6 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<safety:MeasureCatalog xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:safety="http://www.ikv.de/medini/metamodels/SafetyModel/1.0" xmi:id="_ttDbUL5nEeiS1P338xyltQ" mediniIdentifier="_ttDbUL5nEeiS1P338xyltQ" name="Measures">
+  <collectionType href="http://www.ikv.de/medini/metamodels/SafetyModel/1.0#//Measure"/>
+  <measures xmi:id="_uKe-ML5nEeiS1P338xyltQ" mediniIdentifier="_uKe-ML5nEeiS1P338xyltQ" id="1" name="measure_1"/>
+  <measures xmi:id="_vWsSoL5nEeiS1P338xyltQ" mediniIdentifier="_vWsSoL5nEeiS1P338xyltQ" id="2" name="measure_2"/>
+</safety:MeasureCatalog>

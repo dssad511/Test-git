@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Table rowFilters="de.ikv.analyze.fmea.editor.filters.ComponentFilter" columnFilters="de.ikv.analyze.fmea.editor.filters.FMEDAFilter">
+  <Column id="de.ikv.medini.table.ui.model.impl.emf.DefaultEMFTableModelColumn#!RPN_COLUMN" width="64"/>
+  <Cell id="de.ikv.analyze.fmea.editor.cells.PlaceholderCell#_jA5XcL5jEeiS1P338xyltQ:!FAILURE_EFFECT_COLUMN" selected="true"/>
+</Table>

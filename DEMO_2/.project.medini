@@ -57,6 +57,9 @@
       <containedElements xsi:type="pjm:PJResource" xmi:id="_pkIGoL4xEeiEI8xqgnQSmw" mediniIdentifier="_pkIGoL4xEeiEI8xqgnQSmw" name="hz0" resourceURI="hazop/_ph7HML4xEeiEI8xqgnQSmw_hz0.hazop_table" type="TABLE_STATE"/>
       <originalModel href="hazop/_ph7HML4xEeiEI8xqgnQSmw.hazop#_ph7HML4xEeiEI8xqgnQSmw"/>
     </containedElements>
+    <containedElements xsi:type="pjm:PJProxyModel" xmi:id="_5C4AAA_oEem1oq42CSN5KA" mediniIdentifier="_5C4AAA_oEem1oq42CSN5KA">
+      <originalModel href="items/_5ClFEA_oEem1oq42CSN5KA.item#_5ClFEA_oEem1oq42CSN5KA"/>
+    </containedElements>
   </nestedPackages>
   <nestedPackages xmi:id="_aYiZYrsUEeiB8vRl3oVbTA" mediniIdentifier="_aYiZYrsUEeiB8vRl3oVbTA" name="Hazard Analysis and Risk Assessment">
     <eAnnotations xmi:id="_aYjAdbsUEeiB8vRl3oVbTA" source="analyzeSourceTag">

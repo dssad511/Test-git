@@ -1,0 +1,4 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<hazardmodel:PlainItem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hazardmodel="http://www.ikv.de/analyze/metamodels/HazardAnalysis/1.0" xmlns:st="http://www.ikv.de/medini/metamodels/StereoTypes/1.0" xmi:id="_5ClFEA_oEem1oq42CSN5KA" mediniIdentifier="_5ClFEA_oEem1oq42CSN5KA" name="newnew">
+  <profilePropertyContainer xsi:type="st:DefaultPlainItemStereotype" xmi:id="_5DK68A_oEem1oq42CSN5KA" author="" interface=""/>
+</hazardmodel:PlainItem>
